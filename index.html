@@ -11,6 +11,10 @@
         .news-border { border-bottom: 2px solid #003399; }
         .trending-icon { color: #ff4500; }
         a:hover { color: #cc0000; text-decoration: underline; }
+        /* メダル用の装飾 */
+        .rank-1 { color: #d4af37; font-size: 1.5rem; } /* 金 */
+        .rank-2 { color: #c0c0c0; font-size: 1.3rem; } /* 銀 */
+        .rank-3 { color: #cd7f32; font-size: 1.1rem; } /* 銅 */
     </style>
 </head>
 <body class="p-2 md:p-8">
@@ -19,7 +23,7 @@
         
         <header class="p-4 news-border flex justify-between items-center">
             <h1 class="text-xl md:text-2xl font-bold news-blue">アイドル再生数ランキング</h1>
-            <span class="text-xs text-gray-500">毎日更新</span>
+            <span id="last-update" class="text-xs text-gray-500 text-right">最終更新：----/--/-- --:--</span>
         </header>
 
         <section class="p-4 bg-blue-50">
@@ -32,7 +36,7 @@
                     <p id="featured-stats" class="text-xs text-gray-600 mt-1"></p>
                 </div>
                 <div class="text-right">
-                    <span class="bg-red-600 text-white text-xs px-2 py-1 rounded font-bold animate-pulse">TRENDING!</span>
+                    <span class="bg-orange-500 text-white text-xs px-2 py-1 rounded font-bold animate-pulse">Hot!</span>
                 </div>
             </div>
         </section>
@@ -44,14 +48,14 @@
                 <table class="w-full text-left border-collapse">
                     <thead>
                         <tr class="bg-gray-100 text-xs text-gray-600">
-                            <th class="p-2 border-b w-10 text-center">順位</th>
+                            <th class="p-2 border-b w-12 text-center">順位</th>
                             <th class="p-2 border-b">楽曲タイトル / グループ名</th>
-                            <th class="p-2 border-b text-right">再生増加(7日間)</th>
+                            <th class="p-2 border-b text-right">直近7日間の再生回数</th>
                             <th class="p-2 border-b text-center">熱量</th>
                         </tr>
                     </thead>
                     <tbody id="ranking-body">
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
         </section>
@@ -64,38 +68,47 @@
     <script>
         async function loadRanking() {
             try {
-                // キャッシュを避けるためにクエリを付与
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 const data = await response.json();
-                renderUI(data);
+                
+                // GAS側で構造を変えたので、data.updated_at と data.ranking を使う
+                if (data.updated_at) {
+                    document.getElementById('last-update').textContent = `最終更新：${data.updated_at}`;
+                }
+                renderUI(data.ranking);
             } catch (error) {
                 console.error("読み込みエラー:", error);
             }
         }
 
-        function renderUI(data) {
+        function renderUI(ranking) {
             const featuredName = document.getElementById('featured-name');
             const featuredStats = document.getElementById('featured-stats');
             const featuredLink = document.getElementById('featured-link');
             const rankingBody = document.getElementById('ranking-body');
 
-            // 注目動画（1位）
-            const top = data[0];
+            const top = ranking[0];
             featuredName.textContent = top.title;
             featuredLink.href = `https://www.youtube.com/watch?v=${top.video_id}`;
             featuredStats.textContent = `${top.idol_name} / 増加率 ${(top.rate * 100).toFixed(1)}%`;
 
-            // リスト生成
             rankingBody.innerHTML = '';
-            data.forEach((item, index) => {
+            ranking.forEach((item, index) => {
                 const tr = document.createElement('tr');
                 tr.className = "hover:bg-gray-50 border-b last:border-0";
                 
                 const rank = index + 1;
-                const trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
+                let rankDisplay = rank;
+                
+                // 3. 1-3位をメダル(絵文字)で差別化
+                if (rank === 1) rankDisplay = '<span class="rank-1">🥇</span>';
+                else if (rank === 2) rankDisplay = '<span class="rank-2">🥈</span>';
+                else if (rank === 3) rankDisplay = '<span class="rank-3">🥉</span>';
+                
+                const trendingIcon = item.is_trending ? '<span class="trending-icon font-bold">Hot</span>' : '';
                 
                 tr.innerHTML = `
-                    <td class="p-3 text-center font-bold text-gray-400 text-lg">${rank}</td>
+                    <td class="p-3 text-center font-bold text-gray-400 text-lg">${rankDisplay}</td>
                     <td class="p-3">
                         <div class="font-bold news-blue text-sm">
                             <a href="https://www.youtube.com/watch?v=${item.video_id}" target="_blank">
@@ -112,7 +125,7 @@
                         <div class="font-bold text-gray-700 text-sm">+${Number(item.increase || 0).toLocaleString()}</div>
                         <div class="text-xs text-green-600">${(item.rate * 100).toFixed(1)}%</div>
                     </td>
-                    <td class="p-3 text-center text-xl">${trendingIcon}</td>
+                    <td class="p-3 text-center text-xs font-bold text-orange-600">${trendingIcon}</td>
                 `;
                 rankingBody.appendChild(tr);
             });
