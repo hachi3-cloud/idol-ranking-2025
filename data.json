@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026/01/18 11:02",
+  "updated_at": "2026/01/18 16:19",
   "ranking": [
+    {
+      "idol_id": "tif_0028",
+      "idol_name": "＝LOVE",
+      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
+      "video_id": "_cf4UTe1qrY",
+      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』【MV full】",
+      "views": 14850304,
+      "increase": 68807,
+      "rate": 0.004654941241742971,
+      "is_trending": false,
+      "inc_daily": 68807,
+      "rate_daily": 0.004654941241742971
+    },
     {
       "idol_id": "tif_0028",
       "idol_name": "＝LOVE",
@@ -10,7 +23,22 @@
       "views": 14831931,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0028",
+      "idol_name": "＝LOVE",
+      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
+      "video_id": "1Cy9oaBAxns",
+      "title": "＝LOVE（イコールラブ）/『内緒バナシ』【MV full】Vertical video",
+      "views": 6940359,
+      "increase": 5721,
+      "rate": 0.000824988990052545,
+      "is_trending": false,
+      "inc_daily": 5721,
+      "rate_daily": 0.000824988990052545
     },
     {
       "idol_id": "tif_0028",
@@ -21,7 +49,22 @@
       "views": 6938930,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0076",
+      "idol_name": "Juice=Juice",
+      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
+      "video_id": "3RtbnP1onaM",
+      "title": "Juice=Juice『盛れ！ミ・アモーレ』Promotion Edit",
+      "views": 5799731,
+      "increase": 41302,
+      "rate": 0.00717244234495207,
+      "is_trending": false,
+      "inc_daily": 41302,
+      "rate_daily": 0.00717244234495207
     },
     {
       "idol_id": "tif_0076",
@@ -32,7 +75,22 @@
       "views": 5788952,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0008",
+      "idol_name": "iLiFE!",
+      "channel_id": "UChVflUz2J_jaaqYjXqvpmQA",
+      "video_id": "eH0Xm0oAH48",
+      "title": "【MV】BRAVE GROOVE / iLiFE! 【デジモン】",
+      "views": 5239341,
+      "increase": 35692,
+      "rate": 0.006859032959371395,
+      "is_trending": false,
+      "inc_daily": 35692,
+      "rate_daily": 0.006859032959371395
     },
     {
       "idol_id": "tif_0008",
@@ -43,7 +101,22 @@
       "views": 5229788,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0039",
+      "idol_name": "STU48",
+      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
+      "video_id": "6cdvjCr6SnU",
+      "title": "【MV】STU48 11th Single 「地平線を見ているか？」MUSIC VIDEO YouTube Edit",
+      "views": 4185033,
+      "increase": 285,
+      "rate": 0.00006810445933661956,
+      "is_trending": false,
+      "inc_daily": 285,
+      "rate_daily": 0.00006810445933661956
     },
     {
       "idol_id": "tif_0039",
@@ -54,7 +127,22 @@
       "views": 4184975,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0039",
+      "idol_name": "STU48",
+      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
+      "video_id": "n4Il_E_tuY0",
+      "title": "【MV】STU48 12th single 「傷つくことが青春だ」 MUSIC VIDEO",
+      "views": 4097051,
+      "increase": 579,
+      "rate": 0.00014134113451770206,
+      "is_trending": false,
+      "inc_daily": 579,
+      "rate_daily": 0.00014134113451770206
     },
     {
       "idol_id": "tif_0039",
@@ -65,7 +153,22 @@
       "views": 4096966,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0054",
+      "idol_name": "きゅるりんってしてみて",
+      "channel_id": "UC38ULbpGgiA7t6i-lbLu9VQ",
+      "video_id": "9g3dRd_QuVY",
+      "title": "「Special♡Spell」ジャムムコラボMV/きゅるりんってしてみて",
+      "views": 3874213,
+      "increase": 17325,
+      "rate": 0.004491963468993655,
+      "is_trending": false,
+      "inc_daily": 17325,
+      "rate_daily": 0.004491963468993655
     },
     {
       "idol_id": "tif_0054",
@@ -76,7 +179,22 @@
       "views": 3869884,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "bGsPosN4oHQ",
+      "title": "≠ME（ノットイコールミー）/『君を見かけた』【MV full】Vertical video",
+      "views": 3813440,
+      "increase": 1421,
+      "rate": 0.0003727683413959899,
+      "is_trending": false,
+      "inc_daily": 1421,
+      "rate_daily": 0.0003727683413959899
     },
     {
       "idol_id": "tif_0123",
@@ -87,7 +205,22 @@
       "views": 3813070,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0036",
+      "idol_name": "HKT48",
+      "channel_id": "UCPQ0GEWwLaam1lTX9P-CgGA",
+      "video_id": "rjNP-vzdp6A",
+      "title": "【MV full】HKT48 19th single「半袖天使」/ HKT48[公式]",
+      "views": 2922764,
+      "increase": 540,
+      "rate": 0.00018479076210447932,
+      "is_trending": false,
+      "inc_daily": 540,
+      "rate_daily": 0.00018479076210447932
     },
     {
       "idol_id": "tif_0036",
@@ -98,7 +231,22 @@
       "views": 2922659,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0028",
+      "idol_name": "＝LOVE",
+      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
+      "video_id": "4xBmuiQNGdc",
+      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『木漏れ日メゾフォルテ』【MV full】",
+      "views": 2699179,
+      "increase": 15762,
+      "rate": 0.005873854119579625,
+      "is_trending": false,
+      "inc_daily": 15762,
+      "rate_daily": 0.005873854119579625
     },
     {
       "idol_id": "tif_0028",
@@ -109,7 +257,22 @@
       "views": 2695039,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0140",
+      "idol_name": "ファントムシータ",
+      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
+      "video_id": "tJofqLSYjM8",
+      "title": "ファントムシータ『botばっか』(OFFICIAL MUSIC VIDEO)",
+      "views": 2184078,
+      "increase": 27128,
+      "rate": 0.012577018475161687,
+      "is_trending": false,
+      "inc_daily": 27128,
+      "rate_daily": 0.012577018475161687
     },
     {
       "idol_id": "tif_0140",
@@ -120,7 +283,22 @@
       "views": 2177589,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "L8AQC1Gk4-M",
+      "title": "≠ME（ノットイコールミー）/11th Single c/w『きゅんかわ人生』【MV full】",
+      "views": 1991877,
+      "increase": 35287,
+      "rate": 0.018034948558461404,
+      "is_trending": false,
+      "inc_daily": 35287,
+      "rate_daily": 0.018034948558461404
     },
     {
       "idol_id": "tif_0123",
@@ -131,7 +309,22 @@
       "views": 1982246,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0040",
+      "idol_name": "NMB48",
+      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
+      "video_id": "85kZr2BOn4M",
+      "title": "NMB48 - チューストライク Official MV",
+      "views": 1782322,
+      "increase": 347,
+      "rate": 0.00019472775992929195,
+      "is_trending": false,
+      "inc_daily": 347,
+      "rate_daily": 0.00019472775992929195
     },
     {
       "idol_id": "tif_0040",
@@ -142,7 +335,22 @@
       "views": 1782228,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0040",
+      "idol_name": "NMB48",
+      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
+      "video_id": "5GhdeAIxwxs",
+      "title": "NMB48 - 「青春のデッドライン」Official MV",
+      "views": 1705680,
+      "increase": 771,
+      "rate": 0.0004522235497613069,
+      "is_trending": false,
+      "inc_daily": 771,
+      "rate_daily": 0.0004522235497613069
     },
     {
       "idol_id": "tif_0040",
@@ -153,7 +361,22 @@
       "views": 1705522,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0150",
+      "idol_name": "僕が見たかった青空",
+      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
+      "video_id": "vomKmy75nTA",
+      "title": "僕が見たかった青空 / 「あれはフェアリー」Music Video【4K】",
+      "views": 1597299,
+      "increase": 1641,
+      "rate": 0.001028415863549708,
+      "is_trending": false,
+      "inc_daily": 1641,
+      "rate_daily": 0.001028415863549708
     },
     {
       "idol_id": "tif_0150",
@@ -164,7 +387,22 @@
       "views": 1596956,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0028",
+      "idol_name": "＝LOVE",
+      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
+      "video_id": "Pyts1pc0u1A",
+      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『Queens』【MV full】",
+      "views": 1499108,
+      "increase": 6835,
+      "rate": 0.0045802611184414645,
+      "is_trending": false,
+      "inc_daily": 6835,
+      "rate_daily": 0.0045802611184414645
     },
     {
       "idol_id": "tif_0028",
@@ -175,7 +413,22 @@
       "views": 1497448,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "rifFL1BbZJQ",
+      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』Dance ver.【MV full】/ “Mob-no-derella”",
+      "views": 1319853,
+      "increase": 2415,
+      "rate": 0.0018331033414855195,
+      "is_trending": false,
+      "inc_daily": 2415,
+      "rate_daily": 0.0018331033414855195
     },
     {
       "idol_id": "tif_0123",
@@ -186,7 +439,22 @@
       "views": 1319190,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0009",
+      "idol_name": "i☆Ris",
+      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
+      "video_id": "WzPBgM_Dxhk",
+      "title": "i☆Ris / 「ビバ☆アイドル！」 - Music Video-【5th アルバム「ViVa☆iDOL」4.30 on sale】",
+      "views": 1277817,
+      "increase": 777,
+      "rate": 0.0006084382634843075,
+      "is_trending": false,
+      "inc_daily": 777,
+      "rate_daily": 0.0006084382634843075
     },
     {
       "idol_id": "tif_0009",
@@ -197,7 +465,22 @@
       "views": 1277645,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0076",
+      "idol_name": "Juice=Juice",
+      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
+      "video_id": "DquBd86wOYw",
+      "title": "Juice=Juice『初恋の亡霊』Promotion Edit",
+      "views": 1256722,
+      "increase": 2241,
+      "rate": 0.001786396127163345,
+      "is_trending": false,
+      "inc_daily": 2241,
+      "rate_daily": 0.001786396127163345
     },
     {
       "idol_id": "tif_0076",
@@ -208,7 +491,22 @@
       "views": 1256116,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0076",
+      "idol_name": "Juice=Juice",
+      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
+      "video_id": "cnlS-vuMg40",
+      "title": "Juice=Juice『四の五の言わず颯(さっ)と別れてあげた』Promotion Edit",
+      "views": 1205954,
+      "increase": 2939,
+      "rate": 0.0024430285574161587,
+      "is_trending": false,
+      "inc_daily": 2939,
+      "rate_daily": 0.0024430285574161587
     },
     {
       "idol_id": "tif_0076",
@@ -219,7 +517,22 @@
       "views": 1205154,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0140",
+      "idol_name": "ファントムシータ",
+      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
+      "video_id": "1aay0FuU_98",
+      "title": "ファントムシータ『そっくりさん』（OFFICIAL MUSIC VIDEO）",
+      "views": 1188733,
+      "increase": 5869,
+      "rate": 0.004961686212447078,
+      "is_trending": false,
+      "inc_daily": 5869,
+      "rate_daily": 0.004961686212447078
     },
     {
       "idol_id": "tif_0140",
@@ -230,7 +543,22 @@
       "views": 1187356,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0140",
+      "idol_name": "ファントムシータ",
+      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
+      "video_id": "OY_NYjdTPhA",
+      "title": "ファントムシータ『ノア』(OFFICIAL MUSIC VIDEO)",
+      "views": 1104515,
+      "increase": 6738,
+      "rate": 0.0061378585996973885,
+      "is_trending": false,
+      "inc_daily": 6738,
+      "rate_daily": 0.0061378585996973885
     },
     {
       "idol_id": "tif_0140",
@@ -241,7 +569,22 @@
       "views": 1103016,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0041",
+      "idol_name": "NGT48",
+      "channel_id": "UCIfuY0NRq1szr_6tzFy23NQ",
+      "video_id": "KrOx7KroK0M",
+      "title": "NGT48 11thシングル「希望列車」MUSIC VIDEO",
+      "views": 1078593,
+      "increase": 309,
+      "rate": 0.0002865664333329624,
+      "is_trending": false,
+      "inc_daily": 309,
+      "rate_daily": 0.0002865664333329624
     },
     {
       "idol_id": "tif_0041",
@@ -252,7 +595,22 @@
       "views": 1078523,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "YejZlOz-hm0",
+      "title": "≠ME（ノットイコールミー）/11th Single c/w『はんぶんこクリスマス』【MV full】",
+      "views": 1003672,
+      "increase": 25110,
+      "rate": 0.02566010125061059,
+      "is_trending": false,
+      "inc_daily": 25110,
+      "rate_daily": 0.02566010125061059
     },
     {
       "idol_id": "tif_0123",
@@ -263,7 +621,22 @@
       "views": 995518,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0034",
+      "idol_name": "AKB48",
+      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
+      "video_id": "QpkQ7pTgswM",
+      "title": "Oh my pumpkin! Music Video / AKB48 66th Single【公式】",
+      "views": 874487,
+      "increase": 8807,
+      "rate": 0.010173505221328897,
+      "is_trending": false,
+      "inc_daily": 8807,
+      "rate_daily": 0.010173505221328897
     },
     {
       "idol_id": "tif_0034",
@@ -274,7 +647,22 @@
       "views": 872301,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0055",
+      "idol_name": "清 竜人25",
+      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
+      "video_id": "2NEld3A1L98",
+      "title": "清 竜人25 - 世界を愛せますように！",
+      "views": 782401,
+      "increase": 603,
+      "rate": 0.0007712989800434383,
+      "is_trending": false,
+      "inc_daily": 603,
+      "rate_daily": 0.0007712989800434383
     },
     {
       "idol_id": "tif_0055",
@@ -285,7 +673,22 @@
       "views": 782236,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0028",
+      "idol_name": "＝LOVE",
+      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
+      "video_id": "AK0bS_-glos",
+      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』 Dance ver.【MV full】",
+      "views": 749271,
+      "increase": 8672,
+      "rate": 0.011709440601459089,
+      "is_trending": false,
+      "inc_daily": 8672,
+      "rate_daily": 0.011709440601459089
     },
     {
       "idol_id": "tif_0028",
@@ -296,7 +699,22 @@
       "views": 747105,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0016",
+      "idol_name": "AVAM",
+      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
+      "video_id": "4hBEJWYNN_Q",
+      "title": "【MV】メルティック♡ダウン / AVAM",
+      "views": 719155,
+      "increase": 704,
+      "rate": 0.0009798858934012202,
+      "is_trending": false,
+      "inc_daily": 704,
+      "rate_daily": 0.0009798858934012202
     },
     {
       "idol_id": "tif_0016",
@@ -307,7 +725,22 @@
       "views": 718982,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0094",
+      "idol_name": "DIALOGUE＋",
+      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
+      "video_id": "WpVWmk06sPo",
+      "title": "DIALOGUE＋ 「TREASURE！」Music Video",
+      "views": 587053,
+      "increase": 286,
+      "rate": 0.00048741664067679337,
+      "is_trending": false,
+      "inc_daily": 286,
+      "rate_daily": 0.00048741664067679337
     },
     {
       "idol_id": "tif_0094",
@@ -318,7 +751,22 @@
       "views": 587010,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0094",
+      "idol_name": "DIALOGUE＋",
+      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
+      "video_id": "C__ptwRhLxI",
+      "title": "DIALOGUE＋ 「じょいふるしあんてっ！」Music Video",
+      "views": 539531,
+      "increase": 692,
+      "rate": 0.0012842426030780993,
+      "is_trending": false,
+      "inc_daily": 692,
+      "rate_daily": 0.0012842426030780993
     },
     {
       "idol_id": "tif_0094",
@@ -329,7 +777,22 @@
       "views": 539361,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0094",
+      "idol_name": "DIALOGUE＋",
+      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
+      "video_id": "vXu91qZQPi8",
+      "title": "DIALOGUE＋ 「アリバイなカーテシー」Music Video",
+      "views": 526557,
+      "increase": 241,
+      "rate": 0.0004578998168400733,
+      "is_trending": false,
+      "inc_daily": 241,
+      "rate_daily": 0.0004578998168400733
     },
     {
       "idol_id": "tif_0094",
@@ -340,7 +803,22 @@
       "views": 526498,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0009",
+      "idol_name": "i☆Ris",
+      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
+      "video_id": "a2hC6TWDRJY",
+      "title": "i☆Ris / 「夢へのヒトカケラ」 - Music Video-",
+      "views": 515625,
+      "increase": 2529,
+      "rate": 0.004928902193741522,
+      "is_trending": false,
+      "inc_daily": 2529,
+      "rate_daily": 0.004928902193741522
     },
     {
       "idol_id": "tif_0009",
@@ -351,7 +829,22 @@
       "views": 515093,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0066",
+      "idol_name": "CYBERJAPAN DANCERS",
+      "channel_id": "UCATC7a3C7maWUe_uymIoq-g",
+      "video_id": "SnMI9W_wV6w",
+      "title": "CYBERJAPAN DANCERS –「キューティーハニー」Official Music Video",
+      "views": 446758,
+      "increase": 1091,
+      "rate": 0.0024480161196588483,
+      "is_trending": false,
+      "inc_daily": 1091,
+      "rate_daily": 0.0024480161196588483
     },
     {
       "idol_id": "tif_0066",
@@ -362,7 +855,22 @@
       "views": 446451,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0176",
+      "idol_name": "ラフ×ラフ",
+      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
+      "video_id": "-3zLpwS-9yQ",
+      "title": "ラフ×ラフ「何満開」Music Video",
+      "views": 431451,
+      "increase": 728,
+      "rate": 0.0016901813926816075,
+      "is_trending": false,
+      "inc_daily": 728,
+      "rate_daily": 0.0016901813926816075
     },
     {
       "idol_id": "tif_0176",
@@ -373,7 +881,22 @@
       "views": 431240,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0016",
+      "idol_name": "AVAM",
+      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
+      "video_id": "zFkNJSnrhvA",
+      "title": "【MV】あたしはキミに愛されたい！ / AVAM",
+      "views": 427904,
+      "increase": 1846,
+      "rate": 0.004332743429298358,
+      "is_trending": false,
+      "inc_daily": 1846,
+      "rate_daily": 0.004332743429298358
     },
     {
       "idol_id": "tif_0016",
@@ -384,7 +907,22 @@
       "views": 427474,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0176",
+      "idol_name": "ラフ×ラフ",
+      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
+      "video_id": "DAyWIarinPU",
+      "title": "ラフ×ラフ「夏の覚悟を今決めろ！」Music Video",
+      "views": 403411,
+      "increase": 141,
+      "rate": 0.0003496416792719518,
+      "is_trending": false,
+      "inc_daily": 141,
+      "rate_daily": 0.0003496416792719518
     },
     {
       "idol_id": "tif_0176",
@@ -395,7 +933,22 @@
       "views": 403379,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0034",
+      "idol_name": "AKB48",
+      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
+      "video_id": "Qnzq-Pfuzco",
+      "title": "【MV full】ゆいりー / 村山彩希【公式】",
+      "views": 361946,
+      "increase": 343,
+      "rate": 0.0009485540772615271,
+      "is_trending": false,
+      "inc_daily": 343,
+      "rate_daily": 0.0009485540772615271
     },
     {
       "idol_id": "tif_0034",
@@ -406,7 +959,22 @@
       "views": 361864,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0120",
+      "idol_name": "NEO JAPONISM",
+      "channel_id": "UC7Lb8xDQLBNHOgeFVX3QbGQ",
+      "video_id": "Aq1ZTLDAEzM",
+      "title": "NEO JAPONISM「Never fade away」 Music Video",
+      "views": 344401,
+      "increase": 148,
+      "rate": 0.0004299163696467424,
+      "is_trending": false,
+      "inc_daily": 148,
+      "rate_daily": 0.0004299163696467424
     },
     {
       "idol_id": "tif_0120",
@@ -417,7 +985,22 @@
       "views": 344354,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "UTLwzRReIN4",
+      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』One-Take Dance version【MV full】/ “Mob-no-derella”",
+      "views": 315154,
+      "increase": 369,
+      "rate": 0.0011722286640087679,
+      "is_trending": false,
+      "inc_daily": 369,
+      "rate_daily": 0.0011722286640087679
     },
     {
       "idol_id": "tif_0123",
@@ -428,7 +1011,22 @@
       "views": 315082,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0079",
+      "idol_name": "私立恵比寿中学",
+      "channel_id": "UCQ6Br7m6vP61FZvjv4lwR5w",
+      "video_id": "A6XWiRq3mzk",
+      "title": "【MV】私立恵比寿中学「SCHOOL DAYS」",
+      "views": 299325,
+      "increase": 500,
+      "rate": 0.0016732201121057474,
+      "is_trending": false,
+      "inc_daily": 500,
+      "rate_daily": 0.0016732201121057474
     },
     {
       "idol_id": "tif_0079",
@@ -439,7 +1037,22 @@
       "views": 299210,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0139",
+      "idol_name": "femme fatale",
+      "channel_id": "UCJT_sEYoIBm6F4flBP1aE4w",
+      "video_id": "6MoaJPRKih4",
+      "title": "femme fatale 「わーるどえんどらぶかも！」Music Video",
+      "views": 272310,
+      "increase": 394,
+      "rate": 0.0014489768899218877,
+      "is_trending": false,
+      "inc_daily": 394,
+      "rate_daily": 0.0014489768899218877
     },
     {
       "idol_id": "tif_0139",
@@ -450,7 +1063,22 @@
       "views": 272209,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0180",
+      "idol_name": "LINKL PLANET",
+      "channel_id": "UCha-N8E1Dfz33BEy_tNTqug",
+      "video_id": "PLg7aUTFXV8",
+      "title": "【MV】LINKL PLANET『ミルユメカサナレ』",
+      "views": 230004,
+      "increase": 95,
+      "rate": 0.0004132069644946479,
+      "is_trending": false,
+      "inc_daily": 95,
+      "rate_daily": 0.0004132069644946479
     },
     {
       "idol_id": "tif_0180",
@@ -461,7 +1089,22 @@
       "views": 229999,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0038",
+      "idol_name": "SKE48",
+      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
+      "video_id": "OShpEObXTOE",
+      "title": "「バンザイVenus」 Music Video / SKE48【MV full / HD】",
+      "views": 149635,
+      "increase": 478,
+      "rate": 0.0032046769511320287,
+      "is_trending": false,
+      "inc_daily": 478,
+      "rate_daily": 0.0032046769511320287
     },
     {
       "idol_id": "tif_0038",
@@ -472,7 +1115,22 @@
       "views": 149518,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0016",
+      "idol_name": "AVAM",
+      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
+      "video_id": "uuzUuhWnJWc",
+      "title": "【MV】シュガリー・ストーリー / AVAM",
+      "views": 148194,
+      "increase": 669,
+      "rate": 0.004534824605998983,
+      "is_trending": false,
+      "inc_daily": 669,
+      "rate_daily": 0.004534824605998983
     },
     {
       "idol_id": "tif_0016",
@@ -483,7 +1141,22 @@
       "views": 148038,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0150",
+      "idol_name": "僕が見たかった青空",
+      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
+      "video_id": "N51BX4wU4W0",
+      "title": "僕が見たかった青空 / 「虹を架けよう」Music Video【4K】",
+      "views": 120530,
+      "increase": 182,
+      "rate": 0.0015122810516169775,
+      "is_trending": false,
+      "inc_daily": 182,
+      "rate_daily": 0.0015122810516169775
     },
     {
       "idol_id": "tif_0150",
@@ -494,7 +1167,22 @@
       "views": 120495,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0150",
+      "idol_name": "僕が見たかった青空",
+      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
+      "video_id": "7SoVjT-0Rhw",
+      "title": "僕が見たかった青空 / 「カイロに月」Music Video【4K】",
+      "views": 97681,
+      "increase": 715,
+      "rate": 0.007373718623022503,
+      "is_trending": false,
+      "inc_daily": 715,
+      "rate_daily": 0.007373718623022503
     },
     {
       "idol_id": "tif_0150",
@@ -505,7 +1193,22 @@
       "views": 97579,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0176",
+      "idol_name": "ラフ×ラフ",
+      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
+      "video_id": "G06fKhA3-9g",
+      "title": "ラフ×ラフ「君ときゅんと♡」Music Video",
+      "views": 91879,
+      "increase": 247,
+      "rate": 0.0026955648681683255,
+      "is_trending": false,
+      "inc_daily": 247,
+      "rate_daily": 0.0026955648681683255
     },
     {
       "idol_id": "tif_0176",
@@ -516,7 +1219,22 @@
       "views": 91835,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0123",
+      "idol_name": "≠ME",
+      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
+      "video_id": "pv_IPEHSwUE",
+      "title": "≠ME（ノットイコールミー）/11th Single『排他的ファイター』One-Take Dance version【MV full】/ Haita-teki Fighter",
+      "views": 85099,
+      "increase": 254,
+      "rate": 0.002993694383876481,
+      "is_trending": false,
+      "inc_daily": 254,
+      "rate_daily": 0.002993694383876481
     },
     {
       "idol_id": "tif_0123",
@@ -527,7 +1245,22 @@
       "views": 85066,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0055",
+      "idol_name": "清 竜人25",
+      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
+      "video_id": "LpI-kdJSKuU",
+      "title": "清 竜人25 - GOOD BYE！愛してるよ！",
+      "views": 79504,
+      "increase": 1023,
+      "rate": 0.013035002102419695,
+      "is_trending": false,
+      "inc_daily": 1023,
+      "rate_daily": 0.013035002102419695
     },
     {
       "idol_id": "tif_0055",
@@ -538,7 +1271,22 @@
       "views": 79295,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
+    },
+    {
+      "idol_id": "tif_0176",
+      "idol_name": "ラフ×ラフ",
+      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
+      "video_id": "TDb2j583JkQ",
+      "title": "【MV監督誕生】「君ときゅんと♡」MV監督は佐久間Pから抜擢された吉村萌南！？衝撃の完成動画！【２０時プレミア配信】",
+      "views": 67271,
+      "increase": 124,
+      "rate": 0.0018466945656544595,
+      "is_trending": false,
+      "inc_daily": 124,
+      "rate_daily": 0.0018466945656544595
     },
     {
       "idol_id": "tif_0176",
@@ -549,7 +1297,9 @@
       "views": 67240,
       "increase": 0,
       "rate": 0,
-      "is_trending": false
+      "is_trending": false,
+      "inc_daily": "",
+      "rate_daily": ""
     }
   ]
 }
