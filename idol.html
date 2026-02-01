@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>グループ詳細 - Trend Idol</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
+        h1 { margin: 0; color: #1a1a1a; font-size: 28px; }
+        .sub-info { font-size: 14px; color: #666; margin-top: 10px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #1DA1F2; }
+        .stat-value { font-size: 20px; font-weight: bold; color: #1DA1F2; }
+        .stat-label { font-size: 12px; color: #777; }
+        
+        /* Spotify Area (Reserved) */
+        .spotify-section { background: #e8f5e9; border-left-color: #1DB954 !important; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 13px; border-bottom: 2px solid #dee2e6; }
+        td { padding: 15px 12px; border-bottom: 1px solid #eee; font-size: 14px; }
+        .btn-yt { background: #ff0000; color: white; text-decoration: none; padding: 5px 10px; border-radius: 4px; font-size: 12px; }
+        .rank-up { color: #eb4034; font-weight: bold; font-size: 12px; }
+        .badge { background: #eee; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 5px; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #1DA1F2; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">← ランキングに戻る</a>
+    
+    <div id="content">Loading...</div>
+</div>
+
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const idolId = params.get('id');
+
+    async function loadIdolData() {
+        try {
+            const response = await fetch('data.json');
+            const data = await response.json();
+            const idol = data.idols[idolId];
+
+            if (!idol) {
+                document.getElementById('content').innerHTML = "アイドルが見つかりませんでした。";
+                return;
+            }
+
+            let html = `
+                <div class="header">
+                    <h1>${idol.basic.name} のMV集計情報</h1>
+                    <div class="sub-info">
+                        <a href="${idol.basic.official_url}" target="_blank">公式サイト</a> | 
+                        <a href="${idol.basic.youtube_url}" target="_blank">YouTubeチャンネル</a>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">チャンネル登録者数</div>
+                        <div class="stat-value">${Number(idol.basic.subscribers).toLocaleString()}人</div>
+                        <div class="stat-label">確認日: ${idol.basic.sub_checked_at}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">グループ全体Shorts投稿数</div>
+                        <div class="stat-value">${Number(idol.stats.total_ugc_count).toLocaleString()}本</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">グループ全体Shorts再生数</div>
+                        <div class="stat-value">${Number(idol.stats.total_ugc_views).toLocaleString()}回</div>
+                    </div>
+                    <div class="stat-card spotify-section">
+                        <div class="stat-label">Spotify フォロワー (準備中)</div>
+                        <div class="stat-value">--</div>
+                    </div>
+                </div>
+
+                <h3>公開MVリスト・推移</h3>
+                <p style="font-size: 12px; color: #888;">最終更新: ${data.updated_at}</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>MVタイトル</th>
+                            <th>24h再生 (増減)</th>
+                            <th>7日間再生</th>
+                            <th>Shorts(本/回)</th>
+                            <th>反応率</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            idol.mv_list.forEach(mv => {
+                // 順位大幅アップの判定 (5以上) ※JSONにdiffが含まれる前提
+                const rankDiff = mv.daily_diff || 0;
+                const rankBadge = rankDiff >= 5 ? `<span class="rank-up">▲${rankDiff} Up!</span>` : "";
+
+                html += `
+                    <tr>
+                        <td>${mv.title} ${rankBadge}</td>
+                        <td>${Number(mv.inc_1d).toLocaleString()}<br><small>${mv.rate_1d > 0 ? '+' : ''}${(mv.rate_1d * 100).toFixed(1)}%</small></td>
+                        <td>${Number(mv.inc_7d).toLocaleString()}</td>
+                        <td>${mv.ugc_count}本<br><small>${Number(mv.ugc_views).toLocaleString()}回</small></td>
+                        <td>
+                            <span class="badge">👍 ${(mv.like_rate || 0).toFixed(2)}%</span><br>
+                            <span class="badge">💬 ${(mv.comment_rate || 0).toFixed(2)}%</span>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=${mv.video_id}" target="_blank" class="btn-yt">YouTube</a></td>
+                    </tr>
+                `;
+            });
+
+            html += `</tbody></table>`;
+            document.getElementById('content').innerHTML = html;
+
+        } catch (error) {
+            console.error(error);
+            document.getElementById('content').innerHTML = "データの読み込みに失敗しました。";
+        }
+    }
+
+    loadIdolData();
+</script>
+
+</body>
+</html>
