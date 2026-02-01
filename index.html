@@ -106,7 +106,7 @@
 
         async function loadRanking() {
             try {
-                const response = await fetch('data.json?v=' + new Date().getTime());
+                const response = await fetch('data.json?t=' + new Date().getTime());
                 if (!response.ok) throw new Error();
                 rawData = await response.json();
                 
