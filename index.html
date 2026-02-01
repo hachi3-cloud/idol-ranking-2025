@@ -33,7 +33,7 @@
     <div id="app" class="max-w-4xl mx-auto bg-white shadow-sm rounded-sm overflow-hidden">
         
         <header class="p-4 news-border flex justify-between items-center">
-            <h1 class="text-xl md:text-2xl font-bold news-blue leading-tight">アイドルMV再生数ランキング</h1>
+            <h1 class="text-xl md:text-2xl font-bold news-blue leading-tight">アイドル再生数ランキング</h1>
             <span id="last-update" class="text-xs text-gray-500 text-right whitespace-nowrap ml-2">最終更新：取得中...</span>
         </header>
 
@@ -65,7 +65,7 @@
 
             <section class="p-4">
                 <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 space-y-2 md:space-y-0">
-                    <h2 class="text-lg font-bold">📊 MV再生数ランキング</h2>
+                    <h2 class="text-lg font-bold">📊 再生数ランキング</h2>
                     <div class="flex space-x-1 text-xs">
                         <button onclick="changeMode('daily')" id="btn-daily" class="px-4 py-1 border rounded-l-full font-bold text-gray-600 hover:bg-gray-50">前日比</button>
                         <button onclick="changeMode('weekly')" id="btn-weekly" class="px-4 py-1 border rounded-r-full font-bold tab-active">週間(7日)</button>
@@ -94,7 +94,7 @@
         </div>
 
         <footer class="p-4 text-center text-[10px] text-gray-400 border-t bg-gray-50">
-            &copy; 2026 アイドルMVランキングプロジェクト
+            &copy; 2026 アイドルランキングプロジェクト
         </footer>
     </div>
 
@@ -118,10 +118,12 @@
             }
         }
 
-       function renderUI() {
+function renderUI() {
             const rankingBody = document.getElementById('ranking-body');
+            if (!rankingBody) return; // エラー防止
             rankingBody.innerHTML = '';
 
+            // データの抽出
             const filteredData = (currentMode === 'daily' ? allData.daily : allData.weekly)
                 .filter(item => 
                     item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -160,7 +162,8 @@
                 rankingBody.appendChild(tr);
             });
         }
-	   
+
+   
         function changeMode(mode) {
             currentMode = mode;
             document.getElementById('btn-daily').classList.toggle('tab-active', mode === 'daily');
