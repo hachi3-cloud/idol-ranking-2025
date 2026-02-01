@@ -65,7 +65,7 @@
 
             <section class="p-4">
                 <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 space-y-2 md:space-y-0">
-                    <h2 class="text-lg font-bold">📊 再生数ランキング</h2>
+                    <h2 class="text-lg font-bold">📊 MV再生数ランキング</h2>
                     <div class="flex space-x-1 text-xs">
                         <button onclick="changeMode('daily')" id="btn-daily" class="px-4 py-1 border rounded-l-full font-bold text-gray-600 hover:bg-gray-50">前日比</button>
                         <button onclick="changeMode('weekly')" id="btn-weekly" class="px-4 py-1 border rounded-r-full font-bold tab-active">週間(7日)</button>
@@ -94,7 +94,7 @@
         </div>
 
         <footer class="p-4 text-center text-[10px] text-gray-400 border-t bg-gray-50">
-            &copy; 2026 アイドルランキングプロジェクト
+            &copy; 2026 アイドルMVランキングプロジェクト
         </footer>
     </div>
 
@@ -118,78 +118,49 @@
             }
         }
 
-        function renderUI() {
-            if (!rawData) return;
+       function renderUI() {
             const rankingBody = document.getElementById('ranking-body');
-            
-            // 1. 現在のモード（週間 or 前日）の全データを取得
-            let baseList = currentMode === 'weekly' ? rawData.weekly : rawData.daily;
-
-            // 2. 検索フィルタを適用
-            let filtered = baseList.filter(item => 
-                item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                item.idol_name.toLowerCase().includes(searchQuery.toLowerCase())
-            );
-
-            // 3. ページネーション（1-50位 / 51-100位）
-            const start = (currentPage - 1) * 50;
-            const end = start + 50;
-            const pageItems = filtered.slice(start, end);
-
-            // 注目動画（常に全体の1位を表示）
-            const top = baseList[0];
-            if (top) {
-                document.getElementById('featured-name').textContent = top.title;
-                document.getElementById('featured-link').href = `https://www.youtube.com/watch?v=${top.video_id}`;
-                document.getElementById('featured-stats').textContent = `${top.idol_name} / 伸び率 ${((currentMode === 'weekly' ? top.rate : top.rate_daily) * 100).toFixed(1)}%`;
-            }
-
-            document.getElementById('table-head-inc').textContent = currentMode === 'weekly' ? '直近7日間の再生回数' : '前日の再生回数';
-
             rankingBody.innerHTML = '';
-            pageItems.forEach((item) => {
+
+            const filteredData = (currentMode === 'daily' ? allData.daily : allData.weekly)
+                .filter(item => 
+                    item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                    item.idol_name.toLowerCase().includes(searchQuery.toLowerCase())
+                );
+
+            const start = (currentPage - 1) * itemsPerPage;
+            const displayData = filteredData.slice(start, start + itemsPerPage);
+
+            displayData.forEach((item, index) => {
                 const tr = document.createElement('tr');
-                tr.className = "hover:bg-gray-50 border-b last:border-0";
+                tr.className = 'border-b border-gray-100 hover:bg-gray-50 transition-colors';
                 
-                // --- 【ここが修正ポイント！】 ---
-                // 検索結果の順番ではなく、元の baseList の中での順番（+1）を探して順位とする
-                const originalRank = baseList.indexOf(item) + 1;
-                
-                let rankDisplay = originalRank;
-                if (originalRank === 1) rankDisplay = '<span class="rank-1">🥇</span>';
-                else if (originalRank === 2) rankDisplay = '<span class="rank-2">🥈</span>';
-                else if (originalRank === 3) rankDisplay = '<span class="rank-3">🥉</span>';
-                // ------------------------------
-                
-const views = Number(item.views || 0).toLocaleString(); 
-// JSONの項目名（inc_1d / inc_7d）に合わせて修正
-const inc = currentMode === 'daily' ? (item.inc_1d || 0) : (item.inc_7d || 0);
-const rate = currentMode === 'daily' ? (item.rate_1d || 0) : (item.rate_7d || 0);
+                const views = Number(item.views || 0).toLocaleString(); 
+                const inc = currentMode === 'daily' ? (item.inc_1d || 0) : (item.inc_7d || 0);
+                const rate = currentMode === 'daily' ? (item.rate_1d || 0) : (item.rate_7d || 0);
+                const trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
 
-// 急上昇（is_trending）の判定
-const trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
-
-tr.innerHTML = `
-    <td class="p-3 text-center ${index < 3 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${index + 1}</td>
-    <td class="p-3">
-        <div class="font-bold text-gray-800 text-sm md:text-base line-clamp-1">${item.title}</div>
-        <div class="flex items-center gap-2 mt-1">
-            <div class="text-[10px] text-gray-500">
-                <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
-            </div>
-            <div class="text-[10px] text-gray-400">累計: ${views}回</div>
-        </div>
-    </td>
-    <td class="p-3 text-right">
-        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
-        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
-    </td>
-    <td class="p-3 text-center text-xl">${trendingIcon}</td>
-`;
+                tr.innerHTML = `
+                    <td class="p-3 text-center ${index < 3 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${start + index + 1}</td>
+                    <td class="p-3">
+                        <div class="font-bold text-gray-800 text-sm md:text-base line-clamp-1">${item.title}</div>
+                        <div class="flex items-center gap-2 mt-1">
+                            <div class="text-[10px] text-gray-500">
+                                <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
+                            </div>
+                            <div class="text-[10px] text-gray-400">累計: ${views}回</div>
+                        </div>
+                    </td>
+                    <td class="p-3 text-right">
+                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
+                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                    </td>
+                    <td class="p-3 text-center text-xl">${trendingIcon}</td>
+                `;
                 rankingBody.appendChild(tr);
             });
         }
-
+	   
         function changeMode(mode) {
             currentMode = mode;
             document.getElementById('btn-daily').classList.toggle('tab-active', mode === 'daily');
