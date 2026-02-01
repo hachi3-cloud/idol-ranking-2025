@@ -1,2347 +1,2849 @@
 {
-  "updated_at": "2026/01/31 11:02",
+  "updated_at": "2026/02/01 09:43",
   "weekly": [
     {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "_cf4UTe1qrY",
-      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』【MV full】",
-      "views": 15620106,
-      "increase": 421508,
-      "rate": 0.027733347510079547,
-      "is_trending": false,
-      "inc_daily": 57036,
-      "rate_daily": 0.0036648296255173303
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "L8AQC1Gk4-M",
-      "title": "≠ME（ノットイコールミー）/11th Single c/w『きゅんかわ人生』【MV full】",
-      "views": 2622659,
-      "increase": 373151,
-      "rate": 0.1658811615695521,
-      "is_trending": false,
-      "inc_daily": 51152,
-      "rate_daily": 0.01989183774339327
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "3RtbnP1onaM",
-      "title": "Juice=Juice『盛れ！ミ・アモーレ』Promotion Edit",
-      "views": 6277499,
-      "increase": 262921,
-      "rate": 0.043713956324117835,
-      "is_trending": false,
-      "inc_daily": 37624,
-      "rate_daily": 0.006029607964903143
-    },
-    {
-      "idol_id": "tif_0008",
-      "idol_name": "iLiFE!",
-      "channel_id": "UChVflUz2J_jaaqYjXqvpmQA",
-      "video_id": "eH0Xm0oAH48",
-      "title": "【MV】BRAVE GROOVE / iLiFE! 【デジモン】",
-      "views": 5603228,
-      "increase": 186751,
-      "rate": 0.03447831496376704,
-      "is_trending": false,
-      "inc_daily": 21431,
-      "rate_daily": 0.0038394445373058175
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "tJofqLSYjM8",
-      "title": "ファントムシータ『botばっか』(OFFICIAL MUSIC VIDEO)",
-      "views": 2486329,
-      "increase": 173298,
-      "rate": 0.07492247185619216,
-      "is_trending": false,
-      "inc_daily": 26714,
-      "rate_daily": 0.010861049391876371
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "4xBmuiQNGdc",
-      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『木漏れ日メゾフォルテ』【MV full】",
-      "views": 2884320,
-      "increase": 104074,
-      "rate": 0.03743337819746886,
-      "is_trending": false,
-      "inc_daily": 14017,
-      "rate_daily": 0.004883456554935141
-    },
-    {
-      "idol_id": "tif_0054",
-      "idol_name": "きゅるりんってしてみて",
-      "channel_id": "UC38ULbpGgiA7t6i-lbLu9VQ",
-      "video_id": "9g3dRd_QuVY",
-      "title": "「Special♡Spell」ジャムムコラボMV/きゅるりんってしてみて",
-      "views": 4069695,
-      "increase": 101907,
-      "rate": 0.0256835798686825,
-      "is_trending": false,
-      "inc_daily": 13416,
-      "rate_daily": 0.003307464797170017
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "AK0bS_-glos",
-      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』 Dance ver.【MV full】",
-      "views": 850538,
-      "increase": 55314,
-      "rate": 0.06955775982616219,
-      "is_trending": false,
-      "inc_daily": 6913,
-      "rate_daily": 0.008194399170247444
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "MlNNxI0MNDI",
-      "title": "日向坂46『好きになるクレッシェンド』MUSIC VIDEO",
-      "views": 607233,
-      "increase": 55197,
-      "rate": 0.09998804425798317,
-      "is_trending": false,
-      "inc_daily": 55197,
-      "rate_daily": 0.09998804425798317
-    },
-    {
-      "idol_id": "tif_0034",
-      "idol_name": "AKB48",
-      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
-      "video_id": "QpkQ7pTgswM",
-      "title": "Oh my pumpkin! Music Video / AKB48 66th Single【公式】",
-      "views": 969437,
-      "increase": 50184,
-      "rate": 0.05459215254124816,
-      "is_trending": false,
-      "inc_daily": 6790,
-      "rate_daily": 0.007053468197584369
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "1QDWU8leVQw",
-      "title": "日向坂46『クリフハンガー』MUSIC VIDEO",
-      "views": 2345359,
-      "increase": 48760,
-      "rate": 0.021231394771137668,
-      "is_trending": false,
-      "inc_daily": 48760,
-      "rate_daily": 0.021231394771137668
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "OY_NYjdTPhA",
-      "title": "ファントムシータ『ノア』(OFFICIAL MUSIC VIDEO)",
-      "views": 1184682,
-      "increase": 45633,
-      "rate": 0.040062367817363435,
-      "is_trending": false,
-      "inc_daily": 7379,
-      "rate_daily": 0.006267715278055012
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "Pyts1pc0u1A",
-      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『Queens』【MV full】",
-      "views": 1578018,
-      "increase": 41844,
-      "rate": 0.027239101820496898,
-      "is_trending": false,
-      "inc_daily": 4907,
-      "rate_daily": 0.003119296731127047
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "1aay0FuU_98",
-      "title": "ファントムシータ『そっくりさん』（OFFICIAL MUSIC VIDEO）",
-      "views": 1258756,
-      "increase": 40122,
-      "rate": 0.032923749050166005,
-      "is_trending": false,
-      "inc_daily": 6506,
-      "rate_daily": 0.005195448193252146
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "1Cy9oaBAxns",
-      "title": "＝LOVE（イコールラブ）/『内緒バナシ』【MV full】Vertical video",
-      "views": 7008793,
-      "increase": 38540,
-      "rate": 0.005529211063070451,
-      "is_trending": false,
-      "inc_daily": 5227,
-      "rate_daily": 0.0007463340818091813
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "YejZlOz-hm0",
-      "title": "≠ME（ノットイコールミー）/11th Single c/w『はんぶんこクリスマス』【MV full】",
-      "views": 1068760,
-      "increase": 21771,
-      "rate": 0.020793914740269478,
-      "is_trending": false,
-      "inc_daily": 2720,
-      "rate_daily": 0.0025514990056658285
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "cnlS-vuMg40",
-      "title": "Juice=Juice『四の五の言わず颯(さっ)と別れてあげた』Promotion Edit",
-      "views": 1242684,
-      "increase": 20047,
-      "rate": 0.016396526524225914,
-      "is_trending": false,
-      "inc_daily": 2710,
-      "rate_daily": 0.0021855296965904124
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "rifFL1BbZJQ",
-      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』Dance ver.【MV full】/ “Mob-no-derella”",
-      "views": 1349490,
-      "increase": 16285,
-      "rate": 0.012214925686597334,
-      "is_trending": false,
-      "inc_daily": 2053,
-      "rate_daily": 0.001523633386941282
-    },
-    {
-      "idol_id": "tif_0009",
-      "idol_name": "i☆Ris",
-      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
-      "video_id": "a2hC6TWDRJY",
-      "title": "i☆Ris / 「夢へのヒトカケラ」 - Music Video-",
-      "views": 543851,
-      "increase": 14833,
-      "rate": 0.02803874348320851,
-      "is_trending": false,
-      "inc_daily": 2013,
-      "rate_daily": 0.003715132567298713
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "zFkNJSnrhvA",
-      "title": "【MV】あたしはキミに愛されたい！ / AVAM",
-      "views": 453133,
-      "increase": 14590,
-      "rate": 0.033269257518646976,
-      "is_trending": false,
-      "inc_daily": 2139,
-      "rate_daily": 0.00474285688944864
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "NReeTQ3YTAU",
-      "title": "乃木坂46『ビリヤニ』MUSIC VIDEO",
-      "views": 3488456,
-      "increase": 13918,
-      "rate": 0.004005712414139664,
-      "is_trending": false,
-      "inc_daily": 13918,
-      "rate_daily": 0.004005712414139664
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "DquBd86wOYw",
-      "title": "Juice=Juice『初恋の亡霊』Promotion Edit",
-      "views": 1282299,
-      "increase": 13685,
-      "rate": 0.01078736321686502,
-      "is_trending": false,
-      "inc_daily": 1816,
-      "rate_daily": 0.0014182148454918964
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "2WEOnuwvoXE",
-      "title": "日向坂46『君と生きる』MUSIC VIDEO",
-      "views": 557112,
-      "increase": 9678,
-      "rate": 0.017678843477021887,
-      "is_trending": false,
-      "inc_daily": 9678,
-      "rate_daily": 0.017678843477021887
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "bGsPosN4oHQ",
-      "title": "≠ME（ノットイコールミー）/『君を見かけた』【MV full】Vertical video",
-      "views": 3830191,
-      "increase": 9411,
-      "rate": 0.0024631096268301236,
-      "is_trending": false,
-      "inc_daily": 1244,
-      "rate_daily": 0.00032489350205160844
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "hBfDlIN0WtI",
-      "title": "櫻坂46『Unhappy birthday構文』MUSIC VIDEO",
-      "views": 3195267,
-      "increase": 9145,
-      "rate": 0.0028702604608360884,
-      "is_trending": false,
-      "inc_daily": 9145,
-      "rate_daily": 0.0028702604608360884
-    },
-    {
-      "idol_id": "tif_0066",
-      "idol_name": "CYBERJAPAN DANCERS",
-      "channel_id": "UCATC7a3C7maWUe_uymIoq-g",
-      "video_id": "SnMI9W_wV6w",
-      "title": "CYBERJAPAN DANCERS –「キューティーハニー」Official Music Video",
-      "views": 461444,
-      "increase": 8726,
-      "rate": 0.01927469197160263,
-      "is_trending": false,
-      "inc_daily": 1062,
-      "rate_daily": 0.002306780021807977
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "vomKmy75nTA",
-      "title": "僕が見たかった青空 / 「あれはフェアリー」Music Video【4K】",
-      "views": 1613543,
-      "increase": 8651,
-      "rate": 0.005390393870740212,
-      "is_trending": false,
-      "inc_daily": 1080,
-      "rate_daily": 0.0006697828105203034
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "m2ANkjMRuXc",
-      "title": "乃木坂46『純粋とは何か？』MUSIC VIDEO",
-      "views": 2095806,
-      "increase": 6561,
-      "rate": 0.003140368889239893,
-      "is_trending": false,
-      "inc_daily": 6561,
-      "rate_daily": 0.003140368889239893
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "4igUtLSm_-g",
-      "title": "乃木坂46『市営ダンスホール』MUSIC VIDEO",
-      "views": 942288,
-      "increase": 5864,
-      "rate": 0.006262120577857894,
-      "is_trending": false,
-      "inc_daily": 5864,
-      "rate_daily": 0.006262120577857894
-    },
-    {
-      "idol_id": "tif_0055",
-      "idol_name": "清 竜人25",
-      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
-      "video_id": "LpI-kdJSKuU",
-      "title": "清 竜人25 - GOOD BYE！愛してるよ！",
-      "views": 89677,
-      "increase": 5210,
-      "rate": 0.061680893129861365,
-      "is_trending": false,
-      "inc_daily": 731,
-      "rate_daily": 0.00821846963326063
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "qP52sh7PzYA",
-      "title": "櫻坂46『UDAGAWA GENERATION』MUSIC VIDEO",
-      "views": 5763987,
-      "increase": 5018,
-      "rate": 0.0008713365187414622,
-      "is_trending": false,
-      "inc_daily": 5018,
-      "rate_daily": 0.0008713365187414622
-    },
-    {
-      "idol_id": "tif_0009",
-      "idol_name": "i☆Ris",
-      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
-      "video_id": "WzPBgM_Dxhk",
-      "title": "i☆Ris / 「ビバ☆アイドル！」 - Music Video-【5th アルバム「ViVa☆iDOL」4.30 on sale】",
-      "views": 1286293,
-      "increase": 4637,
-      "rate": 0.003617975494204373,
-      "is_trending": false,
-      "inc_daily": 600,
-      "rate_daily": 0.0004666743927205017
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "F-16wnHQLLw",
-      "title": "日向坂46『ジャーマンアイリス』MUSIC VIDEO",
-      "views": 2317078,
-      "increase": 4508,
-      "rate": 0.0019493463981630826,
-      "is_trending": false,
-      "inc_daily": 4508,
-      "rate_daily": 0.0019493463981630826
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "52cSFrjnImQ",
-      "title": "日向坂46『Love yourself!』MUSIC VIDEO",
-      "views": 3386374,
-      "increase": 4488,
-      "rate": 0.0013270701614424615,
-      "is_trending": false,
-      "inc_daily": 4488,
-      "rate_daily": 0.0013270701614424615
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "5GhdeAIxwxs",
-      "title": "NMB48 - 「青春のデッドライン」Official MV",
-      "views": 1713764,
-      "increase": 4486,
-      "rate": 0.0026244999350603,
-      "is_trending": false,
-      "inc_daily": 591,
-      "rate_daily": 0.0003449739168198425
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "7SoVjT-0Rhw",
-      "title": "僕が見たかった青空 / 「カイロに月」Music Video【4K】",
-      "views": 105917,
-      "increase": 4233,
-      "rate": 0.04162896817591755,
-      "is_trending": false,
-      "inc_daily": 559,
-      "rate_daily": 0.005305719546688434
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "4hBEJWYNN_Q",
-      "title": "【MV】メルティック♡ダウン / AVAM",
-      "views": 726968,
-      "increase": 4184,
-      "rate": 0.005788728029397441,
-      "is_trending": false,
-      "inc_daily": 527,
-      "rate_daily": 0.0007254546480719012
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "-3zLpwS-9yQ",
-      "title": "ラフ×ラフ「何満開」Music Video",
-      "views": 438840,
-      "increase": 3886,
-      "rate": 0.008934278107569997,
-      "is_trending": false,
-      "inc_daily": 572,
-      "rate_daily": 0.0013051374957788386
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "n4Il_E_tuY0",
-      "title": "【MV】STU48 12th single 「傷つくことが青春だ」 MUSIC VIDEO",
-      "views": 4104002,
-      "increase": 3852,
-      "rate": 0.0009394778239820495,
-      "is_trending": false,
-      "inc_daily": 606,
-      "rate_daily": 0.00014768255367017953
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "XYTjRxWe9Jc",
-      "title": "日向坂46『お願いバッハ！』MUSIC VIDEO",
-      "views": 1928152,
-      "increase": 3703,
-      "rate": 0.0019241871309657985,
-      "is_trending": false,
-      "inc_daily": 3703,
-      "rate_daily": 0.0019241871309657985
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "C__ptwRhLxI",
-      "title": "DIALOGUE＋ 「じょいふるしあんてっ！」Music Video",
-      "views": 546139,
-      "increase": 3487,
-      "rate": 0.006425849347279656,
-      "is_trending": false,
-      "inc_daily": 502,
-      "rate_daily": 0.0009200255847752261
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "uuzUuhWnJWc",
-      "title": "【MV】シュガリー・ストーリー / AVAM",
-      "views": 155007,
-      "increase": 3482,
-      "rate": 0.022979706319089258,
-      "is_trending": false,
-      "inc_daily": 483,
-      "rate_daily": 0.0031257280422458647
-    },
-    {
-      "idol_id": "tif_0036",
-      "idol_name": "HKT48",
-      "channel_id": "UCPQ0GEWwLaam1lTX9P-CgGA",
-      "video_id": "rjNP-vzdp6A",
-      "title": "【MV full】HKT48 19th single「半袖天使」/ HKT48[公式]",
-      "views": 2928840,
-      "increase": 3410,
-      "rate": 0.0011656406066800436,
-      "is_trending": false,
-      "inc_daily": 462,
-      "rate_daily": 0.0001577665178470812
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "ReuFa_D1Vok",
-      "title": "櫻坂46『Addiction』MUSIC VIDEO",
-      "views": 3085726,
-      "increase": 3247,
-      "rate": 0.0010533729507970695,
-      "is_trending": false,
-      "inc_daily": 3247,
-      "rate_daily": 0.0010533729507970695
-    },
-    {
-      "idol_id": "tif_0055",
-      "idol_name": "清 竜人25",
-      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
-      "video_id": "2NEld3A1L98",
-      "title": "清 竜人25 - 世界を愛せますように！",
-      "views": 788523,
-      "increase": 3205,
-      "rate": 0.004081149292388561,
-      "is_trending": false,
-      "inc_daily": 418,
-      "rate_daily": 0.0005303861795065379
-    },
-    {
-      "idol_id": "tif_0198",
-      "idol_name": "ME:I",
-      "channel_id": "UCvTsv4KmVuBdECI08_HR87Q",
-      "video_id": "zPmSwXMQtRk",
-      "title": "ME:I (ミーアイ) ⊹ 'MUSE' Official MV",
-      "views": 15505719,
-      "increase": 3155,
-      "rate": 0.0002035147218227901,
-      "is_trending": false,
-      "inc_daily": 3155,
-      "rate_daily": 0.0002035147218227901
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "UTLwzRReIN4",
-      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』One-Take Dance version【MV full】/ “Mob-no-derella”",
-      "views": 320205,
-      "increase": 3068,
-      "rate": 0.00967405253880815,
-      "is_trending": false,
-      "inc_daily": 452,
-      "rate_daily": 0.0014135911156423866
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "gQ7l_hav-bA",
-      "title": "櫻坂46 『Alter ego』MUSIC VIDEO",
-      "views": 1134256,
-      "increase": 2988,
-      "rate": 0.002641283939791455,
-      "is_trending": false,
-      "inc_daily": 2988,
-      "rate_daily": 0.002641283939791455
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "YyGPXrzvfYk",
-      "title": "日向坂46『空飛ぶ車』MUSIC VIDEO",
-      "views": 899177,
-      "increase": 2926,
-      "rate": 0.0032647104438377197,
-      "is_trending": false,
-      "inc_daily": 2926,
-      "rate_daily": 0.0032647104438377197
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "nTxTTZ0QLrI",
-      "title": "櫻坂46『Make or Break』MUSIC VIDEO",
-      "views": 2836966,
-      "increase": 2902,
-      "rate": 0.0010239712300075087,
-      "is_trending": false,
-      "inc_daily": 2902,
-      "rate_daily": 0.0010239712300075087
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "onBQi5cvm14",
-      "title": "乃木坂46『なぜ　僕たちは走るのか？』MUSIC VIDEO",
-      "views": 1709300,
-      "increase": 2731,
-      "rate": 0.0016002868914178096,
-      "is_trending": false,
-      "inc_daily": 2731,
-      "rate_daily": 0.0016002868914178096
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "OShpEObXTOE",
-      "title": "「バンザイVenus」 Music Video / SKE48【MV full / HD】",
-      "views": 154582,
-      "increase": 2585,
-      "rate": 0.01700691461015678,
-      "is_trending": false,
-      "inc_daily": 383,
-      "rate_daily": 0.002483803396909189
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "aQ1iXj4oXfI",
-      "title": "櫻坂46『木枯らしは泣かない』MUSIC VIDEO",
-      "views": 923109,
-      "increase": 2571,
-      "rate": 0.002792931959354204,
-      "is_trending": false,
-      "inc_daily": 2571,
-      "rate_daily": 0.002792931959354204
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "aLu4oyQ2zdw",
-      "title": "櫻坂46『港区パセリ』MUSIC VIDEO",
-      "views": 1722999,
-      "increase": 2505,
-      "rate": 0.001455977178647528,
-      "is_trending": false,
-      "inc_daily": 2505,
-      "rate_daily": 0.001455977178647528
-    },
-    {
-      "idol_id": "tif_0079",
-      "idol_name": "私立恵比寿中学",
-      "channel_id": "UCQ6Br7m6vP61FZvjv4lwR5w",
-      "video_id": "A6XWiRq3mzk",
-      "title": "【MV】私立恵比寿中学「SCHOOL DAYS」",
-      "views": 304079,
-      "increase": 2467,
-      "rate": 0.008179382783178387,
-      "is_trending": false,
-      "inc_daily": 295,
-      "rate_daily": 0.0009710847180891686
-    },
-    {
-      "idol_id": "tif_0198",
-      "idol_name": "ME:I",
-      "channel_id": "UCvTsv4KmVuBdECI08_HR87Q",
-      "video_id": "UwpfFRuu2lI",
-      "title": "ME:I (ミーアイ) ⊹ 'THIS IS ME:I' Official MV",
-      "views": 11720111,
-      "increase": 2352,
-      "rate": 0.00020072097403607634,
-      "is_trending": false,
-      "inc_daily": 2352,
-      "rate_daily": 0.00020072097403607634
-    },
-    {
-      "idol_id": "tif_0034",
-      "idol_name": "AKB48",
-      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
-      "video_id": "Qnzq-Pfuzco",
-      "title": "【MV full】ゆいりー / 村山彩希【公式】",
-      "views": 366156,
-      "increase": 2352,
-      "rate": 0.0064650196259524355,
-      "is_trending": false,
-      "inc_daily": 309,
-      "rate_daily": 0.0008446153719997703
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "WNH_ReRMt5k",
-      "title": "櫻坂46『死んだふり』MUSIC VIDEO",
-      "views": 1651357,
-      "increase": 2229,
-      "rate": 0.0013516234033986447,
-      "is_trending": false,
-      "inc_daily": 2229,
-      "rate_daily": 0.0013516234033986447
-    },
-    {
-      "idol_id": "tif_0139",
-      "idol_name": "femme fatale",
-      "channel_id": "UCJT_sEYoIBm6F4flBP1aE4w",
-      "video_id": "6MoaJPRKih4",
-      "title": "femme fatale 「わーるどえんどらぶかも！」Music Video",
-      "views": 276404,
-      "increase": 2227,
-      "rate": 0.008122490216174224,
-      "is_trending": false,
-      "inc_daily": 344,
-      "rate_daily": 0.0012461059190031153
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "85kZr2BOn4M",
-      "title": "NMB48 - チューストライク Official MV",
-      "views": 1786225,
-      "increase": 2067,
-      "rate": 0.001158529681788272,
-      "is_trending": false,
-      "inc_daily": 279,
-      "rate_daily": 0.0001562197289279743
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "WpVWmk06sPo",
-      "title": "DIALOGUE＋ 「TREASURE！」Music Video",
-      "views": 590629,
-      "increase": 2017,
-      "rate": 0.00342670553777361,
-      "is_trending": false,
-      "inc_daily": 322,
-      "rate_daily": 0.0005454788779397839
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "6cdvjCr6SnU",
-      "title": "【MV】STU48 11th Single 「地平線を見ているか？」MUSIC VIDEO YouTube Edit",
-      "views": 4188562,
-      "increase": 1943,
-      "rate": 0.00046409764060211835,
-      "is_trending": false,
-      "inc_daily": 308,
-      "rate_daily": 0.00007353899739605095
-    },
-    {
-      "idol_id": "tif_0041",
-      "idol_name": "NGT48",
-      "channel_id": "UCIfuY0NRq1szr_6tzFy23NQ",
-      "video_id": "KrOx7KroK0M",
-      "title": "NGT48 11thシングル「希望列車」MUSIC VIDEO",
-      "views": 1082138,
-      "increase": 1912,
-      "rate": 0.0017699999814853558,
-      "is_trending": false,
-      "inc_daily": 248,
-      "rate_daily": 0.00022922847978999714
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "vXu91qZQPi8",
-      "title": "DIALOGUE＋ 「アリバイなカーテシー」Music Video",
-      "views": 529087,
-      "increase": 1413,
-      "rate": 0.0026777896959107325,
-      "is_trending": false,
-      "inc_daily": 242,
-      "rate_daily": 0.0004576009984021783
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "G06fKhA3-9g",
-      "title": "ラフ×ラフ「君ときゅんと♡」Music Video",
-      "views": 94307,
-      "increase": 1370,
-      "rate": 0.014741168748722253,
-      "is_trending": false,
-      "inc_daily": 206,
-      "rate_daily": 0.0021891372036428945
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "pv_IPEHSwUE",
-      "title": "≠ME（ノットイコールミー）/11th Single『排他的ファイター』One-Take Dance version【MV full】/ Haita-teki Fighter",
-      "views": 87597,
-      "increase": 1332,
-      "rate": 0.015440792905581638,
-      "is_trending": false,
-      "inc_daily": 163,
-      "rate_daily": 0.00186426333005467
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "N51BX4wU4W0",
-      "title": "僕が見たかった青空 / 「虹を架けよう」Music Video【4K】",
-      "views": 122921,
-      "increase": 1295,
-      "rate": 0.010647394471576801,
-      "is_trending": false,
-      "inc_daily": 174,
-      "rate_daily": 0.0014175499197536395
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "PUEc0avCm4g",
-      "title": "DIALOGUE＋ 「DIALOGUE＋THE MOVIE」Music Video",
-      "views": 33651,
-      "increase": 1266,
-      "rate": 0.03909217230199166,
-      "is_trending": false,
-      "inc_daily": 197,
-      "rate_daily": 0.005888682967657081
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "6jXgxpBBImA",
-      "title": "日向坂46『言葉の限界』MUSIC VIDEO",
-      "views": 511621,
-      "increase": 1185,
-      "rate": 0.0023215447186326985,
-      "is_trending": false,
-      "inc_daily": 1185,
-      "rate_daily": 0.0023215447186326985
-    },
-    {
-      "idol_id": "tif_0119",
-      "idol_name": "虹のコンキスタドール",
-      "channel_id": "UCmo55h1NKPRnxiU21b4AHFg",
-      "video_id": "jyGyUXpFg3Q",
-      "title": "虹のコンキスタドール「プレシャスサマー！」(Cover) /Performance Video",
-      "views": 33146,
-      "increase": 1144,
-      "rate": 0.03574776576463971,
-      "is_trending": false,
-      "inc_daily": 163,
-      "rate_daily": 0.004941939787163084
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "MQDo0KZRPcM",
-      "title": "「Escape」 Music Video / SKE48【MV full】",
-      "views": 54518,
-      "increase": 1097,
-      "rate": 0.020534995600980887,
-      "is_trending": false,
-      "inc_daily": 173,
-      "rate_daily": 0.0031833655350078202
-    },
-    {
-      "idol_id": "tif_0120",
-      "idol_name": "NEO JAPONISM",
-      "channel_id": "UC7Lb8xDQLBNHOgeFVX3QbGQ",
-      "video_id": "Aq1ZTLDAEzM",
-      "title": "NEO JAPONISM「Never fade away」 Music Video",
-      "views": 346125,
-      "increase": 1082,
-      "rate": 0.0031358410401022482,
-      "is_trending": false,
-      "inc_daily": 130,
-      "rate_daily": 0.00037572797294758596
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "Grx5AhU14QU",
-      "title": "櫻坂46『Nightmare症候群』MUSIC VIDEO",
-      "views": 1901007,
-      "increase": 1045,
-      "rate": 0.0005500110002200045,
-      "is_trending": false,
-      "inc_daily": 1045,
-      "rate_daily": 0.0005500110002200045
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "7bqePXphj2g",
-      "title": "乃木坂46『夢の匂い』MUSIC VIDEO",
-      "views": 449021,
-      "increase": 1039,
-      "rate": 0.0023192896143148607,
-      "is_trending": false,
-      "inc_daily": 1039,
-      "rate_daily": 0.0023192896143148607
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "I0opSsPyPWA",
-      "title": "乃木坂46『ってかさ』MUSIC VIDEO",
-      "views": 1014435,
-      "increase": 1022,
-      "rate": 0.0010084733469967327,
-      "is_trending": false,
-      "inc_daily": 1022,
-      "rate_daily": 0.0010084733469967327
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "DAyWIarinPU",
-      "title": "ラフ×ラフ「夏の覚悟を今決めろ！」Music Video",
-      "views": 404797,
-      "increase": 714,
-      "rate": 0.0017669637178500458,
-      "is_trending": false,
-      "inc_daily": 116,
-      "rate_daily": 0.00028664553067724946
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "TDb2j583JkQ",
-      "title": "【MV監督誕生】「君ときゅんと♡」MV監督は佐久間Pから抜擢された吉村萌南！？衝撃の完成動画！【２０時プレミア配信】",
-      "views": 68388,
-      "increase": 616,
-      "rate": 0.009089299415687894,
-      "is_trending": false,
-      "inc_daily": 78,
-      "rate_daily": 0.0011418533157663592
-    },
-    {
-      "idol_id": "tif_0180",
-      "idol_name": "LINKL PLANET",
-      "channel_id": "UCha-N8E1Dfz33BEy_tNTqug",
-      "video_id": "PLg7aUTFXV8",
-      "title": "【MV】LINKL PLANET『ミルユメカサナレ』",
-      "views": 230813,
-      "increase": 452,
-      "rate": 0.0019621376882371583,
-      "is_trending": false,
-      "inc_daily": 56,
-      "rate_daily": 0.0002426795286816868
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "5trrZfLy5nk",
-      "title": "【公式】 青空を語り合おう  Official Audio / STU48",
-      "views": 44412,
-      "increase": 311,
-      "rate": 0.007051994285843859,
-      "is_trending": false,
-      "inc_daily": 37,
-      "rate_daily": 0.0008338028169014084
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "WNsVWAfACNc",
-      "title": "「世界が泣いてるなら」 Music Video / SKE48【MV full】",
-      "views": 18111,
-      "increase": 270,
-      "rate": 0.015133680847486128,
-      "is_trending": false,
-      "inc_daily": 39,
-      "rate_daily": 0.0021580345285524567
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "gIHBWHsvw68",
-      "title": "「強がり時計」 Music Video / SKE48【MV full】",
-      "views": 31509,
-      "increase": 262,
-      "rate": 0.008384804941274363,
-      "is_trending": false,
-      "inc_daily": 32,
-      "rate_daily": 0.0010166153064142072
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "FrI6_O0M-vM",
-      "title": "「Gonna Jump」 Music Video / SKE48【MV full】",
-      "views": 11037,
-      "increase": 229,
-      "rate": 0.0211880088823094,
-      "is_trending": false,
-      "inc_daily": 47,
-      "rate_daily": 0.004276615104640583
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "hg7cOskhoUs",
-      "title": "【MV】 NMB48 チュッてギュッてグッと♡ （山本望叶 卒業コンサート 〜LAST ROMANTIC〜」より）",
-      "views": 45098,
-      "increase": 207,
-      "rate": 0.004611169276692433,
-      "is_trending": false,
-      "inc_daily": 30,
-      "rate_daily": 0.0006656607792668856
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "zdslJ3m3X1E",
-      "title": "「誰かのせいにはしない」 Music Video / SKE48 紅組 【MV full / HD】",
-      "views": 19358,
-      "increase": 169,
-      "rate": 0.008807129084371255,
-      "is_trending": false,
-      "inc_daily": 24,
-      "rate_daily": 0.0012413365056377365
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "eMJd_RQe0AA",
-      "title": "【Official MV】夕陽はどこへ行く？ / 上西怜 (NMB48)",
-      "views": 50097,
-      "increase": 159,
-      "rate": 0.003183948095638592,
-      "is_trending": false,
-      "inc_daily": 19,
-      "rate_daily": 0.00037940812332760895
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "zklrgm2vZAY",
-      "title": "「マツムラブ!」 Music Video / SKE48【MV full】",
-      "views": 14605,
-      "increase": 151,
-      "rate": 0.01044693510446935,
-      "is_trending": false,
-      "inc_daily": 20,
-      "rate_daily": 0.0013712718546451835
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "Gycm3TnyhFk",
-      "title": "「卒業式の忘れ物」 Music Video / SKE48 白組 【MV full / HD】",
-      "views": 7904,
-      "increase": 104,
-      "rate": 0.013333333333333334,
-      "is_trending": false,
-      "inc_daily": 13,
-      "rate_daily": 0.0016474464579901153
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "F7-B9ob2j-o",
-      "title": "「Vacancy」 Music Video / SKE48【MV full】",
-      "views": 8603,
-      "increase": 81,
-      "rate": 0.009504811077211923,
-      "is_trending": false,
-      "inc_daily": 7,
-      "rate_daily": 0.0008143322475570033
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "Fi9DrieNxVo",
-      "title": "「愛の喪明け」 Music Video / SKE48【MV full】",
-      "views": 5919,
-      "increase": 40,
-      "rate": 0.006803878210580031,
-      "is_trending": false,
-      "inc_daily": 3,
-      "rate_daily": 0.0005070993914807302
-    },
-    {
-      "idol_id": "tif_0072",
-      "idol_name": "SITUASION",
-      "channel_id": "UCuiVnW0z5Cvgcl84lf4MllQ",
-      "video_id": "uVL8lRwlt7g",
-      "title": "SITUASION - yours (Official Music Video)  #shorts #situasion ",
-      "views": 287,
-      "increase": 4,
-      "rate": 0.014134275618374558,
-      "is_trending": false,
-      "inc_daily": 1,
-      "rate_daily": 0.0034965034965034965
+      "idol_id": "#N/A",
+      "idol_name": "",
+      "video_id": "",
+      "title": "",
+      "views": "",
+      "inc_7d": 0,
+      "rate_7d": 0,
+      "inc_1d": 0,
+      "rate_1d": 0,
+      "like_rate": 0,
+      "comment_rate": 0
     }
   ],
   "daily": [
     {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "_cf4UTe1qrY",
-      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』【MV full】",
-      "views": 15620106,
-      "increase": 421508,
-      "rate": 0.027733347510079547,
-      "is_trending": false,
-      "inc_daily": 57036,
-      "rate_daily": 0.0036648296255173303
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "MlNNxI0MNDI",
-      "title": "日向坂46『好きになるクレッシェンド』MUSIC VIDEO",
-      "views": 607233,
-      "increase": 55197,
-      "rate": 0.09998804425798317,
-      "is_trending": false,
-      "inc_daily": 55197,
-      "rate_daily": 0.09998804425798317
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "L8AQC1Gk4-M",
-      "title": "≠ME（ノットイコールミー）/11th Single c/w『きゅんかわ人生』【MV full】",
-      "views": 2622659,
-      "increase": 373151,
-      "rate": 0.1658811615695521,
-      "is_trending": false,
-      "inc_daily": 51152,
-      "rate_daily": 0.01989183774339327
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "1QDWU8leVQw",
-      "title": "日向坂46『クリフハンガー』MUSIC VIDEO",
-      "views": 2345359,
-      "increase": 48760,
-      "rate": 0.021231394771137668,
-      "is_trending": false,
-      "inc_daily": 48760,
-      "rate_daily": 0.021231394771137668
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "3RtbnP1onaM",
-      "title": "Juice=Juice『盛れ！ミ・アモーレ』Promotion Edit",
-      "views": 6277499,
-      "increase": 262921,
-      "rate": 0.043713956324117835,
-      "is_trending": false,
-      "inc_daily": 37624,
-      "rate_daily": 0.006029607964903143
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "tJofqLSYjM8",
-      "title": "ファントムシータ『botばっか』(OFFICIAL MUSIC VIDEO)",
-      "views": 2486329,
-      "increase": 173298,
-      "rate": 0.07492247185619216,
-      "is_trending": false,
-      "inc_daily": 26714,
-      "rate_daily": 0.010861049391876371
-    },
-    {
-      "idol_id": "tif_0008",
-      "idol_name": "iLiFE!",
-      "channel_id": "UChVflUz2J_jaaqYjXqvpmQA",
-      "video_id": "eH0Xm0oAH48",
-      "title": "【MV】BRAVE GROOVE / iLiFE! 【デジモン】",
-      "views": 5603228,
-      "increase": 186751,
-      "rate": 0.03447831496376704,
-      "is_trending": false,
-      "inc_daily": 21431,
-      "rate_daily": 0.0038394445373058175
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "4xBmuiQNGdc",
-      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『木漏れ日メゾフォルテ』【MV full】",
-      "views": 2884320,
-      "increase": 104074,
-      "rate": 0.03743337819746886,
-      "is_trending": false,
-      "inc_daily": 14017,
-      "rate_daily": 0.004883456554935141
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "NReeTQ3YTAU",
-      "title": "乃木坂46『ビリヤニ』MUSIC VIDEO",
-      "views": 3488456,
-      "increase": 13918,
-      "rate": 0.004005712414139664,
-      "is_trending": false,
-      "inc_daily": 13918,
-      "rate_daily": 0.004005712414139664
-    },
-    {
-      "idol_id": "tif_0054",
-      "idol_name": "きゅるりんってしてみて",
-      "channel_id": "UC38ULbpGgiA7t6i-lbLu9VQ",
-      "video_id": "9g3dRd_QuVY",
-      "title": "「Special♡Spell」ジャムムコラボMV/きゅるりんってしてみて",
-      "views": 4069695,
-      "increase": 101907,
-      "rate": 0.0256835798686825,
-      "is_trending": false,
-      "inc_daily": 13416,
-      "rate_daily": 0.003307464797170017
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "2WEOnuwvoXE",
-      "title": "日向坂46『君と生きる』MUSIC VIDEO",
-      "views": 557112,
-      "increase": 9678,
-      "rate": 0.017678843477021887,
-      "is_trending": false,
-      "inc_daily": 9678,
-      "rate_daily": 0.017678843477021887
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "hBfDlIN0WtI",
-      "title": "櫻坂46『Unhappy birthday構文』MUSIC VIDEO",
-      "views": 3195267,
-      "increase": 9145,
-      "rate": 0.0028702604608360884,
-      "is_trending": false,
-      "inc_daily": 9145,
-      "rate_daily": 0.0028702604608360884
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "OY_NYjdTPhA",
-      "title": "ファントムシータ『ノア』(OFFICIAL MUSIC VIDEO)",
-      "views": 1184682,
-      "increase": 45633,
-      "rate": 0.040062367817363435,
-      "is_trending": false,
-      "inc_daily": 7379,
-      "rate_daily": 0.006267715278055012
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "AK0bS_-glos",
-      "title": "＝LOVE（イコールラブ）/ 19th Single『ラブソングに襲われる』 Dance ver.【MV full】",
-      "views": 850538,
-      "increase": 55314,
-      "rate": 0.06955775982616219,
-      "is_trending": false,
-      "inc_daily": 6913,
-      "rate_daily": 0.008194399170247444
-    },
-    {
-      "idol_id": "tif_0034",
-      "idol_name": "AKB48",
-      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
-      "video_id": "QpkQ7pTgswM",
-      "title": "Oh my pumpkin! Music Video / AKB48 66th Single【公式】",
-      "views": 969437,
-      "increase": 50184,
-      "rate": 0.05459215254124816,
-      "is_trending": false,
-      "inc_daily": 6790,
-      "rate_daily": 0.007053468197584369
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "m2ANkjMRuXc",
-      "title": "乃木坂46『純粋とは何か？』MUSIC VIDEO",
-      "views": 2095806,
-      "increase": 6561,
-      "rate": 0.003140368889239893,
-      "is_trending": false,
-      "inc_daily": 6561,
-      "rate_daily": 0.003140368889239893
-    },
-    {
-      "idol_id": "tif_0140",
-      "idol_name": "ファントムシータ",
-      "channel_id": "UChEJh7omBrQ7CNcY1bN2xPg",
-      "video_id": "1aay0FuU_98",
-      "title": "ファントムシータ『そっくりさん』（OFFICIAL MUSIC VIDEO）",
-      "views": 1258756,
-      "increase": 40122,
-      "rate": 0.032923749050166005,
-      "is_trending": false,
-      "inc_daily": 6506,
-      "rate_daily": 0.005195448193252146
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "4igUtLSm_-g",
-      "title": "乃木坂46『市営ダンスホール』MUSIC VIDEO",
-      "views": 942288,
-      "increase": 5864,
-      "rate": 0.006262120577857894,
-      "is_trending": false,
-      "inc_daily": 5864,
-      "rate_daily": 0.006262120577857894
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "1Cy9oaBAxns",
-      "title": "＝LOVE（イコールラブ）/『内緒バナシ』【MV full】Vertical video",
-      "views": 7008793,
-      "increase": 38540,
-      "rate": 0.005529211063070451,
-      "is_trending": false,
-      "inc_daily": 5227,
-      "rate_daily": 0.0007463340818091813
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "qP52sh7PzYA",
-      "title": "櫻坂46『UDAGAWA GENERATION』MUSIC VIDEO",
-      "views": 5763987,
-      "increase": 5018,
-      "rate": 0.0008713365187414622,
-      "is_trending": false,
-      "inc_daily": 5018,
-      "rate_daily": 0.0008713365187414622
-    },
-    {
-      "idol_id": "tif_0028",
-      "idol_name": "＝LOVE",
-      "channel_id": "UCv7VutirxDn3RWIJXI68n_A",
-      "video_id": "Pyts1pc0u1A",
-      "title": "＝LOVE（イコールラブ）/ 19th Single c/w『Queens』【MV full】",
-      "views": 1578018,
-      "increase": 41844,
-      "rate": 0.027239101820496898,
-      "is_trending": false,
-      "inc_daily": 4907,
-      "rate_daily": 0.003119296731127047
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "F-16wnHQLLw",
-      "title": "日向坂46『ジャーマンアイリス』MUSIC VIDEO",
-      "views": 2317078,
-      "increase": 4508,
-      "rate": 0.0019493463981630826,
-      "is_trending": false,
-      "inc_daily": 4508,
-      "rate_daily": 0.0019493463981630826
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "52cSFrjnImQ",
-      "title": "日向坂46『Love yourself!』MUSIC VIDEO",
-      "views": 3386374,
-      "increase": 4488,
-      "rate": 0.0013270701614424615,
-      "is_trending": false,
-      "inc_daily": 4488,
-      "rate_daily": 0.0013270701614424615
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "XYTjRxWe9Jc",
-      "title": "日向坂46『お願いバッハ！』MUSIC VIDEO",
-      "views": 1928152,
-      "increase": 3703,
-      "rate": 0.0019241871309657985,
-      "is_trending": false,
-      "inc_daily": 3703,
-      "rate_daily": 0.0019241871309657985
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "ReuFa_D1Vok",
-      "title": "櫻坂46『Addiction』MUSIC VIDEO",
-      "views": 3085726,
-      "increase": 3247,
-      "rate": 0.0010533729507970695,
-      "is_trending": false,
-      "inc_daily": 3247,
-      "rate_daily": 0.0010533729507970695
-    },
-    {
-      "idol_id": "tif_0198",
-      "idol_name": "ME:I",
-      "channel_id": "UCvTsv4KmVuBdECI08_HR87Q",
-      "video_id": "zPmSwXMQtRk",
-      "title": "ME:I (ミーアイ) ⊹ 'MUSE' Official MV",
-      "views": 15505719,
-      "increase": 3155,
-      "rate": 0.0002035147218227901,
-      "is_trending": false,
-      "inc_daily": 3155,
-      "rate_daily": 0.0002035147218227901
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "gQ7l_hav-bA",
-      "title": "櫻坂46 『Alter ego』MUSIC VIDEO",
-      "views": 1134256,
-      "increase": 2988,
-      "rate": 0.002641283939791455,
-      "is_trending": false,
-      "inc_daily": 2988,
-      "rate_daily": 0.002641283939791455
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "YyGPXrzvfYk",
-      "title": "日向坂46『空飛ぶ車』MUSIC VIDEO",
-      "views": 899177,
-      "increase": 2926,
-      "rate": 0.0032647104438377197,
-      "is_trending": false,
-      "inc_daily": 2926,
-      "rate_daily": 0.0032647104438377197
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "nTxTTZ0QLrI",
-      "title": "櫻坂46『Make or Break』MUSIC VIDEO",
-      "views": 2836966,
-      "increase": 2902,
-      "rate": 0.0010239712300075087,
-      "is_trending": false,
-      "inc_daily": 2902,
-      "rate_daily": 0.0010239712300075087
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "onBQi5cvm14",
-      "title": "乃木坂46『なぜ　僕たちは走るのか？』MUSIC VIDEO",
-      "views": 1709300,
-      "increase": 2731,
-      "rate": 0.0016002868914178096,
-      "is_trending": false,
-      "inc_daily": 2731,
-      "rate_daily": 0.0016002868914178096
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "YejZlOz-hm0",
-      "title": "≠ME（ノットイコールミー）/11th Single c/w『はんぶんこクリスマス』【MV full】",
-      "views": 1068760,
-      "increase": 21771,
-      "rate": 0.020793914740269478,
-      "is_trending": false,
-      "inc_daily": 2720,
-      "rate_daily": 0.0025514990056658285
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "cnlS-vuMg40",
-      "title": "Juice=Juice『四の五の言わず颯(さっ)と別れてあげた』Promotion Edit",
-      "views": 1242684,
-      "increase": 20047,
-      "rate": 0.016396526524225914,
-      "is_trending": false,
-      "inc_daily": 2710,
-      "rate_daily": 0.0021855296965904124
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "aQ1iXj4oXfI",
-      "title": "櫻坂46『木枯らしは泣かない』MUSIC VIDEO",
-      "views": 923109,
-      "increase": 2571,
-      "rate": 0.002792931959354204,
-      "is_trending": false,
-      "inc_daily": 2571,
-      "rate_daily": 0.002792931959354204
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "aLu4oyQ2zdw",
-      "title": "櫻坂46『港区パセリ』MUSIC VIDEO",
-      "views": 1722999,
-      "increase": 2505,
-      "rate": 0.001455977178647528,
-      "is_trending": false,
-      "inc_daily": 2505,
-      "rate_daily": 0.001455977178647528
-    },
-    {
-      "idol_id": "tif_0198",
-      "idol_name": "ME:I",
-      "channel_id": "UCvTsv4KmVuBdECI08_HR87Q",
-      "video_id": "UwpfFRuu2lI",
-      "title": "ME:I (ミーアイ) ⊹ 'THIS IS ME:I' Official MV",
-      "views": 11720111,
-      "increase": 2352,
-      "rate": 0.00020072097403607634,
-      "is_trending": false,
-      "inc_daily": 2352,
-      "rate_daily": 0.00020072097403607634
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "WNH_ReRMt5k",
-      "title": "櫻坂46『死んだふり』MUSIC VIDEO",
-      "views": 1651357,
-      "increase": 2229,
-      "rate": 0.0013516234033986447,
-      "is_trending": false,
-      "inc_daily": 2229,
-      "rate_daily": 0.0013516234033986447
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "zFkNJSnrhvA",
-      "title": "【MV】あたしはキミに愛されたい！ / AVAM",
-      "views": 453133,
-      "increase": 14590,
-      "rate": 0.033269257518646976,
-      "is_trending": false,
-      "inc_daily": 2139,
-      "rate_daily": 0.00474285688944864
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "rifFL1BbZJQ",
-      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』Dance ver.【MV full】/ “Mob-no-derella”",
-      "views": 1349490,
-      "increase": 16285,
-      "rate": 0.012214925686597334,
-      "is_trending": false,
-      "inc_daily": 2053,
-      "rate_daily": 0.001523633386941282
-    },
-    {
-      "idol_id": "tif_0009",
-      "idol_name": "i☆Ris",
-      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
-      "video_id": "a2hC6TWDRJY",
-      "title": "i☆Ris / 「夢へのヒトカケラ」 - Music Video-",
-      "views": 543851,
-      "increase": 14833,
-      "rate": 0.02803874348320851,
-      "is_trending": false,
-      "inc_daily": 2013,
-      "rate_daily": 0.003715132567298713
-    },
-    {
-      "idol_id": "tif_0076",
-      "idol_name": "Juice=Juice",
-      "channel_id": "UC6FadPgGviUcq6VQ0CEJqdQ",
-      "video_id": "DquBd86wOYw",
-      "title": "Juice=Juice『初恋の亡霊』Promotion Edit",
-      "views": 1282299,
-      "increase": 13685,
-      "rate": 0.01078736321686502,
-      "is_trending": false,
-      "inc_daily": 1816,
-      "rate_daily": 0.0014182148454918964
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "bGsPosN4oHQ",
-      "title": "≠ME（ノットイコールミー）/『君を見かけた』【MV full】Vertical video",
-      "views": 3830191,
-      "increase": 9411,
-      "rate": 0.0024631096268301236,
-      "is_trending": false,
-      "inc_daily": 1244,
-      "rate_daily": 0.00032489350205160844
-    },
-    {
-      "idol_id": "tif_0201",
-      "idol_name": "日向坂46",
-      "channel_id": "UCR0V48DJyWbwEAdxLL5FjxA",
-      "video_id": "6jXgxpBBImA",
-      "title": "日向坂46『言葉の限界』MUSIC VIDEO",
-      "views": 511621,
-      "increase": 1185,
-      "rate": 0.0023215447186326985,
-      "is_trending": false,
-      "inc_daily": 1185,
-      "rate_daily": 0.0023215447186326985
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "vomKmy75nTA",
-      "title": "僕が見たかった青空 / 「あれはフェアリー」Music Video【4K】",
-      "views": 1613543,
-      "increase": 8651,
-      "rate": 0.005390393870740212,
-      "is_trending": false,
-      "inc_daily": 1080,
-      "rate_daily": 0.0006697828105203034
-    },
-    {
-      "idol_id": "tif_0066",
-      "idol_name": "CYBERJAPAN DANCERS",
-      "channel_id": "UCATC7a3C7maWUe_uymIoq-g",
-      "video_id": "SnMI9W_wV6w",
-      "title": "CYBERJAPAN DANCERS –「キューティーハニー」Official Music Video",
-      "views": 461444,
-      "increase": 8726,
-      "rate": 0.01927469197160263,
-      "is_trending": false,
-      "inc_daily": 1062,
-      "rate_daily": 0.002306780021807977
-    },
-    {
-      "idol_id": "tif_0200",
-      "idol_name": "櫻坂46",
-      "channel_id": "UCmr9bYmymcBmQ1p2tLBRvwg",
-      "video_id": "Grx5AhU14QU",
-      "title": "櫻坂46『Nightmare症候群』MUSIC VIDEO",
-      "views": 1901007,
-      "increase": 1045,
-      "rate": 0.0005500110002200045,
-      "is_trending": false,
-      "inc_daily": 1045,
-      "rate_daily": 0.0005500110002200045
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "7bqePXphj2g",
-      "title": "乃木坂46『夢の匂い』MUSIC VIDEO",
-      "views": 449021,
-      "increase": 1039,
-      "rate": 0.0023192896143148607,
-      "is_trending": false,
-      "inc_daily": 1039,
-      "rate_daily": 0.0023192896143148607
-    },
-    {
-      "idol_id": "tif_0197",
-      "idol_name": "乃木坂46",
-      "channel_id": "UCUzpZpX2wRYOk3J8QTFGxDg",
-      "video_id": "I0opSsPyPWA",
-      "title": "乃木坂46『ってかさ』MUSIC VIDEO",
-      "views": 1014435,
-      "increase": 1022,
-      "rate": 0.0010084733469967327,
-      "is_trending": false,
-      "inc_daily": 1022,
-      "rate_daily": 0.0010084733469967327
-    },
-    {
-      "idol_id": "tif_0055",
-      "idol_name": "清 竜人25",
-      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
-      "video_id": "LpI-kdJSKuU",
-      "title": "清 竜人25 - GOOD BYE！愛してるよ！",
-      "views": 89677,
-      "increase": 5210,
-      "rate": 0.061680893129861365,
-      "is_trending": false,
-      "inc_daily": 731,
-      "rate_daily": 0.00821846963326063
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "n4Il_E_tuY0",
-      "title": "【MV】STU48 12th single 「傷つくことが青春だ」 MUSIC VIDEO",
-      "views": 4104002,
-      "increase": 3852,
-      "rate": 0.0009394778239820495,
-      "is_trending": false,
-      "inc_daily": 606,
-      "rate_daily": 0.00014768255367017953
-    },
-    {
-      "idol_id": "tif_0009",
-      "idol_name": "i☆Ris",
-      "channel_id": "UCi6z7BymHrLuUSr9bLK3T-Q",
-      "video_id": "WzPBgM_Dxhk",
-      "title": "i☆Ris / 「ビバ☆アイドル！」 - Music Video-【5th アルバム「ViVa☆iDOL」4.30 on sale】",
-      "views": 1286293,
-      "increase": 4637,
-      "rate": 0.003617975494204373,
-      "is_trending": false,
-      "inc_daily": 600,
-      "rate_daily": 0.0004666743927205017
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "5GhdeAIxwxs",
-      "title": "NMB48 - 「青春のデッドライン」Official MV",
-      "views": 1713764,
-      "increase": 4486,
-      "rate": 0.0026244999350603,
-      "is_trending": false,
-      "inc_daily": 591,
-      "rate_daily": 0.0003449739168198425
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "-3zLpwS-9yQ",
-      "title": "ラフ×ラフ「何満開」Music Video",
-      "views": 438840,
-      "increase": 3886,
-      "rate": 0.008934278107569997,
-      "is_trending": false,
-      "inc_daily": 572,
-      "rate_daily": 0.0013051374957788386
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "7SoVjT-0Rhw",
-      "title": "僕が見たかった青空 / 「カイロに月」Music Video【4K】",
-      "views": 105917,
-      "increase": 4233,
-      "rate": 0.04162896817591755,
-      "is_trending": false,
-      "inc_daily": 559,
-      "rate_daily": 0.005305719546688434
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "4hBEJWYNN_Q",
-      "title": "【MV】メルティック♡ダウン / AVAM",
-      "views": 726968,
-      "increase": 4184,
-      "rate": 0.005788728029397441,
-      "is_trending": false,
-      "inc_daily": 527,
-      "rate_daily": 0.0007254546480719012
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "C__ptwRhLxI",
-      "title": "DIALOGUE＋ 「じょいふるしあんてっ！」Music Video",
-      "views": 546139,
-      "increase": 3487,
-      "rate": 0.006425849347279656,
-      "is_trending": false,
-      "inc_daily": 502,
-      "rate_daily": 0.0009200255847752261
-    },
-    {
-      "idol_id": "tif_0016",
-      "idol_name": "AVAM",
-      "channel_id": "UCT0d6w0oYRRR9NUqo-KypzA",
-      "video_id": "uuzUuhWnJWc",
-      "title": "【MV】シュガリー・ストーリー / AVAM",
-      "views": 155007,
-      "increase": 3482,
-      "rate": 0.022979706319089258,
-      "is_trending": false,
-      "inc_daily": 483,
-      "rate_daily": 0.0031257280422458647
-    },
-    {
-      "idol_id": "tif_0036",
-      "idol_name": "HKT48",
-      "channel_id": "UCPQ0GEWwLaam1lTX9P-CgGA",
-      "video_id": "rjNP-vzdp6A",
-      "title": "【MV full】HKT48 19th single「半袖天使」/ HKT48[公式]",
-      "views": 2928840,
-      "increase": 3410,
-      "rate": 0.0011656406066800436,
-      "is_trending": false,
-      "inc_daily": 462,
-      "rate_daily": 0.0001577665178470812
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "UTLwzRReIN4",
-      "title": "≠ME（ノットイコールミー）/ 10th Single『モブノデレラ』One-Take Dance version【MV full】/ “Mob-no-derella”",
-      "views": 320205,
-      "increase": 3068,
-      "rate": 0.00967405253880815,
-      "is_trending": false,
-      "inc_daily": 452,
-      "rate_daily": 0.0014135911156423866
-    },
-    {
-      "idol_id": "tif_0055",
-      "idol_name": "清 竜人25",
-      "channel_id": "UC5IvOWrKPZ83NNDSy9maFwQ",
-      "video_id": "2NEld3A1L98",
-      "title": "清 竜人25 - 世界を愛せますように！",
-      "views": 788523,
-      "increase": 3205,
-      "rate": 0.004081149292388561,
-      "is_trending": false,
-      "inc_daily": 418,
-      "rate_daily": 0.0005303861795065379
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "OShpEObXTOE",
-      "title": "「バンザイVenus」 Music Video / SKE48【MV full / HD】",
-      "views": 154582,
-      "increase": 2585,
-      "rate": 0.01700691461015678,
-      "is_trending": false,
-      "inc_daily": 383,
-      "rate_daily": 0.002483803396909189
-    },
-    {
-      "idol_id": "tif_0139",
-      "idol_name": "femme fatale",
-      "channel_id": "UCJT_sEYoIBm6F4flBP1aE4w",
-      "video_id": "6MoaJPRKih4",
-      "title": "femme fatale 「わーるどえんどらぶかも！」Music Video",
-      "views": 276404,
-      "increase": 2227,
-      "rate": 0.008122490216174224,
-      "is_trending": false,
-      "inc_daily": 344,
-      "rate_daily": 0.0012461059190031153
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "WpVWmk06sPo",
-      "title": "DIALOGUE＋ 「TREASURE！」Music Video",
-      "views": 590629,
-      "increase": 2017,
-      "rate": 0.00342670553777361,
-      "is_trending": false,
-      "inc_daily": 322,
-      "rate_daily": 0.0005454788779397839
-    },
-    {
-      "idol_id": "tif_0034",
-      "idol_name": "AKB48",
-      "channel_id": "UCxjXU89x6owat9dA8Z-bzdw",
-      "video_id": "Qnzq-Pfuzco",
-      "title": "【MV full】ゆいりー / 村山彩希【公式】",
-      "views": 366156,
-      "increase": 2352,
-      "rate": 0.0064650196259524355,
-      "is_trending": false,
-      "inc_daily": 309,
-      "rate_daily": 0.0008446153719997703
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "6cdvjCr6SnU",
-      "title": "【MV】STU48 11th Single 「地平線を見ているか？」MUSIC VIDEO YouTube Edit",
-      "views": 4188562,
-      "increase": 1943,
-      "rate": 0.00046409764060211835,
-      "is_trending": false,
-      "inc_daily": 308,
-      "rate_daily": 0.00007353899739605095
-    },
-    {
-      "idol_id": "tif_0079",
-      "idol_name": "私立恵比寿中学",
-      "channel_id": "UCQ6Br7m6vP61FZvjv4lwR5w",
-      "video_id": "A6XWiRq3mzk",
-      "title": "【MV】私立恵比寿中学「SCHOOL DAYS」",
-      "views": 304079,
-      "increase": 2467,
-      "rate": 0.008179382783178387,
-      "is_trending": false,
-      "inc_daily": 295,
-      "rate_daily": 0.0009710847180891686
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "85kZr2BOn4M",
-      "title": "NMB48 - チューストライク Official MV",
-      "views": 1786225,
-      "increase": 2067,
-      "rate": 0.001158529681788272,
-      "is_trending": false,
-      "inc_daily": 279,
-      "rate_daily": 0.0001562197289279743
-    },
-    {
-      "idol_id": "tif_0041",
-      "idol_name": "NGT48",
-      "channel_id": "UCIfuY0NRq1szr_6tzFy23NQ",
-      "video_id": "KrOx7KroK0M",
-      "title": "NGT48 11thシングル「希望列車」MUSIC VIDEO",
-      "views": 1082138,
-      "increase": 1912,
-      "rate": 0.0017699999814853558,
-      "is_trending": false,
-      "inc_daily": 248,
-      "rate_daily": 0.00022922847978999714
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "vXu91qZQPi8",
-      "title": "DIALOGUE＋ 「アリバイなカーテシー」Music Video",
-      "views": 529087,
-      "increase": 1413,
-      "rate": 0.0026777896959107325,
-      "is_trending": false,
-      "inc_daily": 242,
-      "rate_daily": 0.0004576009984021783
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "G06fKhA3-9g",
-      "title": "ラフ×ラフ「君ときゅんと♡」Music Video",
-      "views": 94307,
-      "increase": 1370,
-      "rate": 0.014741168748722253,
-      "is_trending": false,
-      "inc_daily": 206,
-      "rate_daily": 0.0021891372036428945
-    },
-    {
-      "idol_id": "tif_0094",
-      "idol_name": "DIALOGUE＋",
-      "channel_id": "UCHds7LkFqXgM7s2usAyzi7g",
-      "video_id": "PUEc0avCm4g",
-      "title": "DIALOGUE＋ 「DIALOGUE＋THE MOVIE」Music Video",
-      "views": 33651,
-      "increase": 1266,
-      "rate": 0.03909217230199166,
-      "is_trending": false,
-      "inc_daily": 197,
-      "rate_daily": 0.005888682967657081
-    },
-    {
-      "idol_id": "tif_0150",
-      "idol_name": "僕が見たかった青空",
-      "channel_id": "UC-_iQWdEZY66nGGaHH0Ygmg",
-      "video_id": "N51BX4wU4W0",
-      "title": "僕が見たかった青空 / 「虹を架けよう」Music Video【4K】",
-      "views": 122921,
-      "increase": 1295,
-      "rate": 0.010647394471576801,
-      "is_trending": false,
-      "inc_daily": 174,
-      "rate_daily": 0.0014175499197536395
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "MQDo0KZRPcM",
-      "title": "「Escape」 Music Video / SKE48【MV full】",
-      "views": 54518,
-      "increase": 1097,
-      "rate": 0.020534995600980887,
-      "is_trending": false,
-      "inc_daily": 173,
-      "rate_daily": 0.0031833655350078202
-    },
-    {
-      "idol_id": "tif_0123",
-      "idol_name": "≠ME",
-      "channel_id": "UCBmvHfXdGCvi_b6lFeU-E1Q",
-      "video_id": "pv_IPEHSwUE",
-      "title": "≠ME（ノットイコールミー）/11th Single『排他的ファイター』One-Take Dance version【MV full】/ Haita-teki Fighter",
-      "views": 87597,
-      "increase": 1332,
-      "rate": 0.015440792905581638,
-      "is_trending": false,
-      "inc_daily": 163,
-      "rate_daily": 0.00186426333005467
-    },
-    {
-      "idol_id": "tif_0119",
-      "idol_name": "虹のコンキスタドール",
-      "channel_id": "UCmo55h1NKPRnxiU21b4AHFg",
-      "video_id": "jyGyUXpFg3Q",
-      "title": "虹のコンキスタドール「プレシャスサマー！」(Cover) /Performance Video",
-      "views": 33146,
-      "increase": 1144,
-      "rate": 0.03574776576463971,
-      "is_trending": false,
-      "inc_daily": 163,
-      "rate_daily": 0.004941939787163084
-    },
-    {
-      "idol_id": "tif_0120",
-      "idol_name": "NEO JAPONISM",
-      "channel_id": "UC7Lb8xDQLBNHOgeFVX3QbGQ",
-      "video_id": "Aq1ZTLDAEzM",
-      "title": "NEO JAPONISM「Never fade away」 Music Video",
-      "views": 346125,
-      "increase": 1082,
-      "rate": 0.0031358410401022482,
-      "is_trending": false,
-      "inc_daily": 130,
-      "rate_daily": 0.00037572797294758596
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "DAyWIarinPU",
-      "title": "ラフ×ラフ「夏の覚悟を今決めろ！」Music Video",
-      "views": 404797,
-      "increase": 714,
-      "rate": 0.0017669637178500458,
-      "is_trending": false,
-      "inc_daily": 116,
-      "rate_daily": 0.00028664553067724946
-    },
-    {
-      "idol_id": "tif_0176",
-      "idol_name": "ラフ×ラフ",
-      "channel_id": "UCETGW_rKwrERFi2ivU8GJgg",
-      "video_id": "TDb2j583JkQ",
-      "title": "【MV監督誕生】「君ときゅんと♡」MV監督は佐久間Pから抜擢された吉村萌南！？衝撃の完成動画！【２０時プレミア配信】",
-      "views": 68388,
-      "increase": 616,
-      "rate": 0.009089299415687894,
-      "is_trending": false,
-      "inc_daily": 78,
-      "rate_daily": 0.0011418533157663592
-    },
-    {
-      "idol_id": "tif_0180",
-      "idol_name": "LINKL PLANET",
-      "channel_id": "UCha-N8E1Dfz33BEy_tNTqug",
-      "video_id": "PLg7aUTFXV8",
-      "title": "【MV】LINKL PLANET『ミルユメカサナレ』",
-      "views": 230813,
-      "increase": 452,
-      "rate": 0.0019621376882371583,
-      "is_trending": false,
-      "inc_daily": 56,
-      "rate_daily": 0.0002426795286816868
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "FrI6_O0M-vM",
-      "title": "「Gonna Jump」 Music Video / SKE48【MV full】",
-      "views": 11037,
-      "increase": 229,
-      "rate": 0.0211880088823094,
-      "is_trending": false,
-      "inc_daily": 47,
-      "rate_daily": 0.004276615104640583
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "WNsVWAfACNc",
-      "title": "「世界が泣いてるなら」 Music Video / SKE48【MV full】",
-      "views": 18111,
-      "increase": 270,
-      "rate": 0.015133680847486128,
-      "is_trending": false,
-      "inc_daily": 39,
-      "rate_daily": 0.0021580345285524567
-    },
-    {
-      "idol_id": "tif_0039",
-      "idol_name": "STU48",
-      "channel_id": "UCa8GISK9_hsZ8aEJEL1u1Sg",
-      "video_id": "5trrZfLy5nk",
-      "title": "【公式】 青空を語り合おう  Official Audio / STU48",
-      "views": 44412,
-      "increase": 311,
-      "rate": 0.007051994285843859,
-      "is_trending": false,
-      "inc_daily": 37,
-      "rate_daily": 0.0008338028169014084
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "gIHBWHsvw68",
-      "title": "「強がり時計」 Music Video / SKE48【MV full】",
-      "views": 31509,
-      "increase": 262,
-      "rate": 0.008384804941274363,
-      "is_trending": false,
-      "inc_daily": 32,
-      "rate_daily": 0.0010166153064142072
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "hg7cOskhoUs",
-      "title": "【MV】 NMB48 チュッてギュッてグッと♡ （山本望叶 卒業コンサート 〜LAST ROMANTIC〜」より）",
-      "views": 45098,
-      "increase": 207,
-      "rate": 0.004611169276692433,
-      "is_trending": false,
-      "inc_daily": 30,
-      "rate_daily": 0.0006656607792668856
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "zdslJ3m3X1E",
-      "title": "「誰かのせいにはしない」 Music Video / SKE48 紅組 【MV full / HD】",
-      "views": 19358,
-      "increase": 169,
-      "rate": 0.008807129084371255,
-      "is_trending": false,
-      "inc_daily": 24,
-      "rate_daily": 0.0012413365056377365
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "zklrgm2vZAY",
-      "title": "「マツムラブ!」 Music Video / SKE48【MV full】",
-      "views": 14605,
-      "increase": 151,
-      "rate": 0.01044693510446935,
-      "is_trending": false,
-      "inc_daily": 20,
-      "rate_daily": 0.0013712718546451835
-    },
-    {
-      "idol_id": "tif_0040",
-      "idol_name": "NMB48",
-      "channel_id": "UCnhrIe3jZNmqDEL_zSBXADQ",
-      "video_id": "eMJd_RQe0AA",
-      "title": "【Official MV】夕陽はどこへ行く？ / 上西怜 (NMB48)",
-      "views": 50097,
-      "increase": 159,
-      "rate": 0.003183948095638592,
-      "is_trending": false,
-      "inc_daily": 19,
-      "rate_daily": 0.00037940812332760895
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "Gycm3TnyhFk",
-      "title": "「卒業式の忘れ物」 Music Video / SKE48 白組 【MV full / HD】",
-      "views": 7904,
-      "increase": 104,
-      "rate": 0.013333333333333334,
-      "is_trending": false,
-      "inc_daily": 13,
-      "rate_daily": 0.0016474464579901153
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "F7-B9ob2j-o",
-      "title": "「Vacancy」 Music Video / SKE48【MV full】",
-      "views": 8603,
-      "increase": 81,
-      "rate": 0.009504811077211923,
-      "is_trending": false,
-      "inc_daily": 7,
-      "rate_daily": 0.0008143322475570033
-    },
-    {
-      "idol_id": "tif_0038",
-      "idol_name": "SKE48",
-      "channel_id": "UCG-5D9k_fL4FnMeNuraeAtA",
-      "video_id": "Fi9DrieNxVo",
-      "title": "「愛の喪明け」 Music Video / SKE48【MV full】",
-      "views": 5919,
-      "increase": 40,
-      "rate": 0.006803878210580031,
-      "is_trending": false,
-      "inc_daily": 3,
-      "rate_daily": 0.0005070993914807302
-    },
-    {
-      "idol_id": "tif_0072",
-      "idol_name": "SITUASION",
-      "channel_id": "UCuiVnW0z5Cvgcl84lf4MllQ",
-      "video_id": "uVL8lRwlt7g",
-      "title": "SITUASION - yours (Official Music Video)  #shorts #situasion ",
-      "views": 287,
-      "increase": 4,
-      "rate": 0.014134275618374558,
-      "is_trending": false,
-      "inc_daily": 1,
-      "rate_daily": 0.0034965034965034965
+      "idol_id": "#N/A",
+      "idol_name": "",
+      "video_id": "",
+      "title": "",
+      "views": "",
+      "inc_7d": 0,
+      "rate_7d": 0,
+      "inc_1d": 0,
+      "rate_1d": 0,
+      "like_rate": 0,
+      "comment_rate": 0
     }
-  ]
+  ],
+  "idols": {
+    "tif_0001": {
+      "basic": {
+        "name": "iON!",
+        "official_url": "x.com/iON_idol_",
+        "youtube_url": "https://www.youtube.com/@iON-HEROINES",
+        "subscribers": 31800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0002": {
+      "basic": {
+        "name": "i-COL",
+        "official_url": "https://twitter.com/icol_official",
+        "youtube_url": "https://www.youtube.com/@i-COL_official",
+        "subscribers": 23600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0003": {
+      "basic": {
+        "name": "ideal peco",
+        "official_url": "twitter.com/ideal_peco",
+        "youtube_url": "https://www.youtube.com/@idealpeco_official",
+        "subscribers": 3180,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0004": {
+      "basic": {
+        "name": "アイテムはてるてるのみ",
+        "official_url": "https://www.teruteruofficial.com/",
+        "youtube_url": "https://www.youtube.com/@jumpstv01",
+        "subscribers": 17600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0005": {
+      "basic": {
+        "name": "アイドリング!!!",
+        "official_url": "https://idoling.info/",
+        "youtube_url": "https://www.youtube.com/channel/UCjAj1Dt0YiMu6DKeURPr-kQ",
+        "subscribers": 2530,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0006": {
+      "basic": {
+        "name": "アイドル革命",
+        "official_url": "https://lit.link/idolkakumei",
+        "youtube_url": "https://www.youtube.com/@idol_kakumei",
+        "subscribers": 1830,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0007": {
+      "basic": {
+        "name": "アイドルカレッジ",
+        "official_url": "https://idolcollege.com/",
+        "youtube_url": "https://www.youtube.com/@IDOLCOLLEGE",
+        "subscribers": 8140,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0008": {
+      "basic": {
+        "name": "iLiFE!",
+        "official_url": "https://ilife-heroines.com/",
+        "youtube_url": "https://www.youtube.com/@iLiFE_official",
+        "subscribers": 518000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0009": {
+      "basic": {
+        "name": "i☆Ris",
+        "official_url": "https://iris.dive2ent.com/",
+        "youtube_url": "https://www.youtube.com/@iRisOfficialChannel",
+        "subscribers": 120000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0010": {
+      "basic": {
+        "name": "AOAO",
+        "official_url": "https://lit.link/aoao0627",
+        "youtube_url": "https://www.youtube.com/@AOAO-info",
+        "subscribers": 2660,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0011": {
+      "basic": {
+        "name": "アキシブproject",
+        "official_url": "https://akishibup.net/",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0012": {
+      "basic": {
+        "name": "AsIs",
+        "official_url": "https://asis-official.com/",
+        "youtube_url": "https://www.youtube.com/@AsIs_official_",
+        "subscribers": 13900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0013": {
+      "basic": {
+        "name": "Appare!",
+        "official_url": "https://appare-official.jp/",
+        "youtube_url": "https://www.youtube.com/@official_appare",
+        "subscribers": 69800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0014": {
+      "basic": {
+        "name": "アップアップガールズ（2）",
+        "official_url": "https://www.upupgirls2.jp/",
+        "youtube_url": "https://www.youtube.com/@upupgirlsofficial",
+        "subscribers": 43900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0015": {
+      "basic": {
+        "name": "ANA®KIE",
+        "official_url": "https://scot-inc.jp/ana%EF%B8%8Ekie/",
+        "youtube_url": "https://www.youtube.com/@ANARKIE-OFFICIAL",
+        "subscribers": 674,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0016": {
+      "basic": {
+        "name": "AVAM",
+        "official_url": "https://avam-fc.com/",
+        "youtube_url": "https://www.youtube.com/@avam_official",
+        "subscribers": 99200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0017": {
+      "basic": {
+        "name": "あまいものつめあわせ",
+        "official_url": "https://www.spj-idol.com/",
+        "youtube_url": "https://www.youtube.com/@amaimonotsumeawase",
+        "subscribers": 2710,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0018": {
+      "basic": {
+        "name": "amini",
+        "official_url": "https://amini-official.com/",
+        "youtube_url": "https://www.youtube.com/@amini_official",
+        "subscribers": 800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0019": {
+      "basic": {
+        "name": "Amuse Dolce",
+        "official_url": "https://amuse-dolce.com/",
+        "youtube_url": "https://www.youtube.com/@AmuseDolce",
+        "subscribers": 18500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0020": {
+      "basic": {
+        "name": "雨のち、ハレーション",
+        "official_url": "https://amehare.rizepro.net/#/",
+        "youtube_url": "https://www.youtube.com/@amehareofficial",
+        "subscribers": 1190,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0021": {
+      "basic": {
+        "name": "AMEFURASSHI",
+        "official_url": "https://www.amefurasshi.jp/",
+        "youtube_url": "https://www.youtube.com/@AMEFURASSHI",
+        "subscribers": 41100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0022": {
+      "basic": {
+        "name": "アルテミスの翼",
+        "official_url": "https://wingsofartemis.tokyo/",
+        "youtube_url": "https://www.youtube.com/@wingsofartemis557",
+        "subscribers": 3830,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0023": {
+      "basic": {
+        "name": "THE ENCORE",
+        "official_url": "https://theencore.jp/",
+        "youtube_url": "https://www.youtube.com/@TheEncore_official",
+        "subscribers": 2020,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0024": {
+      "basic": {
+        "name": "アンスリューム",
+        "official_url": "https://anthurium-web.com/#/",
+        "youtube_url": "https://www.youtube.com/@anthurium0317",
+        "subscribers": 6490,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0025": {
+      "basic": {
+        "name": "ambitious",
+        "official_url": "https://ambitious-hkd.jp/",
+        "youtube_url": "https://www.youtube.com/@ambitiousofficial",
+        "subscribers": 7400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0026": {
+      "basic": {
+        "name": "いぎなり東北産",
+        "official_url": "https://madeintohoku.com/",
+        "youtube_url": "https://www.youtube.com/@madeintohoku",
+        "subscribers": 49200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0027": {
+      "basic": {
+        "name": "ExWHYZ",
+        "official_url": "https://www.exwhyz.jp/",
+        "youtube_url": "https://www.youtube.com/@ExWHYZ",
+        "subscribers": 69300,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0028": {
+      "basic": {
+        "name": "＝LOVE",
+        "official_url": "https://equal-love.jp/",
+        "youtube_url": "https://www.youtube.com/@equallove_",
+        "subscribers": 643000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 11,
+        "total_ugc_views": 22378069
+      },
+      "mv_list": []
+    },
+    "tif_0029": {
+      "basic": {
+        "name": "いちごみるく色に染まりたい。",
+        "official_url": "http://www.vbp.jp/ichigomk/",
+        "youtube_url": "https://www.youtube.com/@%E3%81%84%E3%81%A1%E3%81%94%E3%81%BF%E3%82%8B%E3%81%8F%E8%89%B2%E3%81%AB%E6%9F%93%E3%81%BE%E3%82%8A%E3%81%9F%E3%81%84",
+        "subscribers": 725,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0030": {
+      "basic": {
+        "name": "INUWASI",
+        "official_url": "https://inuwasi.jp/",
+        "youtube_url": "https://www.youtube.com/@INUWASI",
+        "subscribers": 11500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0031": {
+      "basic": {
+        "name": "UtaGe!",
+        "official_url": "https://utageidol.info/",
+        "youtube_url": "https://www.youtube.com/@utage_idol",
+        "subscribers": 4160,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0032": {
+      "basic": {
+        "name": "ukka",
+        "official_url": "https://ukka.tokyo/",
+        "youtube_url": "https://www.youtube.com/@ukka",
+        "subscribers": 40500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0033": {
+      "basic": {
+        "name": "ASP",
+        "official_url": "https://asp-japan.tokyo/",
+        "youtube_url": "https://www.youtube.com/@ASPOfficialChannel",
+        "subscribers": 18400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0034": {
+      "basic": {
+        "name": "AKB48",
+        "official_url": "https://www.akb48.co.jp/",
+        "youtube_url": "https://www.youtube.com/@akb48",
+        "subscribers": 2730000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0035": {
+      "basic": {
+        "name": "衛星とカラテア",
+        "official_url": "https://lit.link/karatea",
+        "youtube_url": "https://www.youtube.com/@eiseito_karatea",
+        "subscribers": 9250,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0036": {
+      "basic": {
+        "name": "HKT48",
+        "official_url": "https://www.hkt48.jp/",
+        "youtube_url": "https://www.youtube.com/@hkt48",
+        "subscribers": 261000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0037": {
+      "basic": {
+        "name": "éclatcia",
+        "official_url": "https://x.com/eclatcia_EIP",
+        "youtube_url": "https://www.youtube.com/@%C3%A9clatcia",
+        "subscribers": 367,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0038": {
+      "basic": {
+        "name": "SKE48",
+        "official_url": "https://ske48.co.jp/",
+        "youtube_url": "https://www.youtube.com/@SKE48",
+        "subscribers": 304000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0039": {
+      "basic": {
+        "name": "STU48",
+        "official_url": "https://www.stu48.com/",
+        "youtube_url": "https://www.youtube.com/@stu4858",
+        "subscribers": 95100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0040": {
+      "basic": {
+        "name": "NMB48",
+        "official_url": "http://www.nmb48.com/",
+        "youtube_url": "https://www.youtube.com/@NMB48official",
+        "subscribers": 434000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0041": {
+      "basic": {
+        "name": "NGT48",
+        "official_url": "https://ngt48.jp/",
+        "youtube_url": "https://www.youtube.com/@NGT48",
+        "subscribers": 93700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0042": {
+      "basic": {
+        "name": "THE ORCHESTRA TOKYO",
+        "official_url": "https://zyugem.jp/",
+        "youtube_url": "https://www.youtube.com/@THEORCHESTRATOKYO",
+        "subscribers": 5440,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0043": {
+      "basic": {
+        "name": "OCHA NORMA",
+        "official_url": "https://www.helloproject.com/ochanorma/",
+        "youtube_url": "https://www.youtube.com/@ochanorma",
+        "subscribers": 71800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0044": {
+      "basic": {
+        "name": "かすみ草とステラ",
+        "official_url": "https://twitter.com/Kastella_OFC",
+        "youtube_url": "https://www.youtube.com/@Kastella_OFC",
+        "subscribers": 4730,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0045": {
+      "basic": {
+        "name": "カラフルスクリーム",
+        "official_url": "https://ntrecords.com/",
+        "youtube_url": "https://www.youtube.com/@%E3%82%AB%E3%83%A9%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0",
+        "subscribers": 3950,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0046": {
+      "basic": {
+        "name": "可憐なアイボリー",
+        "official_url": "https://karennaivory.jp/",
+        "youtube_url": "https://www.youtube.com/@karennaivory",
+        "subscribers": 27900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0047": {
+      "basic": {
+        "name": "KiSS KiSS",
+        "official_url": "https://www.kisskiss.tokyo/",
+        "youtube_url": "https://www.youtube.com/@KiSSKiSSOFFiCiALCHANNEL",
+        "subscribers": 5110,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0048": {
+      "basic": {
+        "name": "君と見るそら",
+        "official_url": "https://kimisora.fanpla.jp/",
+        "youtube_url": "https://www.youtube.com/@kimitomirusora_JPN",
+        "subscribers": 1170,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0049": {
+      "basic": {
+        "name": "君に、胸キュン。",
+        "official_url": "https://x.com/kimikyun_office",
+        "youtube_url": "https://www.youtube.com/@kimikyun_official",
+        "subscribers": 9060,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0050": {
+      "basic": {
+        "name": "GANG PARADE",
+        "official_url": "https://gangparade.jp/",
+        "youtube_url": "https://www.youtube.com/@gangparade",
+        "subscribers": 30800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0051": {
+      "basic": {
+        "name": "CANDY TUNE",
+        "official_url": "https://candytune.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@candy_tune",
+        "subscribers": 312000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0052": {
+      "basic": {
+        "name": "CUTIE STREET",
+        "official_url": "https://cutiestreet.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@CUTIE_STREET",
+        "subscribers": 598000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0053": {
+      "basic": {
+        "name": "Quubi",
+        "official_url": "https://quubi.jp/",
+        "youtube_url": "https://www.youtube.com/@Quubiofficial",
+        "subscribers": 3750,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0054": {
+      "basic": {
+        "name": "きゅるりんってしてみて",
+        "official_url": "https://www.kyurushite.com/",
+        "youtube_url": "https://www.youtube.com/@kyurushite",
+        "subscribers": 181000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0055": {
+      "basic": {
+        "name": "清 竜人25",
+        "official_url": "https://kiyoshiryujin25.com/",
+        "youtube_url": "https://www.youtube.com/@kiyoshiryujinSMEJ",
+        "subscribers": 82900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0056": {
+      "basic": {
+        "name": "GILTY x GILTY",
+        "official_url": "https://giltyxgilty.com/",
+        "youtube_url": "https://www.youtube.com/@giltygilty",
+        "subscribers": 40900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0057": {
+      "basic": {
+        "name": "キングサリ",
+        "official_url": "https://kingsari.com/",
+        "youtube_url": "https://www.youtube.com/@kingsari0430",
+        "subscribers": 3870,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0058": {
+      "basic": {
+        "name": "クマリデパート",
+        "official_url": "https://www.qumalidepart.com/",
+        "youtube_url": "https://www.youtube.com/@qumalidepart",
+        "subscribers": 10300,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0059": {
+      "basic": {
+        "name": "Gran☆Ciel",
+        "official_url": "https://gran-ciel.jp/",
+        "youtube_url": "https://www.youtube.com/@ArcJewel",
+        "subscribers": 9150,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0060": {
+      "basic": {
+        "name": "群青の世界",
+        "official_url": "https://lit.link/aosekalive",
+        "youtube_url": "https://www.youtube.com/@aoseka_official",
+        "subscribers": 9950,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0061": {
+      "basic": {
+        "name": "KRD8",
+        "official_url": "https://www.himeji-krd24pt.com/member",
+        "youtube_url": "https://www.youtube.com/@KRD8",
+        "subscribers": 3890,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0062": {
+      "basic": {
+        "name": "上月せれな",
+        "official_url": "https://serechu.com/",
+        "youtube_url": "https://www.youtube.com/@%E4%B8%8A%E6%9C%88%E3%81%9B%E3%82%8C%E3%81%AA%E3%81%9B%E3%82%8C%E3%81%A1%E3%82%85",
+        "subscribers": 1770,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0063": {
+      "basic": {
+        "name": "こみっきゅおん！",
+        "official_url": "https://www.comiqon.com/",
+        "youtube_url": "https://www.youtube.com/@comiqon",
+        "subscribers": 1980,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0064": {
+      "basic": {
+        "name": "Kolokol",
+        "official_url": "https://kolokol-official.com/",
+        "youtube_url": "https://www.youtube.com/@KolokolOfficial",
+        "subscribers": 10700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0065": {
+      "basic": {
+        "name": "最終未来少女",
+        "official_url": "https://www.saishumiraishoujo.com/",
+        "youtube_url": "https://www.youtube.com/@SaishuMirai",
+        "subscribers": 47000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0066": {
+      "basic": {
+        "name": "CYBERJAPAN DANCERS",
+        "official_url": "https://cyberjapan.tv/",
+        "youtube_url": "https://www.youtube.com/@cyberjapandancers",
+        "subscribers": 959000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0067": {
+      "basic": {
+        "name": "さとりモンスター",
+        "official_url": "https://ntkcreation.com/artist/satomon",
+        "youtube_url": "https://www.youtube.com/@%E3%81%95%E3%81%A8%E3%82%8A%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC",
+        "subscribers": 1570,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0068": {
+      "basic": {
+        "name": "さよならステイチューン",
+        "official_url": "https://sayostay.dspm.jp/",
+        "youtube_url": "https://www.youtube.com/@sayostay",
+        "subscribers": 2880,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0069": {
+      "basic": {
+        "name": "zanka",
+        "official_url": "https://lit.link/zankainfo",
+        "youtube_url": "https://www.youtube.com/@zanka_official",
+        "subscribers": 20000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0070": {
+      "basic": {
+        "name": "CiON",
+        "official_url": "https://con-music.jp/",
+        "youtube_url": "https://www.youtube.com/@C_ON_official",
+        "subscribers": 139000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0071": {
+      "basic": {
+        "name": "ジエメイ",
+        "official_url": "https://jiemei-fc.com/",
+        "youtube_url": "https://www.youtube.com/@jiemei_idol",
+        "subscribers": 24200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0072": {
+      "basic": {
+        "name": "SITUASION",
+        "official_url": "https://situasion.com/",
+        "youtube_url": "https://www.youtube.com/@SITUASION",
+        "subscribers": 102000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0073": {
+      "basic": {
+        "name": "シャニムニ＝パレード",
+        "official_url": "https://scot-inc.jp/shanimuni_parade/",
+        "youtube_url": "https://www.youtube.com/@%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%91%E3%83%AC%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%84",
+        "subscribers": 3580,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0074": {
+      "basic": {
+        "name": "Jams Collection",
+        "official_url": "https://jamscollection.jp/",
+        "youtube_url": "https://www.youtube.com/@JamsCollection",
+        "subscribers": 28200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0075": {
+      "basic": {
+        "name": "シャルロット",
+        "official_url": "https://charlotte-ljus.com/#/",
+        "youtube_url": "https://www.youtube.com/channel/UChGSSG-qqJlvD4ax5a2JY1A",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0076": {
+      "basic": {
+        "name": "Juice=Juice",
+        "official_url": "https://www.helloproject.com/juicejuice/",
+        "youtube_url": "https://www.youtube.com/@juicejuice",
+        "subscribers": 276000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0077": {
+      "basic": {
+        "name": "シュレーディンガーの犬",
+        "official_url": "https://cindog-pro.com/",
+        "youtube_url": "https://www.youtube.com/@project8738",
+        "subscribers": 16200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0078": {
+      "basic": {
+        "name": "純情のアフィリア",
+        "official_url": "https://stand-up-project.jp/j-afilia/",
+        "youtube_url": "https://www.youtube.com/@StandUpRecords",
+        "subscribers": 19200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0079": {
+      "basic": {
+        "name": "私立恵比寿中学",
+        "official_url": "https://www.shiritsuebichu.jp/official/pc/",
+        "youtube_url": "https://www.youtube.com/@ebichuSMEJ",
+        "subscribers": 166000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0080": {
+      "basic": {
+        "name": "Sweet Alley",
+        "official_url": "https://sweet-alley.com/",
+        "youtube_url": "https://www.youtube.com/@sweetalley1003",
+        "subscribers": 6950,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0081": {
+      "basic": {
+        "name": "SWEET STEADY",
+        "official_url": "https://sweetsteady.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@SWEET_STEADY",
+        "subscribers": 64200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0082": {
+      "basic": {
+        "name": "CYNHN",
+        "official_url": "https://cynhn.com/",
+        "youtube_url": "https://www.youtube.com/@cynhn",
+        "subscribers": 25700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0083": {
+      "basic": {
+        "name": "SUPER☆GiRLS",
+        "official_url": "https://supergirls.jp/",
+        "youtube_url": "https://www.youtube.com/@iDOLStreetProject",
+        "subscribers": 50200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0084": {
+      "basic": {
+        "name": "SUPER JYAPON",
+        "official_url": "https://lit.link/jyaponofficial",
+        "youtube_url": "https://www.youtube.com/@jumpstv01",
+        "subscribers": 17600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0085": {
+      "basic": {
+        "name": "すーぱーぷーばぁー!!",
+        "official_url": "https://super-pouvoir.ntrecords.com/",
+        "youtube_url": "https://www.youtube.com/@%E3%81%99%E3%83%BC%E3%81%B1%E3%83%BC%E3%81%B7%E3%83%BC%E3%81%B0%E3%81%81%E3%83%BC",
+        "subscribers": 1400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0086": {
+      "basic": {
+        "name": "透色ドロップ",
+        "official_url": "https://sukiirodrop.com/",
+        "youtube_url": "https://www.youtube.com/@sukiirodrop",
+        "subscribers": 13100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0087": {
+      "basic": {
+        "name": "SCRAMBLE SMILE",
+        "official_url": "https://scramblesmile.jp/",
+        "youtube_url": "https://www.youtube.com/@SCRAMBLESMILE",
+        "subscribers": 1660,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0088": {
+      "basic": {
+        "name": "StarWinK",
+        "official_url": "https://x.com/StarWinKSH",
+        "youtube_url": "https://www.youtube.com/@StarWinKOfficial",
+        "subscribers": 16,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0089": {
+      "basic": {
+        "name": "STAiNY",
+        "official_url": "https://scot-inc.jp/stainy/",
+        "youtube_url": "https://www.youtube.com/@jumpstv01",
+        "subscribers": 17600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0090": {
+      "basic": {
+        "name": "すてねこキャッツ",
+        "official_url": "https://lit.link/sutenekocats",
+        "youtube_url": "https://www.youtube.com/@%E3%81%99%E3%81%A6%E3%81%AD%E3%81%93%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84",
+        "subscribers": 1830,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0091": {
+      "basic": {
+        "name": "ストロボグリッター",
+        "official_url": "https://lit.link/strobeglitter0706",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0092": {
+      "basic": {
+        "name": "SAY-LA",
+        "official_url": "http://www.say-la.jp/",
+        "youtube_url": "https://www.youtube.com/@IGET",
+        "subscribers": 2950,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0093": {
+      "basic": {
+        "name": "selfish",
+        "official_url": "https://tsuima.jp/selfish/",
+        "youtube_url": "https://www.youtube.com/@selfishOfficial",
+        "subscribers": 1920,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0094": {
+      "basic": {
+        "name": "DIALOGUE＋",
+        "official_url": "https://dialogue-music.jp/",
+        "youtube_url": "https://www.youtube.com/@DIALOGUE.Official",
+        "subscribers": 77500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0095": {
+      "basic": {
+        "name": "タイトル未定",
+        "official_url": "https://miteititle.com/",
+        "youtube_url": "https://www.youtube.com/@MiteiTitle",
+        "subscribers": 11700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0096": {
+      "basic": {
+        "name": "太陽と踊れ月夜に唄え",
+        "official_url": "https://taiyotsukiyo.com/",
+        "youtube_url": "https://www.youtube.com/@taiyotsukiyo",
+        "subscribers": 7990,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0097": {
+      "basic": {
+        "name": "高嶺のなでしこ",
+        "official_url": "https://takanenonadeshiko.jp/",
+        "youtube_url": "https://www.youtube.com/@official_takaneko",
+        "subscribers": 213000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0098": {
+      "basic": {
+        "name": "Task have Fun",
+        "official_url": "https://taskhavefun.net/",
+        "youtube_url": "https://www.youtube.com/@taskhavefun3411",
+        "subscribers": 29300,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0099": {
+      "basic": {
+        "name": "W.ダブルヴィー",
+        "official_url": "https://www.mme.tokyo/w",
+        "youtube_url": "https://www.youtube.com/@W.OfficialChannel",
+        "subscribers": 5090,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0100": {
+      "basic": {
+        "name": "TEAM SHACHI",
+        "official_url": "https://teamshachi.nagoya/",
+        "youtube_url": "https://www.youtube.com/@teamshachich",
+        "subscribers": 50700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0101": {
+      "basic": {
+        "name": "chuLa",
+        "official_url": "https://scot-inc.jp/chula/",
+        "youtube_url": "https://www.youtube.com/@chuLaYouTube",
+        "subscribers": 6380,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0102": {
+      "basic": {
+        "name": "超ときめき♡宣伝部",
+        "official_url": "https://toki-sen.com/",
+        "youtube_url": "https://www.youtube.com/@TOKISEN",
+        "subscribers": 424000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0103": {
+      "basic": {
+        "name": "つばきファクトリー",
+        "official_url": "https://www.helloproject.com/tsubakifactory/",
+        "youtube_url": "https://www.youtube.com/@tsubakifactory",
+        "subscribers": 110000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0104": {
+      "basic": {
+        "name": "TEAR DROP!",
+        "official_url": "",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0105": {
+      "basic": {
+        "name": "ティラミス",
+        "official_url": "https://platinumpixel.co.jp/talent/%E3%83%86%E3%82%A3%E3%83%A9%E3%83%9F%E3%82%B9",
+        "youtube_url": "https://www.youtube.com/@tiramis_official",
+        "subscribers": 1220,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0106": {
+      "basic": {
+        "name": "Devil ANTHEM.",
+        "official_url": "https://devilanthem.net/#/",
+        "youtube_url": "https://www.youtube.com/@DevilANTHEM",
+        "subscribers": 15000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0107": {
+      "basic": {
+        "name": "テラテラ",
+        "official_url": "https://terasuterasu.net/",
+        "youtube_url": "https://www.youtube.com/@terasuterasu",
+        "subscribers": 3080,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0108": {
+      "basic": {
+        "name": "点染テンセイ少女。",
+        "official_url": "https://www.tensentenseisyoujo.com/",
+        "youtube_url": "https://www.youtube.com/@10-10_tenten",
+        "subscribers": 3530,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0109": {
+      "basic": {
+        "name": "Toi Toi Toi",
+        "official_url": "https://toitoitoi.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@toitoitoi__official",
+        "subscribers": 11100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0110": {
+      "basic": {
+        "name": "東京女子流",
+        "official_url": "https://tokyogirlsstyle.jp/",
+        "youtube_url": "https://www.youtube.com/@TokyoGirlsStyle",
+        "subscribers": 39300,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0111": {
+      "basic": {
+        "name": "Tohkei",
+        "official_url": "https://tohkei.amebaownd.com/",
+        "youtube_url": "https://www.youtube.com/@Tohkei_info",
+        "subscribers": 1040,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0112": {
+      "basic": {
+        "name": "ドラマチックレコード",
+        "official_url": "https://lit.link/dmrc",
+        "youtube_url": "https://www.youtube.com/@dmrcofficial",
+        "subscribers": 8840,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0113": {
+      "basic": {
+        "name": "ドレスコード",
+        "official_url": "https://heroines.jp/league/#league-group",
+        "youtube_url": "https://www.youtube.com/@dresscode_info",
+        "subscribers": 10500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0114": {
+      "basic": {
+        "name": "ナナコロビヤオキ",
+        "official_url": "https://heroines.jp/league/#league-group",
+        "youtube_url": "https://www.youtube.com/@nanakoro_78",
+        "subscribers": 4170,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0115": {
+      "basic": {
+        "name": "22/7",
+        "official_url": "",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0116": {
+      "basic": {
+        "name": "なみだ色の消しごむ",
+        "official_url": "https://www.namikeshi.com/",
+        "youtube_url": "https://www.youtube.com/@namikeshi",
+        "subscribers": 5540,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0117": {
+      "basic": {
+        "name": "≒JOY",
+        "official_url": "https://nearly-equal-joy.jp/",
+        "youtube_url": "https://www.youtube.com/@nearlyequaljoy5843",
+        "subscribers": 114000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0118": {
+      "basic": {
+        "name": "ニコルポップ",
+        "official_url": "https://x.com/nicol_pop0506",
+        "youtube_url": "https://www.youtube.com/@nicolpop_channel",
+        "subscribers": 1740,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0119": {
+      "basic": {
+        "name": "虹のコンキスタドール",
+        "official_url": "https://2zicon.tokyo/",
+        "youtube_url": "https://www.youtube.com/@2zicon",
+        "subscribers": 124000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0120": {
+      "basic": {
+        "name": "NEO JAPONISM",
+        "official_url": "https://neojaponism.com/",
+        "youtube_url": "https://www.youtube.com/@NEOJAPONISMofficial",
+        "subscribers": 78100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0121": {
+      "basic": {
+        "name": "Negicco",
+        "official_url": "https://negicco.net/",
+        "youtube_url": "https://www.youtube.com/@Negicco-0720",
+        "subscribers": 7790,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0122": {
+      "basic": {
+        "name": "ネコプラpixx.",
+        "official_url": "https://scot-inc.jp/necopla_pixx/",
+        "youtube_url": "https://www.youtube.com/@jumpstv01",
+        "subscribers": 17600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0123": {
+      "basic": {
+        "name": "≠ME",
+        "official_url": "https://not-equal-me.jp/",
+        "youtube_url": "https://www.youtube.com/@notequalme6632",
+        "subscribers": 244000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0124": {
+      "basic": {
+        "name": "ノルニル",
+        "official_url": "https://www.tunecore.co.jp/artists/NORNIR?lang=ja",
+        "youtube_url": "https://www.youtube.com/@nornir_0611",
+        "subscribers": 1370,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0125": {
+      "basic": {
+        "name": "のんふぃく！",
+        "official_url": "https://www.imaginate.jp/artist/non%C2%ACfiction/",
+        "youtube_url": "https://www.youtube.com/@NonficHeroines",
+        "subscribers": 40100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0126": {
+      "basic": {
+        "name": "ばってん少女隊",
+        "official_url": "https://battengirls.com/",
+        "youtube_url": "https://www.youtube.com/@BATTENGIRLS",
+        "subscribers": 48900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0127": {
+      "basic": {
+        "name": "Honey Devil",
+        "official_url": "https://viivo.co.jp/honey-devil/",
+        "youtube_url": "https://www.youtube.com/@hd_viivo",
+        "subscribers": 1470,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0128": {
+      "basic": {
+        "name": "#ババババンビ",
+        "official_url": "https://babababambi.com/",
+        "youtube_url": "https://www.youtube.com/@babababambi",
+        "subscribers": 41600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0129": {
+      "basic": {
+        "name": "ハルニシオン",
+        "official_url": "https://harunision-official.boosty.app/",
+        "youtube_url": "https://www.youtube.com/@harunision_official",
+        "subscribers": 4930,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0130": {
+      "basic": {
+        "name": "Palette Parade",
+        "official_url": "https://paletteparade-idol.com/",
+        "youtube_url": "https://www.youtube.com/@paletteparade8917",
+        "subscribers": 4170,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0131": {
+      "basic": {
+        "name": "バンドじゃないもん! MAXX NAKAYOSHI",
+        "official_url": "https://banmon.jp/",
+        "youtube_url": "https://www.youtube.com/@bandjanimon",
+        "subscribers": 31200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0132": {
+      "basic": {
+        "name": "PPE41",
+        "official_url": "",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0133": {
+      "basic": {
+        "name": "Peel the Apple",
+        "official_url": "https://peel-the-apple.com/#/",
+        "youtube_url": "https://www.youtube.com/@peeltheapple3069",
+        "subscribers": 19000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0134": {
+      "basic": {
+        "name": "PIGGS",
+        "official_url": "https://fan.pia.jp/PIGGS/",
+        "youtube_url": "https://www.youtube.com/@PIGGS_idol",
+        "subscribers": 21200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0135": {
+      "basic": {
+        "name": "Pixel Ribbon",
+        "official_url": "https://pixelribbon.com/",
+        "youtube_url": "https://www.youtube.com/@PixelRibbon_official",
+        "subscribers": 71100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0136": {
+      "basic": {
+        "name": "himawari(船橋)",
+        "official_url": "",
+        "youtube_url": "",
+        "subscribers": "",
+        "sub_checked_at": "1970/01/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0137": {
+      "basic": {
+        "name": "BEYOOOOONDS",
+        "official_url": "https://www.helloproject.com/beyooooonds/",
+        "youtube_url": "https://www.youtube.com/@BEYOOOOONDS",
+        "subscribers": 125000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0138": {
+      "basic": {
+        "name": "fav me",
+        "official_url": "https://favme.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@fav_me_fav_me",
+        "subscribers": 14400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0139": {
+      "basic": {
+        "name": "femme fatale",
+        "official_url": "https://x.com/femme_iDOL",
+        "youtube_url": "https://www.youtube.com/@femmefatale_kakushigo",
+        "subscribers": 325000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0140": {
+      "basic": {
+        "name": "ファントムシータ",
+        "official_url": "https://phantomsiita.com/",
+        "youtube_url": "https://www.youtube.com/@PhantomSiita",
+        "subscribers": 783000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 7,
+        "total_ugc_views": 603862
+      },
+      "mv_list": []
+    },
+    "tif_0141": {
+      "basic": {
+        "name": "feelNEO",
+        "official_url": "https://feelneo.hug-pro.com/",
+        "youtube_url": "https://www.youtube.com/@feelNEOOFFICIALYouTubeCHANNEL",
+        "subscribers": 13100,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0142": {
+      "basic": {
+        "name": "fishbowl",
+        "official_url": "https://fishbowl.jp/",
+        "youtube_url": "https://www.youtube.com/@fishbowlofficial",
+        "subscribers": 10600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0143": {
+      "basic": {
+        "name": "フィロソフィーのダンス",
+        "official_url": "https://danceforphilosophy.com/",
+        "youtube_url": "https://www.youtube.com/@philosophynodance",
+        "subscribers": 54800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0144": {
+      "basic": {
+        "name": "FES☆TIVE",
+        "official_url": "https://fstv.rizepro.net/#/",
+        "youtube_url": "https://www.youtube.com/@FES-TIVE-YouTube",
+        "subscribers": 14500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0145": {
+      "basic": {
+        "name": "福を架ける少女",
+        "official_url": "https://www.fukukake.jp/",
+        "youtube_url": "https://www.youtube.com/@fukujo_official",
+        "subscribers": 1620,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0146": {
+      "basic": {
+        "name": "風男塾",
+        "official_url": "https://m.nfs724.com/",
+        "youtube_url": "https://www.youtube.com/@fudanjuku_official",
+        "subscribers": 31800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0147": {
+      "basic": {
+        "name": "フューチャーサイダー",
+        "official_url": "https://futurecider.com/",
+        "youtube_url": "https://www.youtube.com/@chaider_info",
+        "subscribers": 3210,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0148": {
+      "basic": {
+        "name": "PRSMIN",
+        "official_url": "https://prsmin.com/",
+        "youtube_url": "https://www.youtube.com/@antvox_official",
+        "subscribers": 12500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0149": {
+      "basic": {
+        "name": "ポラリスマイル",
+        "official_url": "https://polarismile.com/#/",
+        "youtube_url": "https://www.youtube.com/@polarismile-idol",
+        "subscribers": 1170,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0150": {
+      "basic": {
+        "name": "僕が見たかった青空",
+        "official_url": "https://bokuao.com/",
+        "youtube_url": "https://www.youtube.com/@BOKUAO_official",
+        "subscribers": 124000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0151": {
+      "basic": {
+        "name": "WHITE SCORPION",
+        "official_url": "https://whitescorpion.jp/",
+        "youtube_url": "https://www.youtube.com/@whsp_official",
+        "subscribers": 23600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0152": {
+      "basic": {
+        "name": "ポンコツコンポ",
+        "official_url": "https://www.imaginate.jp/artist/ponkotsukonpo/",
+        "youtube_url": "https://www.youtube.com/@ponkotsu_konpo",
+        "subscribers": 33900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0153": {
+      "basic": {
+        "name": "My_Stage",
+        "official_url": "https://mystage.fanpla.jp/",
+        "youtube_url": "https://www.youtube.com/@My_Stage_idol",
+        "subscribers": 2770,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0154": {
+      "basic": {
+        "name": "MyDearDarlin'",
+        "official_url": "https://lit.link/mydeardarlinofficial",
+        "youtube_url": "https://www.youtube.com/@mydeardarlin_official",
+        "subscribers": 6190,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0155": {
+      "basic": {
+        "name": "my fav",
+        "official_url": "https://myfav-official.com/",
+        "youtube_url": "https://www.youtube.com/@myfav_official",
+        "subscribers": 5070,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0156": {
+      "basic": {
+        "name": "MAGICAL SPEC",
+        "official_url": "https://www.magicalspec.com/",
+        "youtube_url": "https://www.youtube.com/@MAGICALSPEC",
+        "subscribers": 2250,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0157": {
+      "basic": {
+        "name": "マジカル・パンチライン",
+        "official_url": "https://magipun.com/",
+        "youtube_url": "https://www.youtube.com/@MAGiCALPUNCHLiNE",
+        "subscribers": 8730,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0158": {
+      "basic": {
+        "name": "Ma'Scar'Piece",
+        "official_url": "https://mascarpiece-fc.com/#/",
+        "youtube_url": "https://www.youtube.com/@mascarpiece",
+        "subscribers": 11700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0159": {
+      "basic": {
+        "name": "まねきケチャ",
+        "official_url": "https://www.maneki-kecak.com/",
+        "youtube_url": "https://www.youtube.com/@maneki_kecak",
+        "subscribers": 53700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0160": {
+      "basic": {
+        "name": "豆柴の大群",
+        "official_url": "https://mameshiba-no-taigun.jp/",
+        "youtube_url": "https://www.youtube.com/@MAMESHiBANOTAiGUN96",
+        "subscribers": 141000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0161": {
+      "basic": {
+        "name": "ミームトーキョー",
+        "official_url": "https://www.memetokyo.com/",
+        "youtube_url": "https://www.youtube.com/@memetokyo",
+        "subscribers": 33800,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0162": {
+      "basic": {
+        "name": "Mirror,Mirror",
+        "official_url": "https://www.mirror--mirror.com/",
+        "youtube_url": "https://www.youtube.com/@mirrormirrorofficialchannel",
+        "subscribers": 3530,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0163": {
+      "basic": {
+        "name": "みらくらんど",
+        "official_url": "https://www.mme.tokyo/mcl",
+        "youtube_url": "https://www.youtube.com/@miracle_land_mme",
+        "subscribers": 1260,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0164": {
+      "basic": {
+        "name": "#Mooove!",
+        "official_url": "https://mooove.world/",
+        "youtube_url": "https://www.youtube.com/@Moooveworld",
+        "subscribers": 8060,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0165": {
+      "basic": {
+        "name": "め〜ぴよ",
+        "official_url": "",
+        "youtube_url": "https://www.youtube.com/@meipiyoofficial",
+        "subscribers": 2530,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0166": {
+      "basic": {
+        "name": "MEGAFON",
+        "official_url": "https://x.com/MEGAFON_idol",
+        "youtube_url": "https://www.youtube.com/@megafon_idol",
+        "subscribers": 17400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0167": {
+      "basic": {
+        "name": "Maison de Queen",
+        "official_url": "https://maisondequeen.com/#/",
+        "youtube_url": "https://www.youtube.com/@MAISON_DE_QUEEN",
+        "subscribers": 3670,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0168": {
+      "basic": {
+        "name": "メノニューイヤー",
+        "official_url": "https://escalier.jp/menonewyear/",
+        "youtube_url": "https://www.youtube.com/@%E3%83%A1%E3%83%8E%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A4%E3%83%A4%E3%83%BC",
+        "subscribers": 373000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0169": {
+      "basic": {
+        "name": "Merry BAD TUNE.",
+        "official_url": "https://x.com/merrybadtune",
+        "youtube_url": "https://www.youtube.com/@merrybadtune.",
+        "subscribers": 6890,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0170": {
+      "basic": {
+        "name": "モノクローム",
+        "official_url": "https://x.com/mono_info_",
+        "youtube_url": "https://www.youtube.com/@mono_info",
+        "subscribers": 2030,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0171": {
+      "basic": {
+        "name": "夜光性アミューズ",
+        "official_url": "https://yakousei-amuse.amebaownd.com/",
+        "youtube_url": "https://www.youtube.com/@yoruami",
+        "subscribers": 52000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0172": {
+      "basic": {
+        "name": "#よーよーよー",
+        "official_url": "https://yoyoyo.info/",
+        "youtube_url": "https://www.youtube.com/@yoyoyo01f",
+        "subscribers": 2130,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0173": {
+      "basic": {
+        "name": "yosugala",
+        "official_url": "https://yosugala.fanpla.jp/",
+        "youtube_url": "https://www.youtube.com/@yosugala",
+        "subscribers": 93700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0174": {
+      "basic": {
+        "name": "ラナキュラ",
+        "official_url": "https://www.ranaqura.com/",
+        "youtube_url": "https://www.youtube.com/@ranaqura0610",
+        "subscribers": 1840,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0175": {
+      "basic": {
+        "name": "RAViDAVi",
+        "official_url": "https://ravidavi.com/",
+        "youtube_url": "https://www.youtube.com/@RAViDAVi_official",
+        "subscribers": 938,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0176": {
+      "basic": {
+        "name": "ラフ×ラフ",
+        "official_url": "https://roughlaugh-official.com/",
+        "youtube_url": "https://www.youtube.com/@roughlaugh_official",
+        "subscribers": 77500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0177": {
+      "basic": {
+        "name": "愛乙女★DOLL",
+        "official_url": "https://lovelydoll.jp/",
+        "youtube_url": "https://www.youtube.com/@ArcJewel",
+        "subscribers": 9150,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0178": {
+      "basic": {
+        "name": "lyrical school",
+        "official_url": "https://lyricalschool.com/",
+        "youtube_url": "https://www.youtube.com/@lyrical_school",
+        "subscribers": 16900,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0179": {
+      "basic": {
+        "name": "LinQ",
+        "official_url": "https://www.loveinq.com/",
+        "youtube_url": "https://www.youtube.com/@Linqofficial",
+        "subscribers": 25300,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0180": {
+      "basic": {
+        "name": "LINKL PLANET",
+        "official_url": "https://bandai-hobby.net/site/plamogirlsproject/linklplanet/",
+        "youtube_url": "https://www.youtube.com/@LINKLPLANET",
+        "subscribers": 70400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0181": {
+      "basic": {
+        "name": "Ringwanderung",
+        "official_url": "https://ringwanderung-official.com/",
+        "youtube_url": "https://www.youtube.com/@ringwanderung_official",
+        "subscribers": 46200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0182": {
+      "basic": {
+        "name": "RiNCENT♯",
+        "official_url": "https://rincent-official.com/",
+        "youtube_url": "https://www.youtube.com/@rincent.official3474",
+        "subscribers": 3730,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0183": {
+      "basic": {
+        "name": "ROOKEY♡ROOKEYS",
+        "official_url": "https://lit.link/plusnewidol",
+        "youtube_url": "https://www.youtube.com/@rookey_rookeys",
+        "subscribers": 1630,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0184": {
+      "basic": {
+        "name": "ルージュブック",
+        "official_url": "https://platinumpixel.jp/rougebook/",
+        "youtube_url": "https://www.youtube.com/@rougebook",
+        "subscribers": 2860,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0185": {
+      "basic": {
+        "name": "Luce Twinkle Wink☆",
+        "official_url": "https://luce-twinkle-wink.com/",
+        "youtube_url": "https://www.youtube.com/@lucetwinklewinkofficialyou5521",
+        "subscribers": 4720,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0186": {
+      "basic": {
+        "name": "Root mimi",
+        "official_url": "https://rootmimi.com/",
+        "youtube_url": "https://www.youtube.com/@Rootmimi_official",
+        "subscribers": 4210,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0187": {
+      "basic": {
+        "name": "LumiUnion",
+        "official_url": "https://lumiunion.com/",
+        "youtube_url": "https://www.youtube.com/@lumiunion_official",
+        "subscribers": 2450,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0188": {
+      "basic": {
+        "name": "REIRIE",
+        "official_url": "https://reirie.fanpla.jp/",
+        "youtube_url": "https://www.youtube.com/@REIRIEofficial",
+        "subscribers": 59700,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0189": {
+      "basic": {
+        "name": "Rain Tree",
+        "official_url": "https://rt-official.jp/",
+        "youtube_url": "https://www.youtube.com/@RainTree_RT",
+        "subscribers": 35200,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0190": {
+      "basic": {
+        "name": "ロージークロニクル",
+        "official_url": "https://www.helloproject.com/rosychronicle/",
+        "youtube_url": "https://www.youtube.com/@rosychronicle",
+        "subscribers": 25500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0191": {
+      "basic": {
+        "name": "わーすた",
+        "official_url": "https://wa-suta.world/",
+        "youtube_url": "https://www.youtube.com/@wasuta",
+        "subscribers": 55500,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0192": {
+      "basic": {
+        "name": "ワッツ◎さーくる",
+        "official_url": "https://scot-inc.jp/whta_circle/",
+        "youtube_url": "https://www.youtube.com/@jumpstv01",
+        "subscribers": 17600,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0193": {
+      "basic": {
+        "name": "@onefive",
+        "official_url": "https://onefive-web.jp/",
+        "youtube_url": "https://www.youtube.com/@onefive",
+        "subscribers": 39400,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0194": {
+      "basic": {
+        "name": "Onephony",
+        "official_url": "https://onephony.com/",
+        "youtube_url": "https://www.youtube.com/@onephony",
+        "subscribers": 10000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0195": {
+      "basic": {
+        "name": "FRUITS ZIPPER",
+        "official_url": "https://fruitszipper.asobisystem.com/",
+        "youtube_url": "https://www.youtube.com/@fruitszipper3040",
+        "subscribers": 611000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0196": {
+      "basic": {
+        "name": "NiziU",
+        "official_url": "https://niziu.com/",
+        "youtube_url": "https://www.youtube.com/@NiziUOfficial",
+        "subscribers": 2290000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0197": {
+      "basic": {
+        "name": "乃木坂46",
+        "official_url": "https://www.nogizaka46.com/",
+        "youtube_url": "https://www.youtube.com/@nogizaka46SMEJ",
+        "subscribers": 1730000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 17,
+        "total_ugc_views": 1532016
+      },
+      "mv_list": []
+    },
+    "tif_0198": {
+      "basic": {
+        "name": "ME:I",
+        "official_url": "https://me-i.jp/",
+        "youtube_url": "https://www.youtube.com/@official_me_i_",
+        "subscribers": 706000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0199": {
+      "basic": {
+        "name": "ももいろクローバーZ",
+        "official_url": "https://www.momoclo.net/",
+        "youtube_url": "https://www.youtube.com/c/MCZofficial",
+        "subscribers": 665000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0200": {
+      "basic": {
+        "name": "櫻坂46",
+        "official_url": "https://sakurazaka46.com/",
+        "youtube_url": "https://www.youtube.com/@sakurazaka46SMEJ",
+        "subscribers": 1200000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 0,
+        "total_ugc_views": 0
+      },
+      "mv_list": []
+    },
+    "tif_0201": {
+      "basic": {
+        "name": "日向坂46",
+        "official_url": "https://www.hinatazaka46.com/",
+        "youtube_url": "https://www.youtube.com/@46officialyoutubechannel99",
+        "subscribers": 757000,
+        "sub_checked_at": "2026/02/01"
+      },
+      "stats": {
+        "total_ugc_count": 18,
+        "total_ugc_views": 323234
+      },
+      "mv_list": []
+    }
+  }
 }
