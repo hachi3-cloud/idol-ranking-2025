@@ -161,26 +161,31 @@
                 else if (originalRank === 3) rankDisplay = '<span class="rank-3">🥉</span>';
                 // ------------------------------
                 
-                const inc = currentMode === 'weekly' ? item.increase : item.inc_daily;
-                const rate = currentMode === 'weekly' ? item.rate : item.rate_daily;
-                const trendingIcon = item.is_trending ? '<span class="trending-icon font-bold text-[10px]">Hot</span>' : '';
-                
-                tr.innerHTML = `
-                    <td class="p-3 text-center font-bold text-gray-400 text-lg">${rankDisplay}</td>
-                    <td class="p-3">
-                        <div class="font-bold news-blue text-[13px] md:text-sm leading-tight mb-1">
-                            <a href="https://www.youtube.com/watch?v=${item.video_id}" target="_blank">${item.title}</a>
-                        </div>
-                        <div class="text-[10px] text-gray-500">
-                            <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
-                        </div>
-                    </td>
-                    <td class="p-3 text-right">
-                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc || 0).toLocaleString()}</div>
-                        <div class="text-[10px] text-green-600 mt-1">${(rate * 100).toFixed(1)}%</div>
-                    </td>
-                    <td class="p-3 text-center text-xl">${trendingIcon}</td>
-                `;
+const views = Number(item.views || 0).toLocaleString(); 
+// JSONの項目名（inc_1d / inc_7d）に合わせて修正
+const inc = currentMode === 'daily' ? (item.inc_1d || 0) : (item.inc_7d || 0);
+const rate = currentMode === 'daily' ? (item.rate_1d || 0) : (item.rate_7d || 0);
+
+// 急上昇（is_trending）の判定
+const trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
+
+tr.innerHTML = `
+    <td class="p-3 text-center ${index < 3 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${index + 1}</td>
+    <td class="p-3">
+        <div class="font-bold text-gray-800 text-sm md:text-base line-clamp-1">${item.title}</div>
+        <div class="flex items-center gap-2 mt-1">
+            <div class="text-[10px] text-gray-500">
+                <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
+            </div>
+            <div class="text-[10px] text-gray-400">累計: ${views}回</div>
+        </div>
+    </td>
+    <td class="p-3 text-right">
+        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
+        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+    </td>
+    <td class="p-3 text-center text-xl">${trendingIcon}</td>
+`;
                 rankingBody.appendChild(tr);
             });
         }
