@@ -184,19 +184,30 @@
         // 既存のグラフを破棄
         charts.forEach(chart => chart.destroy());
         charts = [];
+        
+        // 既存のDOM要素もクリア
+        chartsArea.innerHTML = '';
 
         // MVごとにグラフを作成（最大5つまで）
         const displayMvs = mvList.slice(0, 5);
         
-        displayMvs.forEach((mv, index) => {
-            if (!mv.history || mv.history.length === 0) return;
-
-            // グラフ用のラッパーを作成
+        // 有効なデータがあるMVだけフィルタ
+        const validMvs = displayMvs.filter(mv => mv.history && mv.history.length > 0);
+        
+        if (validMvs.length === 0) {
+            chartsArea.innerHTML = '<p style="color: #888; text-align: center;">表示できるデータがありません</p>';
+            return;
+        }
+        
+        validMvs.forEach((mv, index) => {
+            // グラフ用のラッパーを作成（高さを固定）
             const wrapper = document.createElement('div');
             wrapper.className = 'mv-chart-wrapper';
             wrapper.innerHTML = `
                 <div class="mv-chart-title">${mv.title}</div>
-                <canvas id="chart-${index}" height="150"></canvas>
+                <div style="height: 200px; position: relative;">
+                    <canvas id="chart-${index}"></canvas>
+                </div>
             `;
             chartsArea.appendChild(wrapper);
 
@@ -213,7 +224,7 @@
                     viewsData[i] = viewsData[i - 1];
                 }
             }
-            // 最初がnullの場合は最後の値で埋める
+            // 最初がnullの場合は後ろの有効な値で埋める
             if (viewsData[0] === null) {
                 const lastValid = viewsData.find(v => v !== null);
                 viewsData[0] = lastValid || 0;
@@ -240,6 +251,7 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    animation: false,  // アニメーション無効化で安定化
                     plugins: {
                         legend: {
                             display: false
@@ -271,11 +283,6 @@
             });
             charts.push(chart);
         });
-
-        // MVがない場合のメッセージ
-        if (displayMvs.length === 0) {
-            chartsArea.innerHTML = '<p style="color: #888; text-align: center;">表示できるデータがありません</p>';
-        }
     }
 
     loadIdolData();
