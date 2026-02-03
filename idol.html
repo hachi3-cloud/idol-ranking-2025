@@ -16,8 +16,17 @@
         .stat-value { font-size: 20px; font-weight: bold; color: #1DA1F2; }
         .stat-label { font-size: 12px; color: #777; }
         
+        /* 熱量スコア用 */
+        .heat-section { border-left-color: #ff6b6b !important; }
+        .heat-section .stat-value { color: #ff6b6b; }
+        
+        /* 勢いスコア用 */
+        .momentum-section { border-left-color: #ffa502 !important; }
+        .momentum-section .stat-value { color: #ffa502; }
+        
         /* Spotify Area (Reserved) */
         .spotify-section { background: #e8f5e9; border-left-color: #1DB954 !important; }
+        .spotify-section .stat-value { color: #1DB954; }
         
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th { background: #f8f9fa; padding: 12px; text-align: left; font-size: 13px; border-bottom: 2px solid #dee2e6; }
@@ -25,7 +34,15 @@
         .btn-yt { background: #ff0000; color: white; text-decoration: none; padding: 5px 10px; border-radius: 4px; font-size: 12px; }
         .rank-up { color: #eb4034; font-weight: bold; font-size: 12px; }
         .badge { background: #eee; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 5px; }
+        .badge-heat { background: #ffe0e0; color: #ff6b6b; }
+        .badge-momentum { background: #fff3e0; color: #ffa502; }
         .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #1DA1F2; font-weight: bold; }
+        
+        /* グラフエリア */
+        .chart-container { margin: 30px 0; padding: 20px; background: #fafafa; border-radius: 8px; }
+        .chart-title { font-size: 16px; font-weight: bold; color: #333; margin-bottom: 15px; }
+        .mv-chart-wrapper { margin-bottom: 30px; padding: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .mv-chart-title { font-size: 14px; font-weight: bold; color: #555; margin-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -47,6 +64,9 @@
 <script>
     const params = new URLSearchParams(window.location.search);
     const idolId = params.get('id');
+    
+    // グラフインスタンスを保持
+    let charts = [];
 
     async function loadIdolData() {
         try {
@@ -58,6 +78,16 @@
                 document.getElementById('content').innerHTML = "アイドルが見つかりませんでした。";
                 return;
             }
+
+            // グループ全体の平均スコアを計算
+            let totalHeat = 0;
+            let totalMomentum = 0;
+            idol.mv_list.forEach(mv => {
+                totalHeat += mv.heat_score || 0;
+                totalMomentum += mv.momentum_score || 0;
+            });
+            const avgHeat = idol.mv_list.length > 0 ? (totalHeat / idol.mv_list.length) : 0;
+            const avgMomentum = idol.mv_list.length > 0 ? (totalMomentum / idol.mv_list.length) : 0;
 
             let html = `
                 <div class="header">
@@ -74,13 +104,15 @@
                         <div class="stat-value">${Number(idol.basic.subscribers).toLocaleString()}人</div>
                         <div class="stat-label">確認日: ${idol.basic.sub_checked_at}</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label">グループ全体Shorts投稿数</div>
-                        <div class="stat-value">${Number(idol.stats.total_ugc_count).toLocaleString()}本</div>
+                    <div class="stat-card heat-section">
+                        <div class="stat-label">🔥 平均熱量スコア</div>
+                        <div class="stat-value">${avgHeat.toFixed(2)}%</div>
+                        <div class="stat-label">いいね率+コメント率×2</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-label">グループ全体Shorts再生数</div>
-                        <div class="stat-value">${Number(idol.stats.total_ugc_views).toLocaleString()}回</div>
+                    <div class="stat-card momentum-section">
+                        <div class="stat-label">🚀 平均勢いスコア</div>
+                        <div class="stat-value">${avgMomentum.toFixed(3)}%</div>
+                        <div class="stat-label">7日増加率×熱量</div>
                     </div>
                     <div class="stat-card spotify-section">
                         <div class="stat-label">Spotify フォロワー (準備中)</div>
@@ -88,36 +120,45 @@
                     </div>
                 </div>
 
-                <h3>公開MVリスト・推移</h3>
+                <h3>📈 再生数推移（過去7日間）</h3>
                 <p style="font-size: 12px; color: #888;">最終更新: ${data.updated_at}</p>
+                <div class="chart-container" id="charts-area"></div>
+
+                <h3>🎵 公開MVリスト</h3>
                 <table>
                     <thead>
                         <tr>
                             <th>MVタイトル</th>
-                            <th>24h再生 (増減)</th>
+                            <th>24h再生</th>
                             <th>7日間再生</th>
-                            <th>Shorts(本/回)</th>
-                            <th>反応率</th>
+                            <th>スコア</th>
                             <th>Link</th>
                         </tr>
                     </thead>
                     <tbody>
             `;
 
-            idol.mv_list.forEach(mv => {
-                // 順位大幅アップの判定 (5以上) ※JSONにdiffが含まれる前提
-                const rankDiff = mv.daily_diff || 0;
-                const rankBadge = rankDiff >= 5 ? `<span class="rank-up">▲${rankDiff} Up!</span>` : "";
+            idol.mv_list.forEach((mv, index) => {
+                const heatScore = mv.heat_score || 0;
+                const momentumScore = mv.momentum_score || 0;
 
                 html += `
                     <tr>
-                        <td>${mv.title} ${rankBadge}</td>
-                        <td>${Number(mv.inc_1d).toLocaleString()}<br><small>${mv.rate_1d > 0 ? '+' : ''}${(mv.rate_1d * 100).toFixed(1)}%</small></td>
-                        <td>${Number(mv.inc_7d).toLocaleString()}</td>
-                        <td>${mv.ugc_count}本<br><small>${Number(mv.ugc_views).toLocaleString()}回</small></td>
                         <td>
-                            <span class="badge">👍 ${(mv.like_rate || 0).toFixed(2)}%</span><br>
-                            <span class="badge">💬 ${(mv.comment_rate || 0).toFixed(2)}%</span>
+                            <div style="font-weight: bold;">${mv.title}</div>
+                            <div style="font-size: 11px; color: #888; margin-top: 4px;">累計: ${Number(mv.views).toLocaleString()}回</div>
+                        </td>
+                        <td>
+                            +${Number(mv.inc_1d).toLocaleString()}<br>
+                            <small style="color: #888;">${(mv.rate_1d * 100).toFixed(2)}%</small>
+                        </td>
+                        <td>
+                            +${Number(mv.inc_7d).toLocaleString()}<br>
+                            <small style="color: #888;">${(mv.rate_7d * 100).toFixed(2)}%</small>
+                        </td>
+                        <td>
+                            <span class="badge badge-heat">🔥 ${heatScore.toFixed(2)}%</span><br>
+                            <span class="badge badge-momentum">🚀 ${momentumScore.toFixed(3)}%</span>
                         </td>
                         <td><a href="https://www.youtube.com/watch?v=${mv.video_id}" target="_blank" class="btn-yt">YouTube</a></td>
                     </tr>
@@ -127,9 +168,113 @@
             html += `</tbody></table>`;
             document.getElementById('content').innerHTML = html;
 
+            // グラフを描画
+            renderCharts(idol.mv_list);
+
         } catch (error) {
             console.error(error);
             document.getElementById('content').innerHTML = "データの読み込みに失敗しました。";
+        }
+    }
+
+    function renderCharts(mvList) {
+        const chartsArea = document.getElementById('charts-area');
+        if (!chartsArea) return;
+
+        // 既存のグラフを破棄
+        charts.forEach(chart => chart.destroy());
+        charts = [];
+
+        // MVごとにグラフを作成（最大5つまで）
+        const displayMvs = mvList.slice(0, 5);
+        
+        displayMvs.forEach((mv, index) => {
+            if (!mv.history || mv.history.length === 0) return;
+
+            // グラフ用のラッパーを作成
+            const wrapper = document.createElement('div');
+            wrapper.className = 'mv-chart-wrapper';
+            wrapper.innerHTML = `
+                <div class="mv-chart-title">${mv.title}</div>
+                <canvas id="chart-${index}" height="150"></canvas>
+            `;
+            chartsArea.appendChild(wrapper);
+
+            // データを準備
+            const labels = mv.history.map(h => {
+                const date = new Date(h.date);
+                return `${date.getMonth() + 1}/${date.getDate()}`;
+            });
+            const viewsData = mv.history.map(h => h.views);
+
+            // nullを補完（前の値で埋める）
+            for (let i = 1; i < viewsData.length; i++) {
+                if (viewsData[i] === null) {
+                    viewsData[i] = viewsData[i - 1];
+                }
+            }
+            // 最初がnullの場合は最後の値で埋める
+            if (viewsData[0] === null) {
+                const lastValid = viewsData.find(v => v !== null);
+                viewsData[0] = lastValid || 0;
+            }
+
+            // Chart.jsでグラフ作成
+            const ctx = document.getElementById(`chart-${index}`).getContext('2d');
+            const chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: '再生数',
+                        data: viewsData,
+                        borderColor: '#1DA1F2',
+                        backgroundColor: 'rgba(29, 161, 242, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#1DA1F2'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return Number(context.raw).toLocaleString() + ' 回';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            ticks: {
+                                callback: function(value) {
+                                    if (value >= 1000000) {
+                                        return (value / 1000000).toFixed(1) + 'M';
+                                    } else if (value >= 1000) {
+                                        return (value / 1000).toFixed(0) + 'K';
+                                    }
+                                    return value;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+            charts.push(chart);
+        });
+
+        // MVがない場合のメッセージ
+        if (displayMvs.length === 0) {
+            chartsArea.innerHTML = '<p style="color: #888; text-align: center;">表示できるデータがありません</p>';
         }
     }
 
