@@ -17,6 +17,8 @@
         .tab-active { background-color: #003399 !important; color: white !important; border: none; }
         .btn-news { background-color: #e2e8f0; color: #4a5568; transition: all 0.2s; }
         .btn-news:hover { background-color: #cbd5e0; }
+        .badge-heat { background: #ffe0e0; color: #ff6b6b; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
+        .badge-momentum { background: #fff3e0; color: #ffa502; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
     </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3GD1BRZDN"></script>
@@ -35,9 +37,11 @@
             <p id="update-time" class="text-xs text-right text-gray-500 mt-1"></p>
         </header>
 
-        <div class="flex gap-2 mb-4">
+        <div class="flex flex-wrap gap-2 mb-4">
             <button id="btn-daily" onclick="changeMode('daily')" class="px-4 py-2 rounded text-sm font-bold border tab-active">24時間</button>
             <button id="btn-weekly" onclick="changeMode('weekly')" class="px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600">7日間</button>
+            <button id="btn-heat" onclick="changeMode('heat')" class="px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600">🔥 熱量</button>
+            <button id="btn-momentum" onclick="changeMode('momentum')" class="px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600">🚀 勢い</button>
         </div>
 
         <div class="mb-4">
@@ -51,7 +55,7 @@
                     <tr class="bg-gray-100 text-gray-600 text-[10px] uppercase">
                         <th class="p-3 text-center">順位</th>
                         <th class="p-3">楽曲タイトル / グループ名</th>
-                        <th class="p-3 text-right">再生回数 / 増加率</th>
+                        <th class="p-3 text-right" id="th-metric">再生回数 / 増加率</th>
                         <th class="p-3 text-center">注目</th>
                     </tr>
                 </thead>
@@ -78,7 +82,7 @@
     </div>
 
     <script>
-        let allData = { daily: [], weekly: [] };
+        let allData = { daily: [], weekly: [], heat: [], momentum: [] };
         let currentMode = 'daily';
         let currentPage = 1;
         let searchQuery = '';
@@ -100,11 +104,24 @@
 
         function renderUI() {
             const rankingBody = document.getElementById('ranking-body');
+            const thMetric = document.getElementById('th-metric');
             if (!rankingBody) return;
             rankingBody.innerHTML = '';
 
-            const source = currentMode === 'daily' ? allData.daily : allData.weekly;
-            if (!source) return;
+            const source = allData[currentMode] || [];
+            if (!source || source.length === 0) {
+                rankingBody.innerHTML = '<tr><td colspan="4" class="p-10 text-center text-gray-500">データがありません</td></tr>';
+                return;
+            }
+
+            // ヘッダーテキストを変更
+            if (currentMode === 'heat') {
+                thMetric.textContent = '熱量スコア';
+            } else if (currentMode === 'momentum') {
+                thMetric.textContent = '勢いスコア';
+            } else {
+                thMetric.textContent = '再生回数 / 増加率';
+            }
 
             const filteredData = source.filter(item => 
                 item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -119,24 +136,57 @@
                 tr.className = 'border-b border-gray-100 hover:bg-gray-50 transition-colors';
                 
                 const views = Number(item.views || 0).toLocaleString(); 
-                const inc = currentMode === 'daily' ? (item.inc_1d || 0) : (item.inc_7d || 0);
-                const rate = currentMode === 'daily' ? (item.rate_1d || 0) : (item.rate_7d || 0);
-                const trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
+                const heatScore = item.heat_score || 0;
+                const momentumScore = item.momentum_score || 0;
+
+                // モードに応じて表示内容を変更
+                let metricHtml = '';
+                let trendingIcon = '';
+
+                if (currentMode === 'daily') {
+                    const inc = item.inc_1d || 0;
+                    const rate = item.rate_1d || 0;
+                    metricHtml = `
+                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
+                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                    `;
+                    trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
+                } else if (currentMode === 'weekly') {
+                    const inc = item.inc_7d || 0;
+                    const rate = item.rate_7d || 0;
+                    metricHtml = `
+                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
+                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                    `;
+                    trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
+                } else if (currentMode === 'heat') {
+                    metricHtml = `
+                        <div class="font-bold text-sm leading-none" style="color: #ff6b6b;">${heatScore.toFixed(2)}%</div>
+                        <div class="text-[10px] text-gray-500 mt-1">いいね率+コメント率×2</div>
+                    `;
+                    trendingIcon = heatScore > 1.5 ? '<span style="color: #ff6b6b; font-weight: bold;">🔥</span>' : '';
+                } else if (currentMode === 'momentum') {
+                    metricHtml = `
+                        <div class="font-bold text-sm leading-none" style="color: #ffa502;">${momentumScore.toFixed(3)}%</div>
+                        <div class="text-[10px] text-gray-500 mt-1">7日増加率×熱量</div>
+                    `;
+                    trendingIcon = momentumScore > 0.1 ? '<span style="color: #ffa502; font-weight: bold;">🚀</span>' : '';
+                }
 
                 tr.innerHTML = `
                     <td class="p-3 text-center ${index < 3 && currentPage === 1 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${start + index + 1}</td>
                     <td class="p-3">
                         <div class="font-bold text-gray-800 text-sm md:text-base line-clamp-1">${item.title}</div>
-                        <div class="flex items-center gap-2 mt-1">
+                        <div class="flex items-center gap-2 mt-1 flex-wrap">
                             <div class="text-[10px] text-gray-500">
                                 <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
                             </div>
                             <div class="text-[10px] text-gray-400">累計: ${views}回</div>
+                            <span class="badge-heat">🔥${heatScore.toFixed(1)}%</span>
                         </div>
                     </td>
                     <td class="p-3 text-right">
-                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
-                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                        ${metricHtml}
                     </td>
                     <td class="p-3 text-center text-xl">${trendingIcon}</td>
                 `;
@@ -146,18 +196,34 @@
 
         function changeMode(mode) {
             currentMode = mode;
-            document.getElementById('btn-daily').className = mode === 'daily' ? 'px-4 py-2 rounded text-sm font-bold border tab-active' : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
-            document.getElementById('btn-weekly').className = mode === 'weekly' ? 'px-4 py-2 rounded text-sm font-bold border tab-active' : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
+            // すべてのボタンをリセット
+            ['daily', 'weekly', 'heat', 'momentum'].forEach(m => {
+                const btn = document.getElementById('btn-' + m);
+                if (btn) {
+                    btn.className = m === mode 
+                        ? 'px-4 py-2 rounded text-sm font-bold border tab-active' 
+                        : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
+                }
+            });
             currentPage = 1;
+            updatePageButtons();
             renderUI();
         }
 
         function changePage(page) {
             currentPage = page;
-            document.getElementById('pg-1').className = page === 1 ? 'px-4 py-2 rounded text-sm font-bold border tab-active' : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
-            document.getElementById('pg-2').className = page === 2 ? 'px-4 py-2 rounded text-sm font-bold border tab-active' : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
+            updatePageButtons();
             window.scrollTo(0, 0);
             renderUI();
+        }
+
+        function updatePageButtons() {
+            document.getElementById('pg-1').className = currentPage === 1 
+                ? 'px-4 py-2 rounded text-sm font-bold border tab-active' 
+                : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
+            document.getElementById('pg-2').className = currentPage === 2 
+                ? 'px-4 py-2 rounded text-sm font-bold border tab-active' 
+                : 'px-4 py-2 rounded text-sm font-bold border bg-white text-gray-600';
         }
 
         document.getElementById('search-input').addEventListener('input', (e) => {
