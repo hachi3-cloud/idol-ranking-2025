@@ -41,6 +41,23 @@
         .btn-news:hover { background-color: #cbd5e0; }
         .badge-heat { background: #ffe0e0; color: #ff6b6b; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
         .badge-momentum { background: #fff3e0; color: #ffa502; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
+        /* サムネイル用スタイル */
+        .mv-thumbnail {
+            width: 80px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        .title-link {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .title-link:hover {
+            color: #003399;
+            text-decoration: underline;
+        }
     </style>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3GD1BRZDN"></script>
@@ -166,6 +183,11 @@
                 const heatScore = item.heat_score || 0;
                 const momentumScore = item.momentum_score || 0;
 
+                // サムネイルURL
+                const thumbnailUrl = `https://img.youtube.com/vi/${item.video_id}/default.jpg`;
+                // YouTube動画リンク
+                const youtubeUrl = `https://www.youtube.com/watch?v=${item.video_id}`;
+
                 // モードに応じて表示内容を変更
                 let metricHtml = '';
                 let trendingIcon = '';
@@ -203,13 +225,20 @@
                 tr.innerHTML = `
                     <td class="p-3 text-center ${index < 3 && currentPage === 1 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${start + index + 1}</td>
                     <td class="p-3">
-                        <div class="font-bold text-gray-800 text-sm md:text-base line-clamp-1">${item.title}</div>
-                        <div class="flex items-center gap-2 mt-1 flex-wrap">
-                            <div class="text-[10px] text-gray-500">
-                                <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
+                        <div class="flex items-start gap-3">
+                            <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer">
+                                <img src="${thumbnailUrl}" alt="${item.title}" class="mv-thumbnail" loading="lazy">
+                            </a>
+                            <div class="flex-1 min-w-0">
+                                <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="title-link font-bold text-gray-800 text-sm md:text-base line-clamp-2">${item.title}</a>
+                                <div class="flex items-center gap-2 mt-1 flex-wrap">
+                                    <div class="text-[10px] text-gray-500">
+                                        <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
+                                    </div>
+                                    <div class="text-[10px] text-gray-400">累計: ${views}回</div>
+                                    <span class="badge-heat">🔥${heatScore.toFixed(1)}%</span>
+                                </div>
                             </div>
-                            <div class="text-[10px] text-gray-400">累計: ${views}回</div>
-                            <span class="badge-heat">🔥${heatScore.toFixed(1)}%</span>
                         </div>
                     </td>
                     <td class="p-3 text-right">
