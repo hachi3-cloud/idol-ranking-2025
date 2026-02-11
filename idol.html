@@ -48,7 +48,7 @@
         .mv-stat-item { background: white; padding: 8px 10px; border-radius: 6px; }
         .mv-stat-label { font-size: 10px; color: #888; }
         .mv-stat-value { font-size: 14px; font-weight: bold; color: #333; }
-        .mv-stat-sub { font-size: 10px; color: #888; }
+        .mv-stat-sub { font-size: 10px; color: #22c55e; }
         .mv-card-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
         .mv-badges { display: flex; flex-wrap: wrap; gap: 4px; }
         
@@ -85,45 +85,51 @@
 <script>
     const params = new URLSearchParams(window.location.search);
     const idolId = params.get('id');
-    
-    // グラフインスタンスを保持
-    let charts = [];
 
     async function loadIdolData() {
         try {
             const response = await fetch('data.json?t=' + new Date().getTime());
             const data = await response.json();
-            const idol = data.idols[idolId];
-
-            if (!idol) {
-                document.getElementById('content').innerHTML = "アイドルが見つかりませんでした。";
+            
+            // weeklyからidol_idでフィルタリングしてMVリストを取得
+            const mvList = data.weekly.filter(item => item.idol_id === idolId);
+            
+            if (mvList.length === 0) {
+                document.getElementById('content').innerHTML = `
+                    <p>このアイドルのデータが見つかりませんでした。</p>
+                    <p style="font-size: 12px; color: #888;">idol_id: ${idolId}</p>
+                `;
                 return;
             }
+
+            // アイドル名は最初のMVから取得
+            const idolName = mvList[0].idol_name;
 
             // グループ全体の平均スコアを計算
             let totalHeat = 0;
             let totalMomentum = 0;
-            idol.mv_list.forEach(mv => {
+            let totalViews = 0;
+            mvList.forEach(mv => {
                 totalHeat += mv.heat_score || 0;
                 totalMomentum += mv.momentum_score || 0;
+                totalViews += mv.views || 0;
             });
-            const avgHeat = idol.mv_list.length > 0 ? (totalHeat / idol.mv_list.length) : 0;
-            const avgMomentum = idol.mv_list.length > 0 ? (totalMomentum / idol.mv_list.length) : 0;
+            const avgHeat = mvList.length > 0 ? (totalHeat / mvList.length) : 0;
+            const avgMomentum = mvList.length > 0 ? (totalMomentum / mvList.length) : 0;
 
             let html = `
                 <div class="header">
-                    <h1>${idol.basic.name}</h1>
+                    <h1>${idolName}</h1>
                     <div class="sub-info">
-                        <a href="${idol.basic.official_url}" target="_blank">公式サイト</a> | 
-                        <a href="${idol.basic.youtube_url}" target="_blank">YouTube</a>
+                        MV ${mvList.length}曲 ｜ 総再生数 ${formatNumber(totalViews)}
                     </div>
                 </div>
 
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <div class="stat-label">登録者数</div>
-                        <div class="stat-value">${formatNumber(idol.basic.subscribers)}</div>
-                        <div class="stat-label">${idol.basic.sub_checked_at}</div>
+                        <div class="stat-label">公開MV数</div>
+                        <div class="stat-value">${mvList.length}</div>
+                        <div class="stat-label">曲</div>
                     </div>
                     <div class="stat-card heat-section">
                         <div class="stat-label">🔥 熱量</div>
@@ -142,18 +148,23 @@
                     </div>
                 </div>
 
-                <h3>📈 再生数推移（7日間）</h3>
-                <p class="section-note">最終更新: ${data.updated_at}</p>
-                <div class="chart-container" id="charts-area"></div>
-
                 <h3>🎵 公開MV一覧</h3>
+                <p class="section-note">最終更新: ${data.updated_at}</p>
                 <div class="mv-list">
             `;
 
             // MVカードを生成
-            idol.mv_list.forEach((mv, index) => {
+            mvList.forEach((mv, index) => {
                 const heatScore = mv.heat_score || 0;
                 const momentumScore = mv.momentum_score || 0;
+                const views = mv.views || 0;
+                const inc1d = mv.inc_1d || 0;
+                const rate1d = mv.rate_1d || 0;
+                const inc7d = mv.inc_7d || 0;
+                const rate7d = mv.rate_7d || 0;
+                const likes = mv.likes || 0;
+                const comments = mv.comments || 0;
+                const likeRate = views > 0 ? (likes / views * 100) : 0;
 
                 html += `
                     <div class="mv-card">
@@ -161,21 +172,21 @@
                         <div class="mv-card-stats">
                             <div class="mv-stat-item">
                                 <div class="mv-stat-label">累計再生</div>
-                                <div class="mv-stat-value">${formatNumber(mv.views)}</div>
+                                <div class="mv-stat-value">${formatNumber(views)}</div>
                             </div>
                             <div class="mv-stat-item">
                                 <div class="mv-stat-label">24時間</div>
-                                <div class="mv-stat-value">+${formatNumber(mv.inc_1d)}</div>
-                                <div class="mv-stat-sub">${(mv.rate_1d * 100).toFixed(2)}%</div>
+                                <div class="mv-stat-value">+${formatNumber(inc1d)}</div>
+                                <div class="mv-stat-sub">+${(rate1d * 100).toFixed(2)}%</div>
                             </div>
                             <div class="mv-stat-item">
                                 <div class="mv-stat-label">7日間</div>
-                                <div class="mv-stat-value">+${formatNumber(mv.inc_7d)}</div>
-                                <div class="mv-stat-sub">${(mv.rate_7d * 100).toFixed(2)}%</div>
+                                <div class="mv-stat-value">+${formatNumber(inc7d)}</div>
+                                <div class="mv-stat-sub">+${(rate7d * 100).toFixed(2)}%</div>
                             </div>
                             <div class="mv-stat-item">
                                 <div class="mv-stat-label">いいね率</div>
-                                <div class="mv-stat-value">${(mv.like_rate || 0).toFixed(2)}%</div>
+                                <div class="mv-stat-value">${likeRate.toFixed(2)}%</div>
                             </div>
                         </div>
                         <div class="mv-card-footer">
@@ -192,9 +203,6 @@
             html += `</div>`;
             document.getElementById('content').innerHTML = html;
 
-            // グラフを描画
-            renderCharts(idol.mv_list);
-
         } catch (error) {
             console.error(error);
             document.getElementById('content').innerHTML = "データの読み込みに失敗しました。";
@@ -207,126 +215,6 @@
             return (num / 10000).toFixed(1) + '万';
         }
         return Number(num).toLocaleString();
-    }
-
-    function renderCharts(mvList) {
-        const chartsArea = document.getElementById('charts-area');
-        if (!chartsArea) return;
-
-        // 既存のグラフを破棄
-        charts.forEach(chart => chart.destroy());
-        charts = [];
-        
-        // 既存のDOM要素もクリア
-        chartsArea.innerHTML = '';
-
-        // MVごとにグラフを作成（最大5つまで）
-        const displayMvs = mvList.slice(0, 5);
-        
-        // 有効なデータがあるMVだけフィルタ
-        const validMvs = displayMvs.filter(mv => mv.history && mv.history.length > 0);
-        
-        if (validMvs.length === 0) {
-            chartsArea.innerHTML = '<p style="color: #888; text-align: center; padding: 20px;">グラフデータを収集中です</p>';
-            return;
-        }
-        
-        validMvs.forEach((mv, index) => {
-            // グラフ用のラッパーを作成（高さを固定）
-            const wrapper = document.createElement('div');
-            wrapper.className = 'mv-chart-wrapper';
-            
-            // タイトルを短縮
-            const shortTitle = mv.title.length > 40 ? mv.title.substring(0, 40) + '...' : mv.title;
-            
-            wrapper.innerHTML = `
-                <div class="mv-chart-title">${shortTitle}</div>
-                <div style="height: 180px; position: relative;">
-                    <canvas id="chart-${index}"></canvas>
-                </div>
-            `;
-            chartsArea.appendChild(wrapper);
-
-            // データを準備
-            const labels = mv.history.map(h => {
-                const date = new Date(h.date);
-                return `${date.getMonth() + 1}/${date.getDate()}`;
-            });
-            const viewsData = mv.history.map(h => h.views);
-
-            // nullを補完（前の値で埋める）
-            for (let i = 1; i < viewsData.length; i++) {
-                if (viewsData[i] === null) {
-                    viewsData[i] = viewsData[i - 1];
-                }
-            }
-            // 最初がnullの場合は後ろの有効な値で埋める
-            if (viewsData[0] === null) {
-                const lastValid = viewsData.find(v => v !== null);
-                viewsData[0] = lastValid || 0;
-            }
-
-            // Chart.jsでグラフ作成
-            const ctx = document.getElementById(`chart-${index}`).getContext('2d');
-            const chart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: '再生数',
-                        data: viewsData,
-                        borderColor: '#1DA1F2',
-                        backgroundColor: 'rgba(29, 161, 242, 0.1)',
-                        borderWidth: 2,
-                        fill: true,
-                        tension: 0.3,
-                        pointRadius: 3,
-                        pointBackgroundColor: '#1DA1F2'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    animation: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    return Number(context.raw).toLocaleString() + ' 回';
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: false,
-                            ticks: {
-                                callback: function(value) {
-                                    if (value >= 1000000) {
-                                        return (value / 1000000).toFixed(1) + 'M';
-                                    } else if (value >= 10000) {
-                                        return (value / 10000).toFixed(0) + '万';
-                                    } else if (value >= 1000) {
-                                        return (value / 1000).toFixed(0) + 'K';
-                                    }
-                                    return value;
-                                },
-                                font: { size: 10 }
-                            }
-                        },
-                        x: {
-                            ticks: {
-                                font: { size: 10 }
-                            }
-                        }
-                    }
-                }
-            });
-            charts.push(chart);
-        });
     }
 
     loadIdolData();
