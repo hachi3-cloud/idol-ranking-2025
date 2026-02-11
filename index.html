@@ -31,32 +31,150 @@
         body { font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif; background-color: #f4f7f8; color: #333; }
         .news-header { background-color: #003399; color: white; padding: 15px; border-bottom: 4px solid #cc0000; }
         .news-blue { color: #003399; }
-        .trending-icon { color: #ff4500; font-weight: bold; }
-        a:hover { color: #003399; text-decoration: underline; }
-        .rank-1 { background-color: #fff9e6; color: #d4af37; font-weight: bold; }
-        .rank-2 { background-color: #f8f8f8; color: #999; font-weight: bold; }
-        .rank-3 { background-color: #fff5f0; color: #cd7f32; font-weight: bold; }
         .tab-active { background-color: #003399 !important; color: white !important; border: none; }
-        .btn-news { background-color: #e2e8f0; color: #4a5568; transition: all 0.2s; }
-        .btn-news:hover { background-color: #cbd5e0; }
-        .badge-heat { background: #ffe0e0; color: #ff6b6b; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
-        .badge-momentum { background: #fff3e0; color: #ffa502; padding: 2px 6px; border-radius: 4px; font-size: 10px; }
-        /* サムネイル用スタイル */
-        .mv-thumbnail {
-            width: 80px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 4px;
+        
+        /* ランキングカード */
+        .ranking-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid #eee;
+            transition: box-shadow 0.2s;
+        }
+        .ranking-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        /* 順位バッジ */
+        .rank-badge {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
             flex-shrink: 0;
         }
-        .title-link {
+        .rank-1 { background: linear-gradient(135deg, #ffd700, #ffec8b); color: #8b6914; }
+        .rank-2 { background: linear-gradient(135deg, #c0c0c0, #e8e8e8); color: #666; }
+        .rank-3 { background: linear-gradient(135deg, #cd7f32, #daa06d); color: #5c3317; }
+        .rank-default { background: #f0f0f0; color: #888; }
+        
+        /* サムネイル */
+        .mv-thumbnail {
+            width: 100px;
+            height: 75px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        
+        /* タイトル */
+        .mv-title {
+            font-weight: bold;
+            font-size: 14px;
             color: #1a1a1a;
             text-decoration: none;
-            transition: color 0.2s;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            line-height: 1.4;
         }
-        .title-link:hover {
+        .mv-title:hover {
             color: #003399;
             text-decoration: underline;
+        }
+        
+        /* グループ名バッジ */
+        .idol-badge {
+            background: #e8f4fd;
+            color: #003399;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .idol-badge:hover {
+            background: #d0e8fa;
+        }
+        
+        /* 公開日 */
+        .publish-date {
+            font-size: 11px;
+            color: #888;
+        }
+        
+        /* 統計グリッド */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .stat-box {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 8px;
+            text-align: center;
+        }
+        .stat-icon {
+            font-size: 12px;
+        }
+        .stat-main {
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
+        }
+        .stat-sub {
+            font-size: 10px;
+            color: #22c55e;
+            margin-top: 2px;
+        }
+        .stat-sub-negative {
+            color: #ef4444;
+        }
+        .stat-label {
+            font-size: 9px;
+            color: #999;
+            margin-top: 2px;
+        }
+        
+        /* スマホ対応 */
+        @media (max-width: 640px) {
+            .ranking-card {
+                padding: 10px;
+            }
+            .mv-thumbnail {
+                width: 80px;
+                height: 60px;
+            }
+            .mv-title {
+                font-size: 13px;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 6px;
+            }
+            .stat-box {
+                padding: 6px 4px;
+            }
+            .stat-main {
+                font-size: 11px;
+            }
+            .stat-sub {
+                font-size: 9px;
+            }
+            .rank-badge {
+                width: 32px;
+                height: 32px;
+                font-size: 12px;
+            }
         }
     </style>
     <!-- Google tag (gtag.js) -->
@@ -92,20 +210,8 @@
                 class="w-full p-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
 
-        <div class="overflow-x-auto">
-            <table class="w-full text-left border-collapse">
-                <thead>
-                    <tr class="bg-gray-100 text-gray-600 text-[10px] uppercase">
-                        <th class="p-3 text-center">順位</th>
-                        <th class="p-3">楽曲タイトル / グループ名</th>
-                        <th class="p-3 text-right" id="th-metric">再生回数 / 増加率</th>
-                        <th class="p-3 text-center">注目</th>
-                    </tr>
-                </thead>
-                <tbody id="ranking-body">
-                    <tr><td colspan="4" class="p-10 text-center text-gray-500">データを読み込み中...</td></tr>
-                </tbody>
-            </table>
+        <div id="ranking-container">
+            <p class="text-center text-gray-500 py-10">データを読み込み中...</p>
         </div>
 
         <div class="flex justify-center gap-4 mt-6">
@@ -134,7 +240,6 @@
 
         async function fetchData() {
             try {
-                // キャッシュ対策のためタイムスタンプを付与
                 const response = await fetch('data.json?t=' + new Date().getTime());
                 if (!response.ok) throw new Error('Network response was not ok');
                 allData = await response.json();
@@ -142,29 +247,43 @@
                 renderUI();
             } catch (error) {
                 console.error('Fetch error:', error);
-                document.getElementById('ranking-body').innerHTML = '<tr><td colspan="4" class="p-10 text-center text-red-500">データの読み込みに失敗しました。メンテナンス中の可能性があります。</td></tr>';
+                document.getElementById('ranking-container').innerHTML = '<p class="text-center text-red-500 py-10">データの読み込みに失敗しました。メンテナンス中の可能性があります。</p>';
             }
         }
 
+        function formatNumber(num) {
+            if (num >= 10000) {
+                return (num / 10000).toFixed(1) + '万';
+            }
+            return Number(num).toLocaleString();
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const date = new Date(dateStr);
+            const y = date.getFullYear();
+            const m = date.getMonth() + 1;
+            const d = date.getDate();
+            const h = date.getHours();
+            const min = String(date.getMinutes()).padStart(2, '0');
+            return `${y}/${m}/${d} ${h}:${min} 公開`;
+        }
+
+        function getRankClass(rank) {
+            if (rank === 1) return 'rank-1';
+            if (rank === 2) return 'rank-2';
+            if (rank === 3) return 'rank-3';
+            return 'rank-default';
+        }
+
         function renderUI() {
-            const rankingBody = document.getElementById('ranking-body');
-            const thMetric = document.getElementById('th-metric');
-            if (!rankingBody) return;
-            rankingBody.innerHTML = '';
+            const container = document.getElementById('ranking-container');
+            if (!container) return;
 
             const source = allData[currentMode] || [];
             if (!source || source.length === 0) {
-                rankingBody.innerHTML = '<tr><td colspan="4" class="p-10 text-center text-gray-500">データがありません</td></tr>';
+                container.innerHTML = '<p class="text-center text-gray-500 py-10">データがありません</p>';
                 return;
-            }
-
-            // ヘッダーテキストを変更
-            if (currentMode === 'heat') {
-                thMetric.textContent = '熱量スコア';
-            } else if (currentMode === 'momentum') {
-                thMetric.textContent = '勢いスコア';
-            } else {
-                thMetric.textContent = '再生回数 / 増加率';
             }
 
             const filteredData = source.filter(item => 
@@ -175,84 +294,135 @@
             const start = (currentPage - 1) * itemsPerPage;
             const displayData = filteredData.slice(start, start + itemsPerPage);
 
-            displayData.forEach((item, index) => {
-                const tr = document.createElement('tr');
-                tr.className = 'border-b border-gray-100 hover:bg-gray-50 transition-colors';
-                
-                const views = Number(item.views || 0).toLocaleString(); 
-                const heatScore = item.heat_score || 0;
-                const momentumScore = item.momentum_score || 0;
+            let html = '';
 
-                // サムネイルURL
-                const thumbnailUrl = `https://img.youtube.com/vi/${item.video_id}/default.jpg`;
-                // YouTube動画リンク
+            displayData.forEach((item, index) => {
+                const rank = start + index + 1;
+                const thumbnailUrl = `https://img.youtube.com/vi/${item.video_id}/mqdefault.jpg`;
                 const youtubeUrl = `https://www.youtube.com/watch?v=${item.video_id}`;
 
-                // モードに応じて表示内容を変更
-                let metricHtml = '';
-                let trendingIcon = '';
+                // 数値の取得
+                const views = item.views || 0;
+                const inc1d = item.inc_1d || 0;
+                const rate1d = item.rate_1d || 0;
+                const inc7d = item.inc_7d || 0;
+                const rate7d = item.rate_7d || 0;
+                const likes = item.likes || 0;
+                const inc1dLikes = item.inc_1d_likes || 0;
+                const rate1dLikes = item.rate_1d_likes || 0;
+                const comments = item.comments || 0;
 
+                // モードに応じた表示
+                let statsHtml = '';
+                
                 if (currentMode === 'daily') {
-                    const inc = item.inc_1d || 0;
-                    const rate = item.rate_1d || 0;
-                    metricHtml = `
-                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
-                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                    statsHtml = `
+                        <div class="stat-box">
+                            <div class="stat-icon">📺</div>
+                            <div class="stat-main">${formatNumber(views)}</div>
+                            <div class="stat-sub">↑${formatNumber(inc1d)} +${(rate1d * 100).toFixed(2)}%</div>
+                            <div class="stat-label">再生回数</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">👍</div>
+                            <div class="stat-main">${formatNumber(likes)}</div>
+                            <div class="stat-sub">↑${formatNumber(inc1dLikes)} +${(rate1dLikes * 100).toFixed(2)}%</div>
+                            <div class="stat-label">いいね</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">💬</div>
+                            <div class="stat-main">${formatNumber(comments)}</div>
+                            <div class="stat-label">コメント</div>
+                        </div>
                     `;
-                    trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
                 } else if (currentMode === 'weekly') {
-                    const inc = item.inc_7d || 0;
-                    const rate = item.rate_7d || 0;
-                    metricHtml = `
-                        <div class="font-bold text-gray-700 text-sm leading-none">+${Number(inc).toLocaleString()}</div>
-                        <div class="text-[10px] text-green-600 mt-1">${(Number(rate) * 100).toFixed(1)}%</div>
+                    statsHtml = `
+                        <div class="stat-box">
+                            <div class="stat-icon">📺</div>
+                            <div class="stat-main">${formatNumber(views)}</div>
+                            <div class="stat-sub">↑${formatNumber(inc7d)} +${(rate7d * 100).toFixed(2)}%</div>
+                            <div class="stat-label">再生回数(7日)</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">👍</div>
+                            <div class="stat-main">${formatNumber(likes)}</div>
+                            <div class="stat-sub">↑${formatNumber(inc1dLikes)} +${(rate1dLikes * 100).toFixed(2)}%</div>
+                            <div class="stat-label">いいね</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">💬</div>
+                            <div class="stat-main">${formatNumber(comments)}</div>
+                            <div class="stat-label">コメント</div>
+                        </div>
                     `;
-                    trendingIcon = item.is_trending ? '<span class="trending-icon">🔥</span>' : '';
                 } else if (currentMode === 'heat') {
-                    metricHtml = `
-                        <div class="font-bold text-sm leading-none" style="color: #ff6b6b;">${heatScore.toFixed(2)}%</div>
-                        <div class="text-[10px] text-gray-500 mt-1">いいね率+コメント率×2</div>
+                    const heatScore = item.heat_score || 0;
+                    statsHtml = `
+                        <div class="stat-box" style="background: #fff0f0;">
+                            <div class="stat-icon">🔥</div>
+                            <div class="stat-main" style="color: #ff6b6b;">${heatScore.toFixed(2)}%</div>
+                            <div class="stat-label">熱量スコア</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">👍</div>
+                            <div class="stat-main">${formatNumber(likes)}</div>
+                            <div class="stat-label">いいね</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">💬</div>
+                            <div class="stat-main">${formatNumber(comments)}</div>
+                            <div class="stat-label">コメント</div>
+                        </div>
                     `;
-                    trendingIcon = heatScore > 1.5 ? '<span style="color: #ff6b6b; font-weight: bold;">🔥</span>' : '';
                 } else if (currentMode === 'momentum') {
-                    metricHtml = `
-                        <div class="font-bold text-sm leading-none" style="color: #ffa502;">${momentumScore.toFixed(3)}%</div>
-                        <div class="text-[10px] text-gray-500 mt-1">7日増加率×熱量</div>
+                    const momentumScore = item.momentum_score || 0;
+                    statsHtml = `
+                        <div class="stat-box" style="background: #fff8e0;">
+                            <div class="stat-icon">🚀</div>
+                            <div class="stat-main" style="color: #ffa502;">${momentumScore.toFixed(3)}%</div>
+                            <div class="stat-label">勢いスコア</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">📺</div>
+                            <div class="stat-main">${formatNumber(views)}</div>
+                            <div class="stat-sub">↑${formatNumber(inc7d)} +${(rate7d * 100).toFixed(2)}%</div>
+                            <div class="stat-label">再生(7日)</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-icon">👍</div>
+                            <div class="stat-main">${formatNumber(likes)}</div>
+                            <div class="stat-label">いいね</div>
+                        </div>
                     `;
-                    trendingIcon = momentumScore > 0.1 ? '<span style="color: #ffa502; font-weight: bold;">🚀</span>' : '';
                 }
 
-                tr.innerHTML = `
-                    <td class="p-3 text-center ${index < 3 && currentPage === 1 ? 'rank-' + (index + 1) : 'font-bold text-gray-400'}">${start + index + 1}</td>
-                    <td class="p-3">
-                        <div class="flex items-start gap-3">
+                html += `
+                    <div class="ranking-card">
+                        <div class="flex gap-3">
+                            <div class="rank-badge ${getRankClass(rank)}">${rank}</div>
                             <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer">
                                 <img src="${thumbnailUrl}" alt="${item.title}" class="mv-thumbnail" loading="lazy">
                             </a>
                             <div class="flex-1 min-w-0">
-                                <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="title-link font-bold text-gray-800 text-sm md:text-base line-clamp-2">${item.title}</a>
+                                <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="mv-title">${item.title}</a>
                                 <div class="flex items-center gap-2 mt-1 flex-wrap">
-                                    <div class="text-[10px] text-gray-500">
-                                        <a href="idol.html?id=${item.idol_id}" class="bg-blue-50 px-1 rounded text-blue-600 font-bold">${item.idol_name}</a>
-                                    </div>
-                                    <div class="text-[10px] text-gray-400">累計: ${views}回</div>
-                                    <span class="badge-heat">🔥${heatScore.toFixed(1)}%</span>
+                                    <a href="idol.html?id=${item.idol_id}" class="idol-badge">${item.idol_name}</a>
+                                    <span class="publish-date">${formatDate(item.published_at)}</span>
                                 </div>
                             </div>
                         </div>
-                    </td>
-                    <td class="p-3 text-right">
-                        ${metricHtml}
-                    </td>
-                    <td class="p-3 text-center text-xl">${trendingIcon}</td>
+                        <div class="stats-grid">
+                            ${statsHtml}
+                        </div>
+                    </div>
                 `;
-                rankingBody.appendChild(tr);
             });
+
+            container.innerHTML = html;
         }
 
         function changeMode(mode) {
             currentMode = mode;
-            // すべてのボタンをリセット
             ['daily', 'weekly', 'heat', 'momentum'].forEach(m => {
                 const btn = document.getElementById('btn-' + m);
                 if (btn) {
@@ -288,7 +458,6 @@
             renderUI();
         });
 
-        // 初期読み込み
         fetchData();
     </script>
 </body>
